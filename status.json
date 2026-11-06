@@ -26,21 +26,28 @@
   "linked": [
     {
       "number": "********7157",
-      "state": "pairing",
+      "state": "linking",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "16:38:53 ********7157: code bana"
+    "16:38:53 ********7157: code bana",
+    "16:39:05 ********7157: LINKING (phone ne code accept kiya)",
+    "16:39:10 ********7157: connection close 515 Stream Errored (restart required)"
   ],
   "guest_frames": {
     "number": "********7157",
-    "state": "pairing",
+    "state": "linking",
     "frames": [
       "16:38:48 iq:set <pair-device>",
-      "16:38:48 iq:result <link_code_companion_reg[companion_hello]>"
+      "16:38:48 iq:result <link_code_companion_reg[companion_hello]>",
+      "16:39:05 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "16:39:05 iq:result",
+      "16:39:09 iq:set <pair-success>",
+      "16:39:09 stream:error: code=515",
+      "16:39:09 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T16:38:57.327Z",
-  "uptime_s": 930
+  "updated_at": "2026-11-06T16:39:14.042Z",
+  "uptime_s": 947
 }
