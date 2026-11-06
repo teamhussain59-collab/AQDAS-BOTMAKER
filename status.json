@@ -30,7 +30,9 @@
       "autostatus": "off"
     }
   ],
-  "guest_log": [],
+  "guest_log": [
+    "16:38:53 ********7157: code bana"
+  ],
   "guest_frames": {
     "number": "********7157",
     "state": "pairing",
@@ -39,6 +41,6 @@
       "16:38:48 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
-  "updated_at": "2026-11-06T16:38:52.542Z",
-  "uptime_s": 926
+  "updated_at": "2026-11-06T16:38:57.327Z",
+  "uptime_s": 930
 }
