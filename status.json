@@ -23,6 +23,22 @@
     "ok": false,
     "error": "koi connected number nahi"
   },
-  "updated_at": "2026-11-06T16:38:30.957Z",
-  "uptime_s": 904
+  "linked": [
+    {
+      "number": "********7157",
+      "state": "pairing",
+      "autostatus": "off"
+    }
+  ],
+  "guest_log": [],
+  "guest_frames": {
+    "number": "********7157",
+    "state": "pairing",
+    "frames": [
+      "16:38:48 iq:set <pair-device>",
+      "16:38:48 iq:result <link_code_companion_reg[companion_hello]>"
+    ]
+  },
+  "updated_at": "2026-11-06T16:38:52.542Z",
+  "uptime_s": 926
 }
