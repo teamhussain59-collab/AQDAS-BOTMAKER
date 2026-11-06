@@ -36,11 +36,10 @@
     {
       "number": "********8582",
       "state": "connected",
-      "autostatus": "off"
+      "autostatus": "view"
     }
   ],
   "guest_log": [
-    "16:39:15 ********7157: CONNECTED ✅",
     "16:39:15 ********7157: brand: sigma-md",
     "20:28:43 ********7157: connection close 428 Connection Terminated",
     "20:28:47 ********7157: CONNECTED ✅",
@@ -59,7 +58,8 @@
     "23:24:57 ********8582: LINKING (phone ne code accept kiya)",
     "23:25:00 ********8582: connection close 515 Stream Errored (restart required)",
     "23:25:05 ********8582: CONNECTED ✅",
-    "23:25:05 ********8582: brand: ahmi-jutt"
+    "23:25:05 ********8582: brand: ahmi-jutt",
+    "23:28:20 ********8582: status **********6503: seen ✅"
   ],
   "guest_frames": {
     "number": "********8582",
@@ -74,6 +74,6 @@
       "23:25:00 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T23:27:32.175Z",
-  "uptime_s": 25445
+  "updated_at": "2026-11-06T23:28:24.332Z",
+  "uptime_s": 25497
 }
