@@ -35,12 +35,11 @@
     },
     {
       "number": "********8582",
-      "state": "pairing",
+      "state": "linking",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "16:38:53 ********7157: code bana",
     "16:39:05 ********7157: LINKING (phone ne code accept kiya)",
     "16:39:10 ********7157: connection close 515 Stream Errored (restart required)",
     "16:39:15 ********7157: CONNECTED ✅",
@@ -58,16 +57,23 @@
     "23:10:14 ********8574: brand: ahmi-md",
     "23:14:31 ********8574: connection close 401 Stream Errored (conflict)",
     "23:14:33 ********8574: logged out",
-    "23:24:37 ********8582: code bana"
+    "23:24:37 ********8582: code bana",
+    "23:24:57 ********8582: LINKING (phone ne code accept kiya)",
+    "23:25:00 ********8582: connection close 515 Stream Errored (restart required)"
   ],
   "guest_frames": {
     "number": "********8582",
-    "state": "pairing",
+    "state": "linking",
     "frames": [
       "23:24:32 iq:set <pair-device>",
-      "23:24:32 iq:result <link_code_companion_reg[companion_hello]>"
+      "23:24:32 iq:result <link_code_companion_reg[companion_hello]>",
+      "23:24:56 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "23:24:57 iq:result",
+      "23:24:59 iq:set <pair-success>",
+      "23:25:00 stream:error: code=515",
+      "23:25:00 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T23:24:41.690Z",
-  "uptime_s": 25275
+  "updated_at": "2026-11-06T23:25:04.318Z",
+  "uptime_s": 25297
 }
