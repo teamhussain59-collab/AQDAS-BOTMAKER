@@ -55,7 +55,9 @@
     "23:10:06 ********8574: LINKING (phone ne code accept kiya)",
     "23:10:09 ********8574: connection close 515 Stream Errored (restart required)",
     "23:10:14 ********8574: CONNECTED ✅",
-    "23:10:14 ********8574: brand: ahmi-md"
+    "23:10:14 ********8574: brand: ahmi-md",
+    "23:14:31 ********8574: connection close 401 Stream Errored (conflict)",
+    "23:14:33 ********8574: logged out"
   ],
   "guest_frames": {
     "number": "********8574",
@@ -71,6 +73,6 @@
       "23:10:09 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T23:13:32.622Z",
-  "uptime_s": 24606
+  "updated_at": "2026-11-06T23:14:33.399Z",
+  "uptime_s": 24666
 }
