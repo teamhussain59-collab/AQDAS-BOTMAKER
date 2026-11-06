@@ -19,7 +19,7 @@
   "guest_frames": null,
   "mem": {
     "sessions": 0,
-    "free_mb": 302113,
+    "free_mb": 300768,
     "total_mb": 503687,
     "rss_mb": 119,
     "heap_mb": 40,
@@ -31,6 +31,6 @@
     "ok": false,
     "error": "koi connected number nahi"
   },
-  "updated_at": "2026-11-06T11:58:09.715Z",
-  "uptime_s": 1081
+  "updated_at": "2026-11-06T12:00:09.683Z",
+  "uptime_s": 1201
 }
