@@ -9,37 +9,14 @@
   "panel_at": "2026-11-06T11:40:09.607Z",
   "slots_max": "unlimited",
   "commands": 571,
-  "linked": [
-    {
-      "number": "********7157",
-      "state": "pairing",
-      "autostatus": "off"
-    }
-  ],
+  "linked": [],
   "guest_log": [
     "11:40:39 ********5719: code error: WhatsApp ne code reject kiya (400 bad-request)",
     "11:40:56 ********7157: code bana",
     "11:44:21 ********7157: connection close 428 Connection Terminated by Server",
     "11:44:21 ********7157: expired / closed (code 428)"
   ],
-  "guest_frames": {
-    "number": "********7157",
-    "state": "expired",
-    "frames": [
-      "11:40:51 iq:set <pair-device>",
-      "11:40:51 iq:result <link_code_companion_reg[companion_hello]>",
-      "11:41:20 iq:result",
-      "11:41:50 iq:result",
-      "11:42:20 iq:get",
-      "11:42:20 iq:result",
-      "11:42:50 iq:get",
-      "11:42:50 iq:result",
-      "11:43:20 iq:get",
-      "11:43:20 iq:result",
-      "11:43:50 iq:result",
-      "11:44:20 xmlstreamend:"
-    ]
-  },
+  "guest_frames": null,
   "mem": {
     "sessions": 1,
     "free_mb": 281739,
@@ -54,6 +31,6 @@
     "ok": false,
     "error": "koi connected number nahi"
   },
-  "updated_at": "2026-11-06T11:44:21.101Z",
-  "uptime_s": 252
+  "updated_at": "2026-11-06T11:44:25.105Z",
+  "uptime_s": 256
 }
