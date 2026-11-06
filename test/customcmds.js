@@ -146,9 +146,9 @@ await t('bad names / empty code rejected, disabled commands not loaded', async (
 })
 
 await t('owner-only by default; public flag respects private/public mode', async () => {
-  cc.applyData({ cmds: [{ name: 'secret', code: "await ctx.reply('s')" }, { name: 'opencmd', code: "await ctx.reply('o')", public: true }] })
+  cc.applyData({ cmds: [{ name: 'privcmd', code: "await ctx.reply('s')" }, { name: 'opencmd', code: "await ctx.reply('o')", public: true }] })
   settings.set('mode', 'public')
-  let r = await run(STRANGER, '.secret'); assert.ok(texts(r.sock)[0].includes('sirf owner'))
+  let r = await run(STRANGER, '.privcmd'); assert.ok(texts(r.sock)[0].includes('sirf owner'))
   r = await run(STRANGER, '.opencmd'); assert.deepEqual(texts(r.sock), ['o'])
   settings.set('mode', 'private')
   r = await run(STRANGER, '.opencmd'); assert.equal(r.handled, false); assert.equal(r.sock.sent.length, 0)
