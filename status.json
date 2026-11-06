@@ -1,0 +1,14 @@
+{
+  "status": "offline",
+  "code": null,
+  "qr": null,
+  "qr_at": null,
+  "code_at": null,
+  "next_at": null,
+  "last_event": null,
+  "number_masked": null,
+  "run_id": null,
+  "panel_url": null,
+  "updated_at": "2026-11-06T10:37:09.540Z",
+  "uptime_s": 588
+}
