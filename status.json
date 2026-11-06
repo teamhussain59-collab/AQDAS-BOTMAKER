@@ -11,9 +11,9 @@
   "commands": 854,
   "mem": {
     "sessions": 0,
-    "free_mb": 96361,
+    "free_mb": 94101,
     "total_mb": 330438,
-    "rss_mb": 108,
+    "rss_mb": 105,
     "heap_mb": 34,
     "heap_limit_mb": 489,
     "per_session_mb": null,
@@ -23,6 +23,6 @@
     "ok": false,
     "error": "koi connected number nahi"
   },
-  "updated_at": "2026-11-06T13:33:25.863Z",
-  "uptime_s": 842
+  "updated_at": "2026-11-06T13:34:25.820Z",
+  "uptime_s": 902
 }
