@@ -36,11 +36,10 @@
     {
       "number": "********8582",
       "state": "connected",
-      "autostatus": "view"
+      "autostatus": "view+react"
     }
   ],
   "guest_log": [
-    "20:28:43 ********7157: connection close 428 Connection Terminated",
     "20:28:47 ********7157: CONNECTED ✅",
     "20:59:43 ********7157: connection close 428 Connection Terminated",
     "20:59:46 ********7157: CONNECTED ✅",
@@ -59,7 +58,8 @@
     "23:25:05 ********8582: CONNECTED ✅",
     "23:25:05 ********8582: brand: ahmi-jutt",
     "23:28:20 ********8582: status **********6503: seen ✅",
-    "23:38:11 ********8582: status **********6503: seen ✅"
+    "23:38:11 ********8582: status **********6503: seen ✅",
+    "23:40:49 ********8582: status **********6503: seen ✅, react 😼 ✅"
   ],
   "guest_frames": {
     "number": "********8582",
@@ -74,6 +74,6 @@
       "23:25:00 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T23:39:32.185Z",
-  "uptime_s": 26165
+  "updated_at": "2026-11-06T23:40:53.389Z",
+  "uptime_s": 26246
 }
