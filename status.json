@@ -11,9 +11,9 @@
   "commands": 856,
   "mem": {
     "sessions": 1,
-    "free_mb": 120700,
+    "free_mb": 120195,
     "total_mb": 393439,
-    "rss_mb": 150,
+    "rss_mb": 151,
     "heap_mb": 44,
     "heap_limit_mb": 489,
     "per_session_mb": 43,
@@ -54,6 +54,6 @@
       "16:39:09 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T17:57:31.178Z",
-  "uptime_s": 5644
+  "updated_at": "2026-11-06T17:58:31.109Z",
+  "uptime_s": 5704
 }
