@@ -3,7 +3,8 @@ import os from 'os'
 import config from '../config.js'
 import { list } from '../lib/plugins.js'
 import { runtime } from '../lib/utils.js'
-import { dpPath, songPath, songMime, menuMedia } from '../lib/assets.js'
+import { dpPath, songPath, songMime, menuMedia, customMenuVideo, customMenuImage } from '../lib/assets.js'
+const hasOwnMenu = () => fs.existsSync(customMenuVideo()) || fs.existsSync(customMenuImage())
 import { log } from '../lib/logger.js'
 import { customList } from '../lib/customcmds.js'
 
@@ -39,7 +40,9 @@ export function menuText (ctx) {
 
 // motion clip (GIF jaisa) + menu caption; video fail ho to DP photo, woh bhi fail ho to sirf text
 export async function sendMenuMedia (ctx, text) {
-  const m = menuMedia(!!ctx.settings.get('menuDp'))
+  // Bot Maker wale bot: menu pe usi ki DP (AQDAS ka motion clip nahi), jab tak woh .setmenu se kuch aur na lagaye
+  const mk = !!ctx.settings.get('brand')?.maker
+  const m = menuMedia(!!ctx.settings.get('menuDp') || (mk && !hasOwnMenu()))
   if (m?.type === 'video') {
     try { return await ctx.reply({ video: fs.readFileSync(m.path), gifPlayback: true, mimetype: 'video/mp4', caption: text }) } catch (e) { log.warn('menu video nahi gayi, photo bhej raha hoon:', e.message) }
   } else if (m?.type === 'image') {
