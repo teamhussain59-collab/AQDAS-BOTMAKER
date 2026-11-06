@@ -6,23 +6,7 @@
   "number_masked": null,
   "run_id": null,
   "panel_url": "https://aqdas-botmaker-production.up.railway.app",
-  "panel_at": "2026-11-06T12:13:55.638Z",
-  "slots_max": "unlimited",
-  "commands": 650,
-  "mem": {
-    "sessions": 0,
-    "free_mb": 112253,
-    "total_mb": 393439,
-    "rss_mb": 112,
-    "heap_mb": 36,
-    "heap_limit_mb": 489,
-    "per_session_mb": null,
-    "room_for": 10
-  },
-  "channel": {
-    "ok": false,
-    "error": "koi connected number nahi"
-  },
-  "updated_at": "2026-11-06T13:18:55.838Z",
-  "uptime_s": 3903
+  "panel_at": "2026-11-06T13:19:25.759Z",
+  "updated_at": "2026-11-06T13:19:25.759Z",
+  "uptime_s": 2
 }
