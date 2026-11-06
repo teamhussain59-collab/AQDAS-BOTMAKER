@@ -1,31 +1,24 @@
 {
-  "status": "offline",
+  "status": "idle",
   "code": null,
-  "qr": null,
-  "qr_at": null,
   "code_at": null,
-  "next_at": null,
   "last_event": null,
   "number_masked": null,
   "run_id": null,
-  "panel_url": null,
-  "panel_at": "2026-11-06T13:19:25.759Z",
+  "panel_url": "https://aqdas-botmaker-production.up.railway.app",
+  "panel_at": "2026-11-06T16:23:30.893Z",
   "slots_max": "unlimited",
-  "commands": 854,
+  "commands": 856,
   "mem": {
     "sessions": 0,
-    "free_mb": 94214,
-    "total_mb": 330438,
-    "rss_mb": 87,
-    "heap_mb": 36,
+    "free_mb": 113550,
+    "total_mb": 393439,
+    "rss_mb": 101,
+    "heap_mb": 32,
     "heap_limit_mb": 489,
     "per_session_mb": null,
     "room_for": 10
   },
-  "channel": {
-    "ok": false,
-    "error": "koi connected number nahi"
-  },
-  "updated_at": "2026-11-06T16:23:32.728Z",
-  "uptime_s": 11049
+  "updated_at": "2026-11-06T16:24:30.926Z",
+  "uptime_s": 64
 }
