@@ -1,0 +1,102 @@
+name: Railway setup (secrets -> Railway variables)
+# Ek dafa chalao (Actions -> Railway setup -> Run workflow). GitHub secrets ko Railway service ke variables mein daalta hai.
+# Koi secret log mein print nahi hota.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push variables to Railway
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+          V_FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+          V_SESSION_KEY: ${{ secrets.SESSION_KEY }}
+          V_ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+          V_OWNER_NUMBER: ${{ secrets.OWNER_NUMBER }}
+          V_PAIR_NUMBER: ${{ secrets.PAIR_NUMBER }}
+          V_OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY || secrets.OPENROUTER_KEY }}
+          V_GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          V_GITHUB_REPOSITORY: ${{ github.repository }}
+          SKIP_DOMAIN: '1'
+        run: |
+          python3 - <<'PY'
+          import os, json, urllib.request
+          tok = os.environ.get('RAILWAY_TOKEN','')
+          if not tok: raise SystemExit('RAILWAY_TOKEN secret nahi mila')
+          if not os.environ.get('V_GITHUB_TOKEN'): raise SystemExit('GH_PAT secret nahi mila')
+          if not os.environ.get('V_FIREBASE_SA'): raise SystemExit('FIREBASE_SA secret nahi mila')
+          def gql(q, v=None):
+              req = urllib.request.Request('https://backboard.railway.com/graphql/v2', data=json.dumps({'query': q, 'variables': v or {}}).encode(),
+                  headers={'Authorization': 'Bearer ' + tok, 'Content-Type': 'application/json', 'User-Agent': 'aqdas-md'})
+              j = json.loads(urllib.request.urlopen(req, timeout=30).read())
+              if j.get('errors'): raise SystemExit('Railway API error: ' + '; '.join(e.get('message','') for e in j['errors']))
+              return j['data']
+          PQ = 'edges { node { id name services { edges { node { id name } } } environments { edges { node { id name } } } } }'
+          def tryq(q, v=None):
+              try: return gql(q, v)
+              except SystemExit as ex: print('try:', str(ex)[:160]); return None
+              except Exception as ex: print('try:', type(ex).__name__, str(ex)[:160]); return None
+          edges = []
+          d = tryq('{ projects { ' + PQ + ' } }')
+          if d: edges += d['projects']['edges']
+          ws = []
+          d = tryq('{ me { workspaces { id name } } }')
+          if d: ws += d['me'].get('workspaces') or []
+          d = tryq('{ me { teams { edges { node { id name } } } } }')
+          if d: ws += [x['node'] for x in d['me']['teams']['edges']]
+          print('workspaces found:', len(ws))
+          for w in ws:
+              d = tryq('query($w: String!) { projects(workspaceId: $w) { ' + PQ + ' } }', {'w': w['id']}) or tryq('query($w: String!) { projects(teamId: $w) { ' + PQ + ' } }', {'w': w['id']})
+              if d: edges += d['projects']['edges']
+          print('projects found:', [e['node']['name'] for e in edges])
+          best = None
+          for e in edges:
+              p = e['node']
+              for s in p['services']['edges']:
+                  sv = s['node']
+                  score = 2 if 'aqdas' in (sv['name'] + p['name']).lower() else 1
+                  if not best or score > best[0]: best = (score, p, sv)
+          created = False
+          if not best:
+              if not edges: raise SystemExit('Railway pe koi project nahi mila — pehle repo deploy karo')
+              p = edges[0]['node']
+              print('Project mein service nahi — nayi service bana raha hoon:', p['name'])
+              envs0 = [x['node'] for x in p['environments']['edges']]
+              env0 = next((x for x in envs0 if x['name'] == 'production'), envs0[0])
+              sd = gql('mutation($i: ServiceCreateInput!) { serviceCreate(input: $i) { id name } }',
+                       {'i': {'projectId': p['id'], 'name': 'AQDAS-MD', 'environmentId': env0['id']}})
+              sv = sd['serviceCreate']; created = True
+              best = (1, p, sv)
+          _, p, sv = best
+          envs = [x['node'] for x in p['environments']['edges']]
+          env = next((x for x in envs if x['name'] == 'production'), envs[0])
+          print('Project:', p['name'], '| Service:', sv['name'], '| Env:', env['name'])
+          vals = {
+            'HOST_NAME': 'railway', 'WEB': 'true', 'PORT': '3000', 'TZ': 'Asia/Karachi', 'NODE_ENV': 'production',
+            'FIREBASE_SA': os.environ['V_FIREBASE_SA'], 'SESSION_KEY': os.environ.get('V_SESSION_KEY',''),
+            'ADMIN_PASSWORD': os.environ.get('V_ADMIN_PASSWORD',''), 'OWNER_NUMBER': os.environ.get('V_OWNER_NUMBER',''),
+            'PAIR_NUMBER': os.environ.get('V_PAIR_NUMBER',''), 'OPENROUTER_API_KEY': os.environ.get('V_OPENROUTER_API_KEY',''),
+            'GITHUB_TOKEN': os.environ['V_GITHUB_TOKEN'], 'GITHUB_REPOSITORY': os.environ['V_GITHUB_REPOSITORY'],
+          }
+          vals = {k: v for k, v in vals.items() if v}
+          gql('mutation($i: VariableCollectionUpsertInput!) { variableCollectionUpsert(input: $i) }',
+              {'i': {'projectId': p['id'], 'environmentId': env['id'], 'serviceId': sv['id'], 'variables': vals}})
+          print('Variables set:', ', '.join(sorted(vals.keys())))
+          try:
+              gql('mutation($s: String!, $e: String, $i: ServiceInstanceUpdateInput!) { serviceInstanceUpdate(serviceId: $s, environmentId: $e, input: $i) }',
+                  {'s': sv['id'], 'e': env['id'], 'i': {'watchPatterns': ['lib/**', 'plugins/**', 'scripts/**', 'media/**', 'main.js', 'index.js', 'config.js', 'package.json', 'package-lock.json', 'Dockerfile']}})
+              print('Watch paths set (docs/ changes se restart nahi)')
+          except SystemExit as ex: print('watch:', str(ex)[:200])
+          if created:
+              gql('mutation($id: String!, $i: ServiceConnectInput!) { serviceConnect(id: $id, input: $i) { id } }',
+                  {'id': sv['id'], 'i': {'repo': os.environ['V_GITHUB_REPOSITORY'], 'branch': 'main'}})
+              print('Repo connected — Railway deploy shuru')
+          else:
+              try:
+                  gql('mutation($s: String!, $e: String!) { serviceInstanceRedeploy(serviceId: $s, environmentId: $e) }', {'s': sv['id'], 'e': env['id']})
+                  print('Redeploy shuru')
+              except SystemExit as ex: print('redeploy:', str(ex)[:200])
+          PY

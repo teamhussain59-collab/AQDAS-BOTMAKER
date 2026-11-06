@@ -1,0 +1,26 @@
+{
+  "name": "aqdas-md",
+  "version": "1.0.0",
+  "description": "AQDAS MD - WhatsApp multi-device bot by AQDAS HACKER (pairing code, web pairing page, plugins)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/run.js && node test/status.js && node test/store.js && node test/pair.js && node test/customcmds.js && node test/menu.js && node test/ai.js && node test/screenshot.js && node test/logo.js && node test/anime.js && node test/voice.js && node test/commands.js && node test/memguard.js",
+    "check": "node test/syntax.js",
+    "postinstall": "node scripts/patch-baileys.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "AQDAS HACKER",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "dotenv": "^18.0.9",
+    "express": "^4.22.3",
+    "node-webpmux": "^3.2.1",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4"
+  }
+}

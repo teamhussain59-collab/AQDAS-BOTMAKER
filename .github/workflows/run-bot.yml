@@ -1,0 +1,120 @@
+# AQDAS MD on GitHub Actions
+# ⚠️ GitHub ki terms Actions ko 24/7 bot hosting ke liye allow nahi karti. Account suspend ho sakta hai.
+# Har run max 6 ghante (yahan ~5h50m), phir naya run. Beech mein kuch minute bot off rahega.
+# Secrets (repo > Settings > Secrets and variables > Actions > New repository secret):
+#   SESSION_B64        = bot ka SESSION_ID (pehli pairing ke baad bot apni chat mein bhejta hai)
+#   OWNER_NUMBER       = 923001234567
+#   PAIR_NUMBER        = (optional, ab zaroori nahi) — numbers web panel se add hote hain
+#   OPENROUTER_API_KEY = (optional) AI ke liye  (purana naam OPENROUTER_KEY bhi chalta hai)
+#   ADMIN_PASSWORD     = web panel ka /admin password
+#   SESSION_KEY        = sessions ko encrypt karne ki key (badli to purane saved sessions nahi khulenge)
+# Session / keys kabhi log mein print nahi hote. Log mein sirf pairing code aata hai.
+# Jab tak SESSION_B64 ya PAIR_NUMBER secret nahi hai, run khud skip ho jata hai.
+name: AQDAS MD Bot
+on:
+  workflow_dispatch:
+  # code badle (main branch) to bot khud naye code se restart
+  push:
+    branches: [main]
+    paths: ['lib/**', 'plugins/**', 'main.js', 'config.js', 'package.json', 'scripts/**', '.github/workflows/run-bot.yml']
+  schedule:
+    - cron: '0 */6 * * *'
+permissions:
+  contents: write
+  actions: write   # panel ka "Restart bot" naya run start kar sake (token runner ke andar hi rehta hai)
+# ek waqt mein sirf EK bot: naya run (push / restart / 6h / watchdog) purane ko cancel karta hai.
+# Cancel pe purana run SIGTERM pakad ke pehle sessions save karta hai, phir band hota hai.
+concurrency:
+  group: aqdas-md-bot
+  cancel-in-progress: true
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    steps:
+      - name: Check secrets
+        id: check
+        env:
+          SESSION_ID: ${{ secrets.SESSION_B64 }}
+          PAIR_NUMBER: ${{ secrets.PAIR_NUMBER }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+        run: |
+          # web panel se numbers add hote hain, is liye ADMIN_PASSWORD hi kaafi hai
+          if [ -n "$SESSION_ID" ] || [ -n "$PAIR_NUMBER" ] || [ -n "$ADMIN_PASSWORD" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ADMIN_PASSWORD / SESSION_B64 / PAIR_NUMBER mein se koi secret set nahi. Run skip kar diya."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.ready == 'true'
+      - uses: actions/setup-node@v4
+        if: steps.check.outputs.ready == 'true'
+        with:
+          node-version: 20
+      - name: Install ffmpeg + yt-dlp
+        if: steps.check.outputs.ready == 'true'
+        run: |
+          # static ffmpeg (~20 sec) — apt wala kabhi 9 min le leta tha; fail ho to apt
+          pip install -U yt-dlp &
+          if curl -fsSL --max-time 120 -o /tmp/ff.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && tar -xJf /tmp/ff.tar.xz -C /tmp; then
+            sudo cp /tmp/ffmpeg-*-static/ffmpeg /tmp/ffmpeg-*-static/ffprobe /usr/local/bin/
+          else
+            sudo apt-get update -y && sudo apt-get install -y --no-install-recommends ffmpeg
+          fi
+          wait
+          ffmpeg -version | head -1; yt-dlp --version
+      - name: Install cloudflared (public panel link)
+        if: steps.check.outputs.ready == 'true'
+        run: |
+          curl -fsSL -o /usr/local/bin/cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 || sudo curl -fsSL -o /usr/local/bin/cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+          sudo chmod +x /usr/local/bin/cloudflared && cloudflared --version || echo "cloudflared install fail (panel link nahi banega, bot chalega)"
+      - name: Install packages
+        if: steps.check.outputs.ready == 'true'
+        run: npm install --omit=dev
+      - name: Run AQDAS MD (~5h50m)
+        if: steps.check.outputs.ready == 'true'
+        env:
+          SESSION_ID: ${{ secrets.SESSION_B64 }}
+          OWNER_NUMBER: ${{ secrets.OWNER_NUMBER }}
+          PAIR_NUMBER: ${{ secrets.PAIR_NUMBER }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY || secrets.OPENROUTER_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Public web panel (cloudflared link github.io page pe dikhta hai). Koi bhi apna number add kar sakta hai.
+          WEB: 'true'
+          PORT: '3000'
+          TUNNEL: cloudflared
+          MAX_SESSIONS: '10'
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+          # sessions encrypted ho ke `sessions` branch pe save hote hain (har 6h run ke baad wapis)
+          SESSION_KEY: ${{ secrets.SESSION_KEY }}
+          # restart page (docs/restart.html) ke requests (Firebase service account; kabhi log nahi hota)
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+          TZ: Asia/Karachi
+        # bash yahan zinda rehta hai aur cancel / timeout ka signal bot (node) tak pohanchata hai,
+        # taake bot band hone se pehle sessions save kare (warna cancel pe GitHub node ko seedha maar deta hai).
+        run: |
+          set +e
+          START=$(date +%s)
+          node main.js &
+          BOT=$!
+          STOP=''
+          stop() { if [ -z "$STOP" ]; then STOP=1; echo "stop signal -> bot sessions save kar ke band hoga"; kill -TERM "$BOT" 2>/dev/null; fi; }
+          trap stop INT TERM
+          ( sleep 21000; echo "~5h50m pure, run khatam"; touch /tmp/aqdas_timeup; kill -TERM "$BOT" 2>/dev/null ) &
+          TIMER=$!
+          while kill -0 "$BOT" 2>/dev/null; do wait "$BOT"; done
+          pkill -P "$TIMER" 2>/dev/null; kill "$TIMER" 2>/dev/null
+          # cancel nahi hua (run ka time pura / bot khud band hua): agla run KHUD start — cron / watchdog ka intezar nahi
+          if [ -z "$STOP" ]; then
+            RAN=$(( $(date +%s) - START ))
+            if [ -f /tmp/aqdas_timeup ] || [ "$RAN" -ge 600 ]; then
+              echo "agla run khud start ho raha hai (self-chain)"
+              curl -sS -o /dev/null -w "dispatch HTTP %{http_code}\n" -X POST -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" \
+                "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/run-bot.yml/dispatches" -d '{"ref":"main"}' || true
+            else
+              echo "bot ${RAN}s mein band hua (crash?) — watchdog 5-15 min mein wapas layega"
+            fi
+          fi
+          echo "run khatam"
+          exit 0
