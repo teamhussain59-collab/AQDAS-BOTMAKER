@@ -26,18 +26,20 @@
   "linked": [
     {
       "number": "********7157",
-      "state": "linking",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
     "16:38:53 ********7157: code bana",
     "16:39:05 ********7157: LINKING (phone ne code accept kiya)",
-    "16:39:10 ********7157: connection close 515 Stream Errored (restart required)"
+    "16:39:10 ********7157: connection close 515 Stream Errored (restart required)",
+    "16:39:15 ********7157: CONNECTED ✅",
+    "16:39:15 ********7157: brand: sigma-md"
   ],
   "guest_frames": {
     "number": "********7157",
-    "state": "linking",
+    "state": "connected",
     "frames": [
       "16:38:48 iq:set <pair-device>",
       "16:38:48 iq:result <link_code_companion_reg[companion_hello]>",
@@ -48,6 +50,6 @@
       "16:39:09 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T16:39:14.042Z",
-  "uptime_s": 947
+  "updated_at": "2026-11-06T16:39:19.276Z",
+  "uptime_s": 952
 }
