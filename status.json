@@ -19,6 +19,10 @@
     "per_session_mb": null,
     "room_for": 10
   },
-  "updated_at": "2026-11-06T16:24:30.926Z",
-  "uptime_s": 64
+  "channel": {
+    "ok": false,
+    "error": "koi connected number nahi"
+  },
+  "updated_at": "2026-11-06T16:24:32.466Z",
+  "uptime_s": 66
 }
