@@ -11,13 +11,13 @@
   "commands": 856,
   "mem": {
     "sessions": 1,
-    "free_mb": 117871,
+    "free_mb": 116618,
     "total_mb": 393439,
-    "rss_mb": 151,
-    "heap_mb": 47,
+    "rss_mb": 149,
+    "heap_mb": 43,
     "heap_limit_mb": 489,
-    "per_session_mb": 44,
-    "room_for": 13
+    "per_session_mb": 42,
+    "room_for": 14
   },
   "channel": {
     "ok": true,
@@ -54,6 +54,6 @@
       "16:39:09 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T17:47:31.135Z",
-  "uptime_s": 5044
+  "updated_at": "2026-11-06T17:48:31.092Z",
+  "uptime_s": 5104
 }
