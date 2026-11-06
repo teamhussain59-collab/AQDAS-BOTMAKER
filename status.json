@@ -26,7 +26,8 @@
     "frames": [
       "11:40:51 iq:set <pair-device>",
       "11:40:51 iq:result <link_code_companion_reg[companion_hello]>",
-      "11:41:20 iq:result"
+      "11:41:20 iq:result",
+      "11:41:50 iq:result"
     ]
   },
   "mem": {
@@ -43,6 +44,6 @@
     "ok": false,
     "error": "koi connected number nahi"
   },
-  "updated_at": "2026-11-06T11:41:24.927Z",
-  "uptime_s": 76
+  "updated_at": "2026-11-06T11:41:54.926Z",
+  "uptime_s": 106
 }
