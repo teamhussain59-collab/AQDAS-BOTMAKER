@@ -18,19 +18,19 @@
   ],
   "guest_frames": null,
   "mem": {
-    "sessions": 1,
-    "free_mb": 281739,
+    "sessions": 0,
+    "free_mb": 299700,
     "total_mb": 503687,
-    "rss_mb": 122,
-    "heap_mb": 38,
+    "rss_mb": 120,
+    "heap_mb": 39,
     "heap_limit_mb": 489,
-    "per_session_mb": 17,
-    "room_for": 36
+    "per_session_mb": null,
+    "room_for": 10
   },
   "channel": {
     "ok": false,
     "error": "koi connected number nahi"
   },
-  "updated_at": "2026-11-06T11:44:25.105Z",
-  "uptime_s": 256
+  "updated_at": "2026-11-06T11:45:09.627Z",
+  "uptime_s": 301
 }
