@@ -32,6 +32,11 @@
       "number": "********7157",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "********8582",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -55,18 +60,13 @@
     "23:14:33 ********8574: logged out"
   ],
   "guest_frames": {
-    "number": "********7157",
-    "state": "connected",
+    "number": "********8582",
+    "state": "pairing",
     "frames": [
-      "16:38:48 iq:set <pair-device>",
-      "16:38:48 iq:result <link_code_companion_reg[companion_hello]>",
-      "16:39:05 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "16:39:05 iq:result",
-      "16:39:09 iq:set <pair-success>",
-      "16:39:09 stream:error: code=515",
-      "16:39:09 xmlstreamend:"
+      "23:24:32 iq:set <pair-device>",
+      "23:24:32 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
-  "updated_at": "2026-11-06T23:23:32.421Z",
-  "uptime_s": 25206
+  "updated_at": "2026-11-06T23:24:36.990Z",
+  "uptime_s": 25270
 }
