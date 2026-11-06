@@ -26,21 +26,30 @@
   "linked": [
     {
       "number": "********4197",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "11:34:30 ********4197: code bana"
+    "11:34:30 ********4197: code bana",
+    "11:34:44 ********4197: LINKING (phone ne code accept kiya)",
+    "11:34:46 ********4197: connection close 515 Stream Errored (restart required)",
+    "11:34:50 ********4197: CONNECTED ✅",
+    "11:34:50 ********4197: brand: hussain-md"
   ],
   "guest_frames": {
     "number": "********4197",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "11:34:25 iq:set <pair-device>",
-      "11:34:25 iq:result <link_code_companion_reg[companion_hello]>"
+      "11:34:25 iq:result <link_code_companion_reg[companion_hello]>",
+      "11:34:44 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "11:34:44 iq:result",
+      "11:34:46 iq:set <pair-success>",
+      "11:34:46 stream:error: code=515",
+      "11:34:46 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T11:34:48.092Z",
-  "uptime_s": 2761
+  "updated_at": "2026-11-06T11:34:54.104Z",
+  "uptime_s": 2767
 }
