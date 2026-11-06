@@ -22,10 +22,10 @@
   "channel": {
     "ok": true,
     "name": "AQDAS TECH",
-    "latest_post": null,
+    "latest_post": 110,
     "auto": true,
     "opted_in": 0,
-    "fetch": "updates err undefined | messages err Connection Closed"
+    "fetch": "updates err channel posts timeout | messages:messages:10"
   },
   "linked": [
     {
@@ -58,6 +58,6 @@
       "16:39:09 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T21:01:31.834Z",
-  "uptime_s": 16685
+  "updated_at": "2026-11-06T21:02:51.971Z",
+  "uptime_s": 16765
 }
