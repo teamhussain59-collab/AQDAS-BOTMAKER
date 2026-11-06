@@ -1,39 +1,24 @@
 {
-  "status": "offline",
+  "status": "idle",
   "code": null,
-  "qr": null,
-  "qr_at": null,
   "code_at": null,
-  "next_at": null,
   "last_event": null,
   "number_masked": null,
   "run_id": null,
-  "panel_url": null,
-  "panel_at": "2026-11-06T11:40:09.607Z",
+  "panel_url": "https://aqdas-botmaker-production.up.railway.app",
+  "panel_at": "2026-11-06T12:13:55.638Z",
   "slots_max": "unlimited",
-  "commands": 571,
-  "linked": [],
-  "guest_log": [
-    "11:40:39 ********5719: code error: WhatsApp ne code reject kiya (400 bad-request)",
-    "11:40:56 ********7157: code bana",
-    "11:44:21 ********7157: connection close 428 Connection Terminated by Server",
-    "11:44:21 ********7157: expired / closed (code 428)"
-  ],
-  "guest_frames": null,
+  "commands": 650,
   "mem": {
     "sessions": 0,
-    "free_mb": 292121,
-    "total_mb": 503687,
-    "rss_mb": 119,
-    "heap_mb": 40,
+    "free_mb": 115609,
+    "total_mb": 393439,
+    "rss_mb": 111,
+    "heap_mb": 31,
     "heap_limit_mb": 489,
     "per_session_mb": null,
     "room_for": 10
   },
-  "channel": {
-    "ok": false,
-    "error": "koi connected number nahi"
-  },
-  "updated_at": "2026-11-06T12:13:58.399Z",
-  "uptime_s": 2030
+  "updated_at": "2026-11-06T12:14:55.666Z",
+  "uptime_s": 63
 }
