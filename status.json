@@ -39,7 +39,9 @@
     "16:39:05 ********7157: LINKING (phone ne code accept kiya)",
     "16:39:10 ********7157: connection close 515 Stream Errored (restart required)",
     "16:39:15 ********7157: CONNECTED ✅",
-    "16:39:15 ********7157: brand: sigma-md"
+    "16:39:15 ********7157: brand: sigma-md",
+    "20:28:43 ********7157: connection close 428 Connection Terminated",
+    "20:28:47 ********7157: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********7157",
@@ -54,6 +56,6 @@
       "16:39:09 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T20:28:31.375Z",
-  "uptime_s": 14704
+  "updated_at": "2026-11-06T20:28:51.799Z",
+  "uptime_s": 14725
 }
