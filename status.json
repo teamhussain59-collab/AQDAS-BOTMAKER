@@ -43,7 +43,9 @@
     "20:28:43 ********7157: connection close 428 Connection Terminated",
     "20:28:47 ********7157: CONNECTED ✅",
     "20:59:43 ********7157: connection close 428 Connection Terminated",
-    "20:59:46 ********7157: CONNECTED ✅"
+    "20:59:46 ********7157: CONNECTED ✅",
+    "21:43:21 ********7157: connection close 428 Connection Terminated",
+    "21:43:24 ********7157: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********7157",
@@ -58,6 +60,6 @@
       "16:39:09 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T21:41:31.990Z",
-  "uptime_s": 19085
+  "updated_at": "2026-11-06T21:43:28.745Z",
+  "uptime_s": 19202
 }
