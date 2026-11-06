@@ -23,13 +23,7 @@
     "ok": false,
     "error": "koi connected number nahi"
   },
-  "linked": [
-    {
-      "number": "********4197",
-      "state": "connected",
-      "autostatus": "off"
-    }
-  ],
+  "linked": [],
   "guest_log": [
     "11:34:30 ********4197: code bana",
     "11:34:44 ********4197: LINKING (phone ne code accept kiya)",
@@ -39,19 +33,7 @@
     "11:35:26 ********4197: connection close 401 Stream Errored (conflict)",
     "11:35:26 ********4197: logged out"
   ],
-  "guest_frames": {
-    "number": "********4197",
-    "state": "connected",
-    "frames": [
-      "11:34:25 iq:set <pair-device>",
-      "11:34:25 iq:result <link_code_companion_reg[companion_hello]>",
-      "11:34:44 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "11:34:44 iq:result",
-      "11:34:46 iq:set <pair-success>",
-      "11:34:46 stream:error: code=515",
-      "11:34:46 xmlstreamend:"
-    ]
-  },
-  "updated_at": "2026-11-06T11:35:26.529Z",
-  "uptime_s": 2799
+  "guest_frames": null,
+  "updated_at": "2026-11-06T11:35:30.530Z",
+  "uptime_s": 2803
 }
