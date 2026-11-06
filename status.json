@@ -41,7 +41,9 @@
     "16:39:15 ********7157: CONNECTED ✅",
     "16:39:15 ********7157: brand: sigma-md",
     "20:28:43 ********7157: connection close 428 Connection Terminated",
-    "20:28:47 ********7157: CONNECTED ✅"
+    "20:28:47 ********7157: CONNECTED ✅",
+    "20:59:43 ********7157: connection close 428 Connection Terminated",
+    "20:59:46 ********7157: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********7157",
@@ -56,6 +58,6 @@
       "16:39:09 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-06T20:59:43.477Z",
-  "uptime_s": 16577
+  "updated_at": "2026-11-06T20:59:50.149Z",
+  "uptime_s": 16583
 }
