@@ -62,16 +62,11 @@
     },
     {
       "number": "********9569",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "14:48:35 ********8574: status ***********4784: seen ✅, react 🥵 ✅",
-    "14:48:36 ********8574: status ***********4784: seen ✅, react 🥱 ✅",
-    "14:48:48 ********5634: LINKING (phone ne code accept kiya)",
-    "14:48:51 ********5634: connection close 515 Stream Errored (restart required)",
-    "14:48:57 ********5634: CONNECTED ✅",
     "14:48:57 ********5634: brand: mohsina",
     "14:50:24 ********8582: status ***********6738: seen ✅, react 🥱 ✅",
     "14:50:51 ********1467: status ***********4784: seen ✅",
@@ -86,14 +81,24 @@
     "14:53:34 ********1467: status ***********9744: seen ✅",
     "14:53:37 ********8582: status ***********9744: seen ✅, react 🙂 ✅",
     "14:53:40 ********9569: code bana",
-    "14:53:56 ********8582: status ***********0999: seen ✅, react 😼 ✅"
+    "14:53:56 ********8582: status ***********0999: seen ✅, react 😼 ✅",
+    "14:54:00 ********9569: LINKING (phone ne code accept kiya)",
+    "14:54:03 ********1467: status ***********9630: seen ✅",
+    "14:54:05 ********9569: connection close 515 Stream Errored (restart required)",
+    "14:54:09 ********9569: CONNECTED ✅",
+    "14:54:09 ********9569: brand: ahmi-jutt"
   ],
   "guest_frames": {
     "number": "********9569",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "14:53:35 iq:set <pair-device>",
-      "14:53:35 iq:result <link_code_companion_reg[companion_hello]>"
+      "14:53:35 iq:result <link_code_companion_reg[companion_hello]>",
+      "14:54:00 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "14:54:00 iq:result",
+      "14:54:04 iq:set <pair-success>",
+      "14:54:05 stream:error: code=515",
+      "14:54:05 xmlstreamend:"
     ]
   },
   "mem": {
@@ -114,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T14:54:00.227Z",
-  "uptime_s": 16387
+  "updated_at": "2026-11-07T14:54:13.790Z",
+  "uptime_s": 16400
 }
