@@ -37,11 +37,6 @@
       "number": "********8582",
       "state": "connected",
       "autostatus": "view+react"
-    },
-    {
-      "number": "qr",
-      "state": "pairing",
-      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -67,23 +62,18 @@
     "02:55:50 qr: expired / closed (code 428)"
   ],
   "guest_frames": {
-    "number": "",
-    "state": "expired",
+    "number": "********8582",
+    "state": "connected",
     "frames": [
-      "02:52:20 iq:set <pair-device>",
-      "02:52:50 iq:result",
-      "02:53:20 iq:get",
-      "02:53:20 iq:result",
-      "02:53:50 iq:result",
-      "02:54:20 iq:get",
-      "02:54:20 iq:result",
-      "02:54:50 iq:get",
-      "02:54:50 iq:result",
-      "02:55:20 iq:get",
-      "02:55:20 iq:result",
-      "02:55:50 xmlstreamend:"
+      "23:24:32 iq:set <pair-device>",
+      "23:24:32 iq:result <link_code_companion_reg[companion_hello]>",
+      "23:24:56 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "23:24:57 iq:result",
+      "23:24:59 iq:set <pair-success>",
+      "23:25:00 stream:error: code=515",
+      "23:25:00 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T02:55:50.797Z",
-  "uptime_s": 37944
+  "updated_at": "2026-11-07T02:55:54.798Z",
+  "uptime_s": 37948
 }
