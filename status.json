@@ -45,8 +45,6 @@
     }
   ],
   "guest_log": [
-    "00:36:32 ********8582: status ***********4424: seen ✅, react 🙂 ✅",
-    "00:39:21 ********8582: status ***********6489: seen ✅, react 🙂 ✅",
     "01:29:19 ********7157: connection close 428 Connection Terminated",
     "01:29:21 ********7157: CONNECTED ✅",
     "01:46:46 ********8582: status **********9885: seen ✅, react 😼 ✅",
@@ -64,11 +62,13 @@
     "02:49:08 ********8582: status **********3122: seen ✅, react 😼 ✅",
     "02:49:28 ********8582: status **********5058: seen ✅, react 😼 ✅",
     "02:49:45 ********8582: status **********5058: seen ✅, react 😼 ✅",
-    "02:50:41 ********8582: status ***********9413: seen ✅, react 😼 ✅"
+    "02:50:41 ********8582: status ***********9413: seen ✅, react 😼 ✅",
+    "02:55:50 qr: connection close 428 Connection Terminated by Server",
+    "02:55:50 qr: expired / closed (code 428)"
   ],
   "guest_frames": {
     "number": "",
-    "state": "pairing",
+    "state": "expired",
     "frames": [
       "02:52:20 iq:set <pair-device>",
       "02:52:50 iq:result",
@@ -80,9 +80,10 @@
       "02:54:50 iq:get",
       "02:54:50 iq:result",
       "02:55:20 iq:get",
-      "02:55:20 iq:result"
+      "02:55:20 iq:result",
+      "02:55:50 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T02:55:32.782Z",
-  "uptime_s": 37926
+  "updated_at": "2026-11-07T02:55:50.797Z",
+  "uptime_s": 37944
 }
