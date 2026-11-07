@@ -37,13 +37,11 @@
     },
     {
       "number": "********2634",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "04:13:02 ********7157: LINKING (phone ne code accept kiya)",
-    "04:13:02 ********8582: LINKING (phone ne code accept kiya)",
     "04:13:02 ********1467: LINKING (phone ne code accept kiya)",
     "04:13:02 ********8582: CONNECTED ✅",
     "04:13:02 ********7157: CONNECTED ✅",
@@ -58,15 +56,25 @@
     "04:15:53 ********3032: LINKING (phone ne code accept kiya)",
     "04:15:56 ********2634: code bana",
     "04:15:58 ********3032: connection close 515 Stream Errored (restart required)",
-    "04:16:02 ********3032: CONNECTED ✅"
+    "04:16:02 ********3032: CONNECTED ✅",
+    "04:16:41 ********2634: LINKING (phone ne code accept kiya)",
+    "04:16:44 ********2634: connection close 515 Stream Errored (restart required)",
+    "04:16:46 ********8582: status ***********8063: seen ✅, react 🙂 ✅",
+    "04:16:47 ********2634: CONNECTED ✅",
+    "04:16:47 ********2634: brand: jutt-md"
   ],
   "guest_frames": {
     "number": "********2634",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "04:15:51 iq:set <pair-device>",
       "04:15:51 iq:result <link_code_companion_reg[companion_hello]>",
-      "04:16:21 iq:result"
+      "04:16:21 iq:result",
+      "04:16:41 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "04:16:41 iq:result",
+      "04:16:44 iq:set <pair-success>",
+      "04:16:44 stream:error: code=515",
+      "04:16:44 xmlstreamend:"
     ]
   },
   "mem": {
@@ -87,6 +95,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T04:16:25.235Z",
-  "uptime_s": 207
+  "updated_at": "2026-11-07T04:16:51.707Z",
+  "uptime_s": 233
 }
