@@ -40,7 +40,6 @@
     }
   ],
   "guest_log": [
-    "23:14:31 ********8574: connection close 401 Stream Errored (conflict)",
     "23:14:33 ********8574: logged out",
     "23:24:37 ********8582: code bana",
     "23:24:57 ********8582: LINKING (phone ne code accept kiya)",
@@ -59,7 +58,8 @@
     "01:29:21 ********7157: CONNECTED ✅",
     "01:46:46 ********8582: status **********9885: seen ✅, react 😼 ✅",
     "01:52:35 ********8582: status ***********9424: seen ✅, react 🥱 ✅",
-    "02:26:01 ********8582: status ***********0439: seen ✅, react 😼 ✅"
+    "02:26:01 ********8582: status ***********0439: seen ✅, react 😼 ✅",
+    "02:27:21 ********8582: status **********5464: seen ✅, react 🙂 ✅"
   ],
   "guest_frames": {
     "number": "********8582",
@@ -74,6 +74,6 @@
       "23:25:00 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T02:26:05.770Z",
-  "uptime_s": 36159
+  "updated_at": "2026-11-07T02:27:25.380Z",
+  "uptime_s": 36238
 }
