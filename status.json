@@ -67,7 +67,6 @@
     }
   ],
   "guest_log": [
-    "18:06:03 ********1467: connection close 403 Connection Failure",
     "18:06:07 ********5115: code bana",
     "18:06:33 ********1467: connection close 403 Connection Failure",
     "18:07:09 ********1467: connection close 403 Connection Failure",
@@ -86,7 +85,8 @@
     "18:09:32 ********5115: connection close 428 Connection Terminated by Server",
     "18:09:35 ********5115: connection close 401 Connection Failure",
     "18:09:35 ********5115: logged out",
-    "18:09:58 ********1467: connection close 403 Connection Failure"
+    "18:09:58 ********1467: connection close 403 Connection Failure",
+    "18:10:10 ********5115: code bana"
   ],
   "guest_frames": {
     "number": "********5115",
@@ -114,6 +114,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T18:10:09.807Z",
-  "uptime_s": 3171
+  "updated_at": "2026-11-07T18:10:14.623Z",
+  "uptime_s": 3176
 }
