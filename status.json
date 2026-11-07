@@ -41,7 +41,7 @@
     {
       "number": "********1467",
       "state": "connected",
-      "autostatus": "off"
+      "autostatus": "view"
     },
     {
       "number": "********8574",
@@ -50,13 +50,6 @@
     }
   ],
   "guest_log": [
-    "03:28:53 ********1467: CONNECTED ✅",
-    "03:28:53 ********1467: brand: ahmi-jutt",
-    "03:28:54 ********8574: LINKING (phone ne code accept kiya)",
-    "03:28:59 ********8574: connection close 515 Stream Errored (restart required)",
-    "03:29:05 ********8574: CONNECTED ✅",
-    "03:29:05 ********8574: brand: ahmi-jutt",
-    "03:31:15 ********8582: status ***********7722: seen ✅, react 😼 ✅",
     "03:31:16 ********8574: status ***********7722: seen ✅, react 😌 ✅",
     "03:31:19 ********8574: status ***********7722: seen ✅, react 😘 ✅",
     "03:31:21 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
@@ -69,7 +62,14 @@
     "03:31:48 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
     "03:31:49 ********8574: status ***********7722: seen ✅, react 🙂 ✅",
     "03:31:50 ********8582: status *********7311: seen ✅, react 😼 ✅",
-    "03:32:36 ********8574: status ***********1986: seen ✅, react 😍 ✅"
+    "03:32:36 ********8574: status ***********1986: seen ✅, react 😍 ✅",
+    "03:32:49 ********8574: status ***********1986: seen ✅, react 😢 ✅",
+    "03:32:50 ********8574: status ***********1986: seen ✅, react 😳 ✅",
+    "03:32:51 ********8574: status ***********1986: seen ✅, react 😌 ✅",
+    "03:32:54 ********8574: status ***********1986: seen ✅, react 😇 ✅",
+    "03:32:54 ********8574: status ***********1986: seen ✅, react 😇 ✅",
+    "03:32:55 ********8574: status ***********1986: seen ✅, react 😢 ✅",
+    "03:32:58 ********8574: status ***********1986: seen ✅, react 😍 ✅"
   ],
   "guest_frames": {
     "number": "********8574",
@@ -85,6 +85,6 @@
       "03:28:59 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T03:32:40.091Z",
-  "uptime_s": 40153
+  "updated_at": "2026-11-07T03:33:02.707Z",
+  "uptime_s": 40176
 }
