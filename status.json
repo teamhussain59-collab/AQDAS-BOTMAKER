@@ -40,7 +40,6 @@
     }
   ],
   "guest_log": [
-    "23:10:14 ********8574: CONNECTED ✅",
     "23:10:14 ********8574: brand: ahmi-md",
     "23:14:31 ********8574: connection close 401 Stream Errored (conflict)",
     "23:14:33 ********8574: logged out",
@@ -59,7 +58,8 @@
     "00:39:21 ********8582: status ***********6489: seen ✅, react 🙂 ✅",
     "01:29:19 ********7157: connection close 428 Connection Terminated",
     "01:29:21 ********7157: CONNECTED ✅",
-    "01:46:46 ********8582: status **********9885: seen ✅, react 😼 ✅"
+    "01:46:46 ********8582: status **********9885: seen ✅, react 😼 ✅",
+    "01:52:35 ********8582: status ***********9424: seen ✅, react 🥱 ✅"
   ],
   "guest_frames": {
     "number": "********8582",
@@ -74,6 +74,6 @@
       "23:25:00 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T01:51:32.616Z",
-  "uptime_s": 34086
+  "updated_at": "2026-11-07T01:52:39.103Z",
+  "uptime_s": 34152
 }
