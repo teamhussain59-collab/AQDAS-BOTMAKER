@@ -26,11 +26,6 @@
       "autostatus": "off"
     },
     {
-      "number": "********7157",
-      "state": "connected",
-      "autostatus": "off"
-    },
-    {
       "number": "********1467",
       "state": "restoring",
       "autostatus": "view"
@@ -67,9 +62,6 @@
     }
   ],
   "guest_log": [
-    "17:17:36 ********6092: CONNECTED ✅",
-    "17:17:36 ********3032: LINKING (phone ne code accept kiya)",
-    "17:17:36 ********3032: CONNECTED ✅",
     "17:17:37 ********8582: CONNECTED ✅",
     "17:17:38 ********1467: connection close 403 Connection Failure",
     "17:17:44 ********1467: connection close 403 Connection Failure",
@@ -86,7 +78,10 @@
     "17:20:29 ********1467: connection close 403 Connection Failure",
     "17:20:56 ********1467: connection close 403 Connection Failure",
     "17:21:05 ********8582: status **********8853: seen ✅, react 😼 ✅",
-    "17:21:25 ********1467: connection close 403 Connection Failure"
+    "17:21:25 ********1467: connection close 403 Connection Failure",
+    "17:21:53 ********7157: connection close 401 Stream Errored (conflict)",
+    "17:21:53 ********7157: logged out",
+    "17:21:56 ********1467: connection close 403 Connection Failure"
   ],
   "guest_frames": null,
   "mem": {
@@ -107,6 +102,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T17:21:29.637Z",
-  "uptime_s": 251
+  "updated_at": "2026-11-07T17:22:00.646Z",
+  "uptime_s": 282
 }
