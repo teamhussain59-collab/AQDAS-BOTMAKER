@@ -11,10 +11,10 @@
   "commands": 856,
   "mem": {
     "sessions": 2,
-    "free_mb": 120892,
+    "free_mb": 120544,
     "total_mb": 393439,
-    "rss_mb": 190,
-    "heap_mb": 63,
+    "rss_mb": 189,
+    "heap_mb": 65,
     "heap_limit_mb": 489,
     "per_session_mb": 41,
     "room_for": 14
@@ -74,6 +74,6 @@
       "23:25:00 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T00:11:32.234Z",
-  "uptime_s": 28085
+  "updated_at": "2026-11-07T00:13:31.577Z",
+  "uptime_s": 28205
 }
