@@ -42,16 +42,11 @@
     },
     {
       "number": "********5182",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "04:29:35 ********8582: status ***********8353: seen ✅, react 🥱 ✅",
-    "04:30:03 ********8582: status ***********4625: seen ✅, react 🥱 ✅",
-    "04:30:03 ********1467: status **********4914: seen ✅",
-    "04:30:48 ********8582: status ***********4625: seen ✅, react 🙂 ✅",
-    "04:31:23 ********8582: status ***********8063: seen ✅, react 🥱 ✅",
     "04:31:27 ********8582: status ***********8063: seen ✅, react 🥱 ✅",
     "04:31:47 ********8582: status ***********4940: seen ✅, react 🥱 ✅",
     "04:31:59 ********8582: status ***********9693: seen ✅, react 😼 ✅",
@@ -66,14 +61,24 @@
     "04:39:03 ********8582: status **********0109: seen ✅, react 😼 ✅",
     "04:39:23 ********8582: status ***********8063: seen ✅, react 😼 ✅",
     "04:39:40 ********8582: status ***********4625: seen ✅, react 🙂 ✅",
-    "04:39:45 ********5182: code bana"
+    "04:39:45 ********5182: code bana",
+    "04:40:03 ********5182: LINKING (phone ne code accept kiya)",
+    "04:40:06 ********1467: status ***********1420: seen ✅",
+    "04:40:07 ********5182: connection close 515 Stream Errored (restart required)",
+    "04:40:10 ********5182: CONNECTED ✅",
+    "04:40:10 ********5182: brand: zabimd"
   ],
   "guest_frames": {
     "number": "********5182",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "04:39:40 iq:set <pair-device>",
-      "04:39:40 iq:result <link_code_companion_reg[companion_hello]>"
+      "04:39:40 iq:result <link_code_companion_reg[companion_hello]>",
+      "04:40:03 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "04:40:03 iq:result",
+      "04:40:06 iq:set <pair-success>",
+      "04:40:06 stream:error: code=515",
+      "04:40:06 xmlstreamend:"
     ]
   },
   "mem": {
@@ -94,6 +99,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T04:39:49.707Z",
-  "uptime_s": 1611
+  "updated_at": "2026-11-07T04:40:14.302Z",
+  "uptime_s": 1636
 }
