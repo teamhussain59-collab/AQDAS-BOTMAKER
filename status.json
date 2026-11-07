@@ -57,13 +57,11 @@
     },
     {
       "number": "********5634",
-      "state": "linking",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "14:39:06 ********1467: status ***********1280: seen ✅",
-    "14:40:15 ********1467: status ***********3896: seen ✅",
     "14:40:16 ********1467: status ***********1280: seen ✅",
     "14:40:43 ********1467: status ***********3690: seen ✅",
     "14:40:53 ********8582: status ***********9944: seen ✅, react 😼 ✅",
@@ -81,11 +79,13 @@
     "14:48:35 ********8574: status ***********4784: seen ✅, react 🥵 ✅",
     "14:48:36 ********8574: status ***********4784: seen ✅, react 🥱 ✅",
     "14:48:48 ********5634: LINKING (phone ne code accept kiya)",
-    "14:48:51 ********5634: connection close 515 Stream Errored (restart required)"
+    "14:48:51 ********5634: connection close 515 Stream Errored (restart required)",
+    "14:48:57 ********5634: CONNECTED ✅",
+    "14:48:57 ********5634: brand: mohsina"
   ],
   "guest_frames": {
     "number": "********5634",
-    "state": "linking",
+    "state": "connected",
     "frames": [
       "14:48:08 iq:set <pair-device>",
       "14:48:08 iq:result <link_code_companion_reg[companion_hello]>",
@@ -115,6 +115,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T14:48:55.972Z",
-  "uptime_s": 16082
+  "updated_at": "2026-11-07T14:49:01.222Z",
+  "uptime_s": 16088
 }
