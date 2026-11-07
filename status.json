@@ -10,14 +10,14 @@
   "slots_max": "unlimited",
   "commands": 856,
   "mem": {
-    "sessions": 2,
-    "free_mb": 120452,
+    "sessions": 3,
+    "free_mb": 120121,
     "total_mb": 393439,
-    "rss_mb": 183,
-    "heap_mb": 58,
+    "rss_mb": 185,
+    "heap_mb": 57,
     "heap_limit_mb": 489,
-    "per_session_mb": 37,
-    "room_for": 16
+    "per_session_mb": 26,
+    "room_for": 22
   },
   "channel": {
     "ok": true,
@@ -76,6 +76,6 @@
       "02:53:20 iq:result"
     ]
   },
-  "updated_at": "2026-11-07T02:53:24.637Z",
-  "uptime_s": 37798
+  "updated_at": "2026-11-07T02:53:31.760Z",
+  "uptime_s": 37805
 }
