@@ -67,8 +67,6 @@
     }
   ],
   "guest_log": [
-    "15:26:54 ********1467: status **********7730: seen ✅",
-    "15:27:36 ********1467: status **********7730: seen ✅",
     "15:27:45 ********1467: status **********2483: seen ✅",
     "15:27:48 ********8582: status ***********2956: seen ✅, react 😼 ✅",
     "15:28:05 ********8582: status ***********0242: seen ✅, react 😼 ✅",
@@ -86,19 +84,21 @@
     "15:31:56 ********1467: status ***********6400: seen ✅",
     "15:32:56 ********1467: status ***********0778: seen ✅",
     "15:34:38 ********1467: status ***********4833: seen ✅",
-    "15:34:52 ********8582: status ***********0242: seen ✅, react 😼 ✅"
+    "15:34:52 ********8582: status ***********0242: seen ✅, react 😼 ✅",
+    "15:35:01 ********9569: connection close 401 Stream Errored (conflict)",
+    "15:35:01 ********9569: logged out"
   ],
   "guest_frames": {
-    "number": "********7157",
+    "number": "********9569",
     "state": "connected",
     "frames": [
-      "15:02:17 iq:set <pair-device>",
-      "15:02:17 iq:result <link_code_companion_reg[companion_hello]>",
-      "15:02:30 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "15:02:30 iq:result",
-      "15:02:33 iq:set <pair-success>",
-      "15:02:34 stream:error: code=515",
-      "15:02:34 xmlstreamend:"
+      "14:53:35 iq:set <pair-device>",
+      "14:53:35 iq:result <link_code_companion_reg[companion_hello]>",
+      "14:54:00 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "14:54:00 iq:result",
+      "14:54:04 iq:set <pair-success>",
+      "14:54:05 stream:error: code=515",
+      "14:54:05 xmlstreamend:"
     ]
   },
   "mem": {
@@ -119,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T15:34:56.791Z",
-  "uptime_s": 18843
+  "updated_at": "2026-11-07T15:35:01.187Z",
+  "uptime_s": 18848
 }
