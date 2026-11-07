@@ -52,7 +52,6 @@
     }
   ],
   "guest_log": [
-    "05:07:25 ********8574: status **********2520: seen ✅, react 🥱 ✅",
     "05:07:26 ********8574: status **********2520: seen ✅, react 🥱 ✅",
     "05:07:27 ********8574: status **********2520: seen ✅, react 🥱 ✅",
     "05:07:28 ********8574: status **********2520: seen ✅, react 🤤 ✅",
@@ -71,7 +70,8 @@
     "05:12:33 ********6325: LINKING (phone ne code accept kiya)",
     "05:12:37 ********6325: connection close 515 Stream Errored (restart required)",
     "05:12:40 ********6325: CONNECTED ✅",
-    "05:12:40 ********6325: brand: hadi-md-bot"
+    "05:12:40 ********6325: brand: hadi-md-bot",
+    "05:13:01 ********8582: status **********3126: seen ✅, react 🙂 ✅"
   ],
   "guest_frames": {
     "number": "********6325",
@@ -105,6 +105,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T05:13:01.852Z",
-  "uptime_s": 3603
+  "updated_at": "2026-11-07T05:13:05.605Z",
+  "uptime_s": 3607
 }
