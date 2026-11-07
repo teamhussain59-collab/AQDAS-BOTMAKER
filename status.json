@@ -57,8 +57,6 @@
     }
   ],
   "guest_log": [
-    "13:51:49 ********1467: status ***********3160: seen ✅",
-    "13:51:58 ********8582: status **********5528: seen ✅, react 🙂 ✅",
     "13:52:00 ********8582: status **********5528: seen ✅, react 🙂 ✅",
     "13:52:08 ********1467: status ***********3690: seen ✅",
     "13:52:37 ********1467: status ***********9311: seen ✅",
@@ -76,7 +74,9 @@
     "13:55:28 ********8574: status **********4734: seen ✅, react 🥱 ✅",
     "13:56:04 ********1467: status ***********5405: seen ✅",
     "13:56:24 ********0931: connection close 408 WebSocket Error ()",
-    "13:56:24 ********0931: expired / closed (code 408)"
+    "13:56:24 ********0931: expired / closed (code 408)",
+    "13:56:53 ********0931: code error: WhatsApp server se connection nahi bana (timeout)",
+    "13:56:56 ********1467: status **********2816: seen ✅"
   ],
   "guest_frames": null,
   "mem": {
@@ -97,6 +97,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T13:56:28.670Z",
-  "uptime_s": 12935
+  "updated_at": "2026-11-07T13:57:01.232Z",
+  "uptime_s": 12968
 }
