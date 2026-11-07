@@ -46,20 +46,10 @@
     {
       "number": "********8574",
       "state": "connected",
-      "autostatus": "off"
+      "autostatus": "view+react"
     }
   ],
   "guest_log": [
-    "03:21:00 ********8582: status ***********4940: seen ✅, react 🥱 ✅",
-    "03:21:57 ********8582: status ***********4940: seen ✅, react 🥱 ✅",
-    "03:22:37 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
-    "03:22:40 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
-    "03:22:42 ********8582: status ***********7722: seen ✅, react 🥱 ✅",
-    "03:22:43 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
-    "03:24:05 ********8582: status **********8151: seen ✅, react 🙂 ✅",
-    "03:25:24 ********8582: status ***********4007: seen ✅, react 🥱 ✅",
-    "03:27:39 ********8582: status ***********7722: seen ✅, react 🥱 ✅",
-    "03:28:04 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
     "03:28:30 ********1467: code bana",
     "03:28:31 ********8574: code bana",
     "03:28:45 ********1467: LINKING (phone ne code accept kiya)",
@@ -69,7 +59,17 @@
     "03:28:54 ********8574: LINKING (phone ne code accept kiya)",
     "03:28:59 ********8574: connection close 515 Stream Errored (restart required)",
     "03:29:05 ********8574: CONNECTED ✅",
-    "03:29:05 ********8574: brand: ahmi-jutt"
+    "03:29:05 ********8574: brand: ahmi-jutt",
+    "03:31:15 ********8582: status ***********7722: seen ✅, react 😼 ✅",
+    "03:31:16 ********8574: status ***********7722: seen ✅, react 😌 ✅",
+    "03:31:19 ********8574: status ***********7722: seen ✅, react 😘 ✅",
+    "03:31:21 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
+    "03:31:22 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
+    "03:31:22 ********8574: status ***********7722: seen ✅, react 😊 ✅",
+    "03:31:22 ********8574: status ***********7722: seen ✅, react 😳 ✅",
+    "03:31:23 ********8582: status ***********7722: seen ✅, react 🥱 ✅",
+    "03:31:24 ********8574: status ***********7722: seen ✅, react 😌 ✅",
+    "03:31:25 ********8582: status ***********7722: seen ✅, react 😼 ✅"
   ],
   "guest_frames": {
     "number": "********8574",
@@ -85,6 +85,6 @@
       "03:28:59 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T03:29:33.364Z",
-  "uptime_s": 39966
+  "updated_at": "2026-11-07T03:31:29.229Z",
+  "uptime_s": 40082
 }
