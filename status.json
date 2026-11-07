@@ -62,7 +62,6 @@
     }
   ],
   "guest_log": [
-    "06:14:36 ********8582: status **********5528: seen ✅, react 🙂 ✅",
     "06:14:39 ********7183: code bana",
     "06:14:56 ********7183: LINKING (phone ne code accept kiya)",
     "06:14:58 ********7183: connection close 515 Stream Errored (restart required)",
@@ -81,7 +80,8 @@
     "06:27:30 ********1467: status ***********9531: seen ✅",
     "06:28:02 ********3523: code bana",
     "06:28:50 ********3523: LINKING (phone ne code accept kiya)",
-    "06:29:17 ********8582: status ***********9069: seen ✅, react 🥱 ✅"
+    "06:29:17 ********8582: status ***********9069: seen ✅, react 🥱 ✅",
+    "06:31:27 ********3523: connection close 428 Connection Terminated by Server"
   ],
   "guest_frames": {
     "number": "********3523",
@@ -98,7 +98,8 @@
       "06:29:57 iq:result",
       "06:30:27 iq:result",
       "06:30:57 iq:get",
-      "06:30:57 iq:result"
+      "06:30:57 iq:result",
+      "06:31:27 xmlstreamend:"
     ]
   },
   "mem": {
@@ -119,6 +120,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T06:31:04.754Z",
-  "uptime_s": 8286
+  "updated_at": "2026-11-07T06:31:31.506Z",
+  "uptime_s": 8313
 }
