@@ -54,11 +54,14 @@
       "number": "********5634",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "********7183",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "06:11:04 ********8582: status ***********9748: seen ✅, react 🙂 ✅",
-    "06:11:05 ********8582: status **********5528: seen ✅, react 🥱 ✅",
     "06:11:07 ********8582: status ***********9748: seen ✅, react 😼 ✅",
     "06:11:09 ********8582: status ***********9748: seen ✅, react 🥱 ✅",
     "06:11:13 ********8582: status **********5528: seen ✅, react 😼 ✅",
@@ -76,20 +79,16 @@
     "06:12:10 ********8582: status **********5528: seen ✅, react 😼 ✅",
     "06:13:03 ********1467: status ***********1525: seen ✅",
     "06:13:04 ********8574: status ***********1525: seen ✅, react 🥵 ✅",
-    "06:13:06 ********8582: status ***********8353: seen ✅, react 🙂 ✅"
+    "06:13:06 ********8582: status ***********8353: seen ✅, react 🙂 ✅",
+    "06:14:36 ********8582: status **********5528: seen ✅, react 🙂 ✅",
+    "06:14:39 ********7183: code bana"
   ],
   "guest_frames": {
-    "number": "********5634",
-    "state": "connected",
+    "number": "********7183",
+    "state": "pairing",
     "frames": [
-      "05:26:41 iq:set <pair-device>",
-      "05:26:41 iq:result <link_code_companion_reg[companion_hello]>",
-      "05:27:11 iq:result",
-      "05:27:16 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "05:27:16 iq:result",
-      "05:27:19 iq:set <pair-success>",
-      "05:27:19 stream:error: code=515",
-      "05:27:19 xmlstreamend:"
+      "06:14:34 iq:set <pair-device>",
+      "06:14:34 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -110,6 +109,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T06:13:10.862Z",
-  "uptime_s": 7212
+  "updated_at": "2026-11-07T06:14:43.270Z",
+  "uptime_s": 7305
 }
