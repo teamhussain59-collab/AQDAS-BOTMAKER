@@ -72,8 +72,6 @@
     }
   ],
   "guest_log": [
-    "18:13:41 ********5115: logged out",
-    "18:13:50 ********1467: connection close 403 Connection Failure",
     "18:14:23 ********1467: connection close 403 Connection Failure",
     "18:14:58 ********1467: connection close 403 Connection Failure",
     "18:15:30 ********1467: connection close 403 Connection Failure",
@@ -91,22 +89,30 @@
     "18:19:49 ********1467: connection close 403 Connection Failure",
     "18:20:13 ********5115: connection close 428 Connection Terminated by Server",
     "18:20:17 qr: connection close 428 Connection Terminated by Server",
-    "18:20:17 qr: expired / closed (code 428)"
+    "18:20:17 qr: expired / closed (code 428)",
+    "18:20:20 ********5115: connection close 401 Connection Failure",
+    "18:20:20 ********5115: logged out"
   ],
   "guest_frames": {
-    "number": "",
-    "state": "expired",
+    "number": "********5115",
+    "state": "linking",
     "frames": [
-      "18:16:47 iq:set <pair-device>",
-      "18:17:17 iq:result",
-      "18:17:47 iq:result",
-      "18:18:17 iq:get",
-      "18:18:17 iq:result",
-      "18:18:47 iq:get",
+      "18:16:43 iq:set <pair-device>",
+      "18:16:43 iq:result <link_code_companion_reg[companion_hello]>",
+      "18:16:55 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "18:16:56 iq:result",
+      "18:17:13 iq:result",
+      "18:17:43 iq:result",
+      "18:18:13 iq:get",
+      "18:18:13 iq:result",
+      "18:18:43 iq:get",
+      "18:18:43 iq:result",
+      "18:18:47 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
       "18:18:47 iq:result",
-      "18:19:17 iq:result",
-      "18:19:47 iq:result",
-      "18:20:17 xmlstreamend:"
+      "18:19:13 iq:result",
+      "18:19:43 iq:get",
+      "18:19:43 iq:result",
+      "18:20:13 xmlstreamend:"
     ]
   },
   "mem": {
@@ -127,6 +133,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T18:20:17.464Z",
-  "uptime_s": 3779
+  "updated_at": "2026-11-07T18:20:20.985Z",
+  "uptime_s": 3782
 }
