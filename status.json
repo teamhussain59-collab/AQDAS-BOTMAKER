@@ -43,7 +43,7 @@
     {
       "number": "********5182",
       "state": "connected",
-      "autostatus": "off"
+      "autostatus": "view+react"
     },
     {
       "number": "********6325",
@@ -52,9 +52,6 @@
     }
   ],
   "guest_log": [
-    "05:07:54 ********1467: status ***********7046: seen ✅",
-    "05:10:58 ********8582: status **********3126: seen ✅, react 🙂 ✅",
-    "05:11:36 ********1467: status ***********6595: seen ✅",
     "05:11:56 ********6325: connection close 401 Stream Errored (conflict)",
     "05:11:56 ********6325: logged out",
     "05:12:05 ********6325: code bana",
@@ -71,7 +68,10 @@
     "05:15:17 ********1467: status ***********6211: seen ✅",
     "05:15:39 ********8582: status ***********8063: seen ✅, react 🥱 ✅",
     "05:16:10 ********1467: status ***********7046: seen ✅",
-    "05:16:18 ********8582: status ***********8353: seen ✅, react 🙂 ✅"
+    "05:16:18 ********8582: status ***********8353: seen ✅, react 🙂 ✅",
+    "05:17:18 ********8574: status **********2745: seen ✅, react 🥱 ✅",
+    "05:17:18 ********8582: status **********2745: seen ✅, react 🥱 ✅",
+    "05:17:21 ********8574: status ***********9024: seen ✅, react 🤤 ✅"
   ],
   "guest_frames": {
     "number": "********6325",
@@ -105,6 +105,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T05:17:02.234Z",
-  "uptime_s": 3844
+  "updated_at": "2026-11-07T05:17:25.008Z",
+  "uptime_s": 3867
 }
