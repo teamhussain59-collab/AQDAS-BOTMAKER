@@ -40,8 +40,6 @@
     }
   ],
   "guest_log": [
-    "23:09:37 ********8574: code bana",
-    "23:10:06 ********8574: LINKING (phone ne code accept kiya)",
     "23:10:09 ********8574: connection close 515 Stream Errored (restart required)",
     "23:10:14 ********8574: CONNECTED ✅",
     "23:10:14 ********8574: brand: ahmi-md",
@@ -59,7 +57,9 @@
     "00:10:47 ********7157: CONNECTED ✅",
     "00:14:36 ********8582: status **********8528: seen ✅, react 🙂 ✅",
     "00:36:32 ********8582: status ***********4424: seen ✅, react 🙂 ✅",
-    "00:39:21 ********8582: status ***********6489: seen ✅, react 🙂 ✅"
+    "00:39:21 ********8582: status ***********6489: seen ✅, react 🙂 ✅",
+    "01:29:19 ********7157: connection close 428 Connection Terminated",
+    "01:29:21 ********7157: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********8582",
@@ -74,6 +74,6 @@
       "23:25:00 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T01:28:31.687Z",
-  "uptime_s": 32705
+  "updated_at": "2026-11-07T01:29:25.962Z",
+  "uptime_s": 32759
 }
