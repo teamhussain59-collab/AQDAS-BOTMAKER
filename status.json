@@ -99,7 +99,9 @@
     "frames": [
       "18:16:47 iq:set <pair-device>",
       "18:17:17 iq:result",
-      "18:17:47 iq:result"
+      "18:17:47 iq:result",
+      "18:18:17 iq:get",
+      "18:18:17 iq:result"
     ]
   },
   "mem": {
@@ -120,6 +122,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T18:18:17.217Z",
-  "uptime_s": 3658
+  "updated_at": "2026-11-07T18:18:21.326Z",
+  "uptime_s": 3662
 }
