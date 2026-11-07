@@ -67,8 +67,6 @@
     }
   ],
   "guest_log": [
-    "06:45:57 ********8582: status ***********7745: seen ✅, react 😼 ✅",
-    "06:46:08 ********8582: status **********5528: seen ✅, react 🥱 ✅",
     "06:46:29 ********8574: status ***********9024: seen ✅, react 🥱 ✅",
     "06:47:31 ********1467: status ***********3896: seen ✅",
     "06:47:53 ********8582: status **********5528: seen ✅, react 😼 ✅",
@@ -86,20 +84,25 @@
     "06:52:14 ********8574: status ***********3032: seen ✅, react 🥱 ✅",
     "06:52:14 ********8582: status ***********3032: seen ✅, react 🥱 ✅",
     "06:52:39 ********1467: status ***********0181: seen ✅",
-    "06:52:43 ********8582: status **********3122: seen ✅, react 😼 ✅"
+    "06:52:43 ********8582: status **********3122: seen ✅, react 😼 ✅",
+    "06:52:55 ********8805: connection close 428 Connection Terminated by Server",
+    "06:52:55 ********8805: expired / closed (code 428)"
   ],
   "guest_frames": {
-    "number": "********7324",
-    "state": "connected",
+    "number": "********8805",
+    "state": "expired",
     "frames": [
-      "06:50:54 iq:set <pair-device>",
-      "06:50:54 iq:result <link_code_companion_reg[companion_hello]>",
-      "06:51:17 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "06:51:17 iq:result",
-      "06:51:24 iq:set <pair-success>",
-      "06:51:24 iq:result",
-      "06:51:25 stream:error: code=515",
-      "06:51:25 xmlstreamend:"
+      "06:49:25 iq:set <pair-device>",
+      "06:49:25 iq:result <link_code_companion_reg[companion_hello]>",
+      "06:49:55 iq:result",
+      "06:50:25 iq:result",
+      "06:50:55 iq:get",
+      "06:50:55 iq:result",
+      "06:51:25 iq:get",
+      "06:51:25 iq:result",
+      "06:51:55 iq:result",
+      "06:52:25 iq:result",
+      "06:52:55 xmlstreamend:"
     ]
   },
   "mem": {
@@ -120,6 +123,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T06:52:47.696Z",
-  "uptime_s": 9589
+  "updated_at": "2026-11-07T06:52:55.576Z",
+  "uptime_s": 9597
 }
