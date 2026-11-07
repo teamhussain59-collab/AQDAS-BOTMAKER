@@ -37,7 +37,7 @@ add('add', 'Member add karo: .add 923xxxxxxxxx', 'group', async (t, a, ctx) => {
   return res.map(r => { const s = String(r.status); return `${s === '200' ? '✅' : s === '403' ? '📨' : '❌'} ${num(r.jid || r.id)} ${s === '200' ? 'add ho gaya' : s === '403' ? 'privacy on hai, invite bhejna parega' : s === '409' ? 'pehle se group mein' : 'add nahi hua (' + s + ')'}` }).join('\n')
 }, { ...AB, u: '923001234567' })
 add('creategroup', 'Naya group banao: .creategroup naam', 'group', async (t, a, ctx) => { need(t.trim(), 'Group ka naam likho'); const g = await ctx.sock.groupCreate(t.trim().slice(0, 60), [ctx.sender]); let link = ''; try { link = '\n🔗 https://chat.whatsapp.com/' + await ctx.sock.groupInviteCode(g.id) } catch {} return `✅ Group ban gaya: *${t.trim()}*${link}` }, { o: true, alias: ['newgroup', 'gccreate'], u: '<naam>' })
-add('gcjid', 'Is group ka JID', 'group', (t, a, ctx) => `🆔 ${ctx.jid}`, { ...G, alias: ['groupjid', 'gid'] })
+add('gcjid', 'Is group ka JID', 'group', (t, a, ctx) => `🆔 ${ctx.jid}`, { ...G, alias: ['groupjid'] })
 add('groupdesc', 'Group ki description dekho', 'group', (t, a, ctx) => `📝 *${ctx.meta?.subject}*\n\n${ctx.meta?.desc || '(koi description nahi)'}`, { ...G, alias: ['gdesc'] })
 add('setgdesc', 'Group description badlo', 'group', async (t, a, ctx) => { need(t.trim(), 'Nayi description likho'); await ctx.sock.groupUpdateDescription(ctx.jid, t.trim()); return '✅ Description badal di' }, { ...AB, alias: ['setdesc'], u: '<text>' })
 add('setgname', 'Group ka naam badlo', 'group', async (t, a, ctx) => { need(t.trim(), 'Naya naam likho'); await ctx.sock.groupUpdateSubject(ctx.jid, t.trim().slice(0, 100)); return '✅ Naam badal diya: ' + t.trim() }, { ...AB, alias: ['setname', 'setsubject'], u: '<naam>' })
