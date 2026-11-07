@@ -50,9 +50,6 @@
     }
   ],
   "guest_log": [
-    "03:28:30 ********1467: code bana",
-    "03:28:31 ********8574: code bana",
-    "03:28:45 ********1467: LINKING (phone ne code accept kiya)",
     "03:28:49 ********1467: connection close 515 Stream Errored (restart required)",
     "03:28:53 ********1467: CONNECTED ✅",
     "03:28:53 ********1467: brand: ahmi-jutt",
@@ -69,7 +66,10 @@
     "03:31:22 ********8574: status ***********7722: seen ✅, react 😳 ✅",
     "03:31:23 ********8582: status ***********7722: seen ✅, react 🥱 ✅",
     "03:31:24 ********8574: status ***********7722: seen ✅, react 😌 ✅",
-    "03:31:25 ********8582: status ***********7722: seen ✅, react 😼 ✅"
+    "03:31:25 ********8582: status ***********7722: seen ✅, react 😼 ✅",
+    "03:31:48 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
+    "03:31:49 ********8574: status ***********7722: seen ✅, react 🙂 ✅",
+    "03:31:50 ********8582: status *********7311: seen ✅, react 😼 ✅"
   ],
   "guest_frames": {
     "number": "********8574",
@@ -85,6 +85,6 @@
       "03:28:59 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T03:31:33.367Z",
-  "uptime_s": 40086
+  "updated_at": "2026-11-07T03:31:54.238Z",
+  "uptime_s": 40107
 }
