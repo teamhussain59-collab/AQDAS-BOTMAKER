@@ -67,8 +67,6 @@
     }
   ],
   "guest_log": [
-    "17:41:34 ********1467: connection close 403 Connection Failure",
-    "17:42:05 ********1467: connection close 403 Connection Failure",
     "17:42:40 ********1467: connection close 403 Connection Failure",
     "17:42:47 ********8574: status **********2520: seen ✅, react 🥱 ✅",
     "17:42:53 ********8582: status ***********0291: seen ✅, react 😼 ✅",
@@ -86,11 +84,13 @@
     "17:47:10 ********1467: connection close 403 Connection Failure",
     "17:47:20 ********6092: status ***********2485: seen ✅",
     "17:47:41 ********1467: connection close 403 Connection Failure",
-    "17:48:15 ********1467: connection close 403 Connection Failure"
+    "17:48:15 ********1467: connection close 403 Connection Failure",
+    "17:48:23 ********1529: connection close 428 Connection Terminated by Server",
+    "17:48:23 ********1529: expired / closed (code 428)"
   ],
   "guest_frames": {
     "number": "********1529",
-    "state": "pairing",
+    "state": "expired",
     "frames": [
       "17:44:53 iq:set <pair-device>",
       "17:44:54 iq:result <link_code_companion_reg[companion_hello]>",
@@ -101,7 +101,8 @@
       "17:46:23 iq:result",
       "17:46:53 iq:result",
       "17:47:23 iq:result",
-      "17:47:53 iq:result"
+      "17:47:53 iq:result",
+      "17:48:23 xmlstreamend:"
     ]
   },
   "mem": {
@@ -122,6 +123,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T17:48:19.979Z",
-  "uptime_s": 1861
+  "updated_at": "2026-11-07T17:48:23.829Z",
+  "uptime_s": 1865
 }
