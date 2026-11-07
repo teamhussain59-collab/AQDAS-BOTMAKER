@@ -67,7 +67,6 @@
     }
   ],
   "guest_log": [
-    "17:17:34 ********6325: LINKING (phone ne code accept kiya)",
     "17:17:34 ********2634: LINKING (phone ne code accept kiya)",
     "17:17:34 ********5634: LINKING (phone ne code accept kiya)",
     "17:17:35 ********6325: CONNECTED ✅",
@@ -86,9 +85,10 @@
     "17:17:36 ********3032: CONNECTED ✅",
     "17:17:37 ********8582: CONNECTED ✅",
     "17:17:38 ********1467: connection close 403 Connection Failure",
-    "17:17:44 ********1467: connection close 403 Connection Failure"
+    "17:17:44 ********1467: connection close 403 Connection Failure",
+    "17:17:52 ********1467: connection close 403 Connection Failure"
   ],
   "guest_frames": null,
-  "updated_at": "2026-11-07T17:17:48.611Z",
-  "uptime_s": 30
+  "updated_at": "2026-11-07T17:17:56.549Z",
+  "uptime_s": 38
 }
