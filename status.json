@@ -70,9 +70,10 @@
     "number": "",
     "state": "pairing",
     "frames": [
-      "02:52:20 iq:set <pair-device>"
+      "02:52:20 iq:set <pair-device>",
+      "02:52:50 iq:result"
     ]
   },
-  "updated_at": "2026-11-07T02:52:24.777Z",
-  "uptime_s": 37738
+  "updated_at": "2026-11-07T02:52:54.635Z",
+  "uptime_s": 37768
 }
