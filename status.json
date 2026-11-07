@@ -67,8 +67,6 @@
     }
   ],
   "guest_log": [
-    "15:02:22 ********7157: code bana",
-    "15:02:30 ********7157: LINKING (phone ne code accept kiya)",
     "15:02:34 ********7157: connection close 515 Stream Errored (restart required)",
     "15:02:39 ********7157: CONNECTED ✅",
     "15:02:39 ********7157: brand: huse",
@@ -86,7 +84,9 @@
     "15:07:57 ********1467: status *********9971: seen ✅",
     "15:08:20 ********8582: status ***********9069: seen ✅, react 🥱 ✅",
     "15:08:55 ********8582: status ***********9069: seen ✅, react 🙂 ✅",
-    "15:09:39 ********5182: status **********2691: seen ✅, react 😇 ✅"
+    "15:09:39 ********5182: status **********2691: seen ✅, react 😇 ✅",
+    "15:10:29 ********1467: status ***********3292: seen ✅",
+    "15:10:32 ********8574: status ***********3292: seen ✅, react 🥱 ✅"
   ],
   "guest_frames": {
     "number": "********7157",
@@ -119,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T15:09:44.377Z",
-  "uptime_s": 17331
+  "updated_at": "2026-11-07T15:10:43.909Z",
+  "uptime_s": 17390
 }
