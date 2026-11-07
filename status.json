@@ -37,11 +37,19 @@
       "number": "********8582",
       "state": "connected",
       "autostatus": "view+react"
+    },
+    {
+      "number": "********1467",
+      "state": "pairing",
+      "autostatus": "off"
+    },
+    {
+      "number": "********8574",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "02:49:28 ********8582: status **********5058: seen ✅, react 😼 ✅",
-    "02:49:45 ********8582: status **********5058: seen ✅, react 😼 ✅",
     "02:50:41 ********8582: status ***********9413: seen ✅, react 😼 ✅",
     "02:55:50 qr: connection close 428 Connection Terminated by Server",
     "02:55:50 qr: expired / closed (code 428)",
@@ -59,21 +67,18 @@
     "03:24:05 ********8582: status **********8151: seen ✅, react 🙂 ✅",
     "03:25:24 ********8582: status ***********4007: seen ✅, react 🥱 ✅",
     "03:27:39 ********8582: status ***********7722: seen ✅, react 🥱 ✅",
-    "03:28:04 ********8582: status ***********7722: seen ✅, react 🙂 ✅"
+    "03:28:04 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
+    "03:28:30 ********1467: code bana",
+    "03:28:31 ********8574: code bana"
   ],
   "guest_frames": {
-    "number": "********8582",
-    "state": "connected",
+    "number": "********8574",
+    "state": "pairing",
     "frames": [
-      "23:24:32 iq:set <pair-device>",
-      "23:24:32 iq:result <link_code_companion_reg[companion_hello]>",
-      "23:24:56 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "23:24:57 iq:result",
-      "23:24:59 iq:set <pair-success>",
-      "23:25:00 stream:error: code=515",
-      "23:25:00 xmlstreamend:"
+      "03:28:26 iq:set <pair-device>",
+      "03:28:27 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
-  "updated_at": "2026-11-07T03:28:31.788Z",
-  "uptime_s": 39905
+  "updated_at": "2026-11-07T03:28:35.669Z",
+  "uptime_s": 39909
 }
