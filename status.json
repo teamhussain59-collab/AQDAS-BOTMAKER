@@ -45,13 +45,11 @@
     },
     {
       "number": "********8574",
-      "state": "linking",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "03:14:08 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
-    "03:20:39 ********8582: status ***********4940: seen ✅, react 😼 ✅",
     "03:21:00 ********8582: status ***********4940: seen ✅, react 🥱 ✅",
     "03:21:57 ********8582: status ***********4940: seen ✅, react 🥱 ✅",
     "03:22:37 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
@@ -69,11 +67,13 @@
     "03:28:53 ********1467: CONNECTED ✅",
     "03:28:53 ********1467: brand: ahmi-jutt",
     "03:28:54 ********8574: LINKING (phone ne code accept kiya)",
-    "03:28:59 ********8574: connection close 515 Stream Errored (restart required)"
+    "03:28:59 ********8574: connection close 515 Stream Errored (restart required)",
+    "03:29:05 ********8574: CONNECTED ✅",
+    "03:29:05 ********8574: brand: ahmi-jutt"
   ],
   "guest_frames": {
     "number": "********8574",
-    "state": "linking",
+    "state": "connected",
     "frames": [
       "03:28:26 iq:set <pair-device>",
       "03:28:27 iq:result <link_code_companion_reg[companion_hello]>",
@@ -85,6 +85,6 @@
       "03:28:59 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T03:29:03.646Z",
-  "uptime_s": 39937
+  "updated_at": "2026-11-07T03:29:09.133Z",
+  "uptime_s": 39942
 }
