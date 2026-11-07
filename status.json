@@ -40,22 +40,16 @@
     },
     {
       "number": "********1467",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     },
     {
       "number": "********8574",
-      "state": "pairing",
+      "state": "linking",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "02:50:41 ********8582: status ***********9413: seen ✅, react 😼 ✅",
-    "02:55:50 qr: connection close 428 Connection Terminated by Server",
-    "02:55:50 qr: expired / closed (code 428)",
-    "02:57:17 ********8582: status ***********3032: seen ✅, react 🥱 ✅",
-    "02:58:10 ********8582: status ***********9130: seen ✅, react 😼 ✅",
-    "02:59:04 ********8582: status ***********1336: seen ✅, react 🙂 ✅",
     "03:14:08 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
     "03:20:39 ********8582: status ***********4940: seen ✅, react 😼 ✅",
     "03:21:00 ********8582: status ***********4940: seen ✅, react 🥱 ✅",
@@ -69,16 +63,28 @@
     "03:27:39 ********8582: status ***********7722: seen ✅, react 🥱 ✅",
     "03:28:04 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
     "03:28:30 ********1467: code bana",
-    "03:28:31 ********8574: code bana"
+    "03:28:31 ********8574: code bana",
+    "03:28:45 ********1467: LINKING (phone ne code accept kiya)",
+    "03:28:49 ********1467: connection close 515 Stream Errored (restart required)",
+    "03:28:53 ********1467: CONNECTED ✅",
+    "03:28:53 ********1467: brand: ahmi-jutt",
+    "03:28:54 ********8574: LINKING (phone ne code accept kiya)",
+    "03:28:59 ********8574: connection close 515 Stream Errored (restart required)"
   ],
   "guest_frames": {
     "number": "********8574",
-    "state": "pairing",
+    "state": "linking",
     "frames": [
       "03:28:26 iq:set <pair-device>",
-      "03:28:27 iq:result <link_code_companion_reg[companion_hello]>"
+      "03:28:27 iq:result <link_code_companion_reg[companion_hello]>",
+      "03:28:54 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "03:28:54 iq:result",
+      "03:28:56 iq:result",
+      "03:28:58 iq:set <pair-success>",
+      "03:28:59 stream:error: code=515",
+      "03:28:59 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T03:28:35.669Z",
-  "uptime_s": 39909
+  "updated_at": "2026-11-07T03:29:03.646Z",
+  "uptime_s": 39937
 }
