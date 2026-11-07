@@ -32,7 +32,7 @@
     },
     {
       "number": "********3032",
-      "state": "linking",
+      "state": "connected",
       "autostatus": "off"
     },
     {
@@ -57,7 +57,8 @@
     "04:15:35 ********3032: code bana",
     "04:15:53 ********3032: LINKING (phone ne code accept kiya)",
     "04:15:56 ********2634: code bana",
-    "04:15:58 ********3032: connection close 515 Stream Errored (restart required)"
+    "04:15:58 ********3032: connection close 515 Stream Errored (restart required)",
+    "04:16:02 ********3032: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********2634",
@@ -85,6 +86,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T04:16:02.188Z",
-  "uptime_s": 184
+  "updated_at": "2026-11-07T04:16:06.634Z",
+  "uptime_s": 188
 }
