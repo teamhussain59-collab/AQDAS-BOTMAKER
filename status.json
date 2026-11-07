@@ -59,10 +59,14 @@
       "number": "********8805",
       "state": "pairing",
       "autostatus": "off"
+    },
+    {
+      "number": "********7324",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "06:40:49 ********1467: status ***********7722: seen ✅",
     "06:40:51 ********8582: status ***********7722: seen ✅, react 🙂 ✅",
     "06:40:52 ********8574: status ***********7722: seen ✅, react 🤤 ✅",
     "06:43:04 ********8582: status ***********7745: seen ✅, react 😼 ✅",
@@ -81,16 +85,15 @@
     "06:49:30 ********8805: code bana",
     "06:49:45 ********1467: status ***********3732: seen ✅",
     "06:50:32 ********1467: status ***********3732: seen ✅",
-    "06:50:33 ********8574: status ***********1986: seen ✅, react 🤤 ✅"
+    "06:50:33 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
+    "06:50:59 ********7324: code bana"
   ],
   "guest_frames": {
-    "number": "********8805",
+    "number": "********7324",
     "state": "pairing",
     "frames": [
-      "06:49:25 iq:set <pair-device>",
-      "06:49:25 iq:result <link_code_companion_reg[companion_hello]>",
-      "06:49:55 iq:result",
-      "06:50:25 iq:result"
+      "06:50:54 iq:set <pair-device>",
+      "06:50:54 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -111,6 +114,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T06:50:37.958Z",
-  "uptime_s": 9460
+  "updated_at": "2026-11-07T06:51:03.273Z",
+  "uptime_s": 9485
 }
