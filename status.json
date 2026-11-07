@@ -47,11 +47,6 @@
       "number": "********8574",
       "state": "connected",
       "autostatus": "view+react"
-    },
-    {
-      "number": "********3032",
-      "state": "pairing",
-      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -77,23 +72,19 @@
     "03:38:53 ********3032: expired / closed (code 428)"
   ],
   "guest_frames": {
-    "number": "********3032",
-    "state": "expired",
+    "number": "********8574",
+    "state": "connected",
     "frames": [
-      "03:35:23 iq:set <pair-device>",
-      "03:35:23 iq:result <link_code_companion_reg[companion_hello]>",
-      "03:35:32 notification:link_code_companion_reg <link_code_companion_reg[refresh_code]>",
-      "03:35:53 iq:result",
-      "03:36:23 iq:get",
-      "03:36:23 iq:result",
-      "03:36:53 iq:get",
-      "03:36:53 iq:result",
-      "03:37:23 iq:result",
-      "03:37:53 iq:result",
-      "03:38:23 iq:result",
-      "03:38:53 xmlstreamend:"
+      "03:28:26 iq:set <pair-device>",
+      "03:28:27 iq:result <link_code_companion_reg[companion_hello]>",
+      "03:28:54 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "03:28:54 iq:result",
+      "03:28:56 iq:result",
+      "03:28:58 iq:set <pair-success>",
+      "03:28:59 stream:error: code=515",
+      "03:28:59 xmlstreamend:"
     ]
   },
-  "updated_at": "2026-11-07T03:38:53.698Z",
-  "uptime_s": 40527
+  "updated_at": "2026-11-07T03:38:57.697Z",
+  "uptime_s": 40531
 }
