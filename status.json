@@ -26,11 +26,6 @@
       "autostatus": "off"
     },
     {
-      "number": "********7157",
-      "state": "connected",
-      "autostatus": "off"
-    },
-    {
       "number": "********1467",
       "state": "connected",
       "autostatus": "view"
@@ -67,8 +62,6 @@
     }
   ],
   "guest_log": [
-    "14:53:34 ********1467: status ***********9744: seen ✅",
-    "14:53:37 ********8582: status ***********9744: seen ✅, react 🙂 ✅",
     "14:53:40 ********9569: code bana",
     "14:53:56 ********8582: status ***********0999: seen ✅, react 😼 ✅",
     "14:54:00 ********9569: LINKING (phone ne code accept kiya)",
@@ -86,7 +79,9 @@
     "14:57:12 ********1467: status ***********0778: seen ✅",
     "14:57:27 ********8582: status **********7644: seen ✅, react 😼 ✅",
     "14:57:33 ********8582: status ***********4424: seen ✅, react 😼 ✅",
-    "14:59:06 ********1467: status ***********1442: seen ✅"
+    "14:59:06 ********1467: status ***********1442: seen ✅",
+    "14:59:52 ********7157: connection close 401 Stream Errored (conflict)",
+    "14:59:52 ********7157: logged out"
   ],
   "guest_frames": {
     "number": "********9569",
@@ -119,6 +114,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T14:59:11.061Z",
-  "uptime_s": 16698
+  "updated_at": "2026-11-07T14:59:56.260Z",
+  "uptime_s": 16743
 }
