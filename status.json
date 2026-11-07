@@ -67,7 +67,6 @@
     }
   ],
   "guest_log": [
-    "16:37:46 ********1467: connection close 403 Connection Failure",
     "16:38:21 ********1467: connection close 403 Connection Failure",
     "16:38:53 ********1467: connection close 403 Connection Failure",
     "16:39:05 ********8582: status **********1368: seen ✅, react 🥱 ✅",
@@ -86,7 +85,8 @@
     "16:42:35 ********6092: LINKING (phone ne code accept kiya)",
     "16:42:38 ********6092: connection close 515 Stream Errored (restart required)",
     "16:42:43 ********6092: CONNECTED ✅",
-    "16:42:43 ********6092: brand: ahmi-jutt"
+    "16:42:43 ********6092: brand: ahmi-jutt",
+    "16:42:49 ********1467: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********6092",
@@ -119,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T16:42:47.730Z",
-  "uptime_s": 22914
+  "updated_at": "2026-11-07T16:42:53.836Z",
+  "uptime_s": 22920
 }
