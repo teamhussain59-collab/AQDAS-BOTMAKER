@@ -47,23 +47,11 @@
     },
     {
       "number": "********6325",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "04:59:36 ********8582: status ***********8063: seen ✅, react 😼 ✅",
-    "05:01:34 ********8582: status ***********3375: seen ✅, react 🥱 ✅",
-    "05:01:35 ********1467: status ***********3032: seen ✅",
-    "05:01:37 ********8582: status ***********3032: seen ✅, react 😼 ✅",
-    "05:01:38 ********8574: status ***********3032: seen ✅, react 🥱 ✅",
-    "05:02:24 ********6325: code bana",
-    "05:02:57 ********1467: status ***********7046: seen ✅",
-    "05:03:02 ********6325: LINKING (phone ne code accept kiya)",
-    "05:05:18 ********1467: status ***********7722: seen ✅",
-    "05:05:19 ********8582: status ***********7722: seen ✅, react 😼 ✅",
-    "05:05:20 ********8574: status ***********7722: seen ✅, react 🥱 ✅",
-    "05:05:49 ********6325: connection close 428 Connection Terminated by Server",
     "05:05:55 ********6325: connection close 401 Connection Failure",
     "05:05:55 ********6325: logged out",
     "05:06:51 ********8582: status **********2745: seen ✅, react 🙂 ✅",
@@ -71,14 +59,32 @@
     "05:06:52 ********6325: code bana",
     "05:06:59 ********8582: status **********3126: seen ✅, react 😼 ✅",
     "05:07:06 ********8574: status ***********1986: seen ✅, react 🥱 ✅",
-    "05:07:12 ********8582: status **********0109: seen ✅, react 🥱 ✅"
+    "05:07:12 ********8582: status **********0109: seen ✅, react 🥱 ✅",
+    "05:07:20 ********6325: LINKING (phone ne code accept kiya)",
+    "05:07:23 ********6325: connection close 515 Stream Errored (restart required)",
+    "05:07:25 ********8574: status **********2520: seen ✅, react 🥱 ✅",
+    "05:07:26 ********8574: status **********2520: seen ✅, react 🥱 ✅",
+    "05:07:27 ********8574: status **********2520: seen ✅, react 🥱 ✅",
+    "05:07:28 ********8574: status **********2520: seen ✅, react 🤤 ✅",
+    "05:07:28 ********6325: CONNECTED ✅",
+    "05:07:28 ********6325: brand: hadibot",
+    "05:07:29 ********8574: status **********2520: seen ✅, react 🤤 ✅",
+    "05:07:30 ********8574: status **********2520: seen ✅, react 🤤 ✅",
+    "05:07:32 ********8574: status ***********5232: seen ✅, react 🥵 ✅",
+    "05:07:34 ********8582: status ***********5232: seen ✅, react 🥱 ✅"
   ],
   "guest_frames": {
     "number": "********6325",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "05:06:47 iq:set <pair-device>",
-      "05:06:47 iq:result <link_code_companion_reg[companion_hello]>"
+      "05:06:47 iq:result <link_code_companion_reg[companion_hello]>",
+      "05:07:17 iq:result",
+      "05:07:20 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "05:07:20 iq:result",
+      "05:07:23 iq:set <pair-success>",
+      "05:07:23 stream:error: code=515",
+      "05:07:23 xmlstreamend:"
     ]
   },
   "mem": {
@@ -99,6 +105,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T05:07:16.482Z",
-  "uptime_s": 3258
+  "updated_at": "2026-11-07T05:07:38.114Z",
+  "uptime_s": 3280
 }
