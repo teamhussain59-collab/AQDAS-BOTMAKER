@@ -59,13 +59,14 @@
       "number": "********7157",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "********6092",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "16:34:39 ********8582: status **********9885: seen ✅, react 🥱 ✅",
-    "16:35:03 ********1467: connection close 403 Connection Failure",
-    "16:35:34 ********1467: connection close 403 Connection Failure",
-    "16:36:07 ********1467: connection close 403 Connection Failure",
     "16:36:38 ********8582: status ***********2117: seen ✅, react 🙂 ✅",
     "16:36:41 ********1467: connection close 403 Connection Failure",
     "16:37:02 ********8582: status ***********1336: seen ✅, react 😼 ✅",
@@ -81,19 +82,18 @@
     "16:40:31 ********1467: connection close 403 Connection Failure",
     "16:40:57 ********8582: status **********9885: seen ✅, react 🥱 ✅",
     "16:41:05 ********1467: connection close 403 Connection Failure",
-    "16:41:39 ********1467: connection close 403 Connection Failure"
+    "16:41:39 ********1467: connection close 403 Connection Failure",
+    "16:42:16 ********1467: connection close 403 Connection Failure",
+    "16:42:18 ********8582: connection close 500 Stream Errored (ack)",
+    "16:42:22 ********8582: CONNECTED ✅",
+    "16:42:23 ********6092: code bana"
   ],
   "guest_frames": {
-    "number": "********7157",
-    "state": "connected",
+    "number": "********6092",
+    "state": "pairing",
     "frames": [
-      "15:02:17 iq:set <pair-device>",
-      "15:02:17 iq:result <link_code_companion_reg[companion_hello]>",
-      "15:02:30 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "15:02:30 iq:result",
-      "15:02:33 iq:set <pair-success>",
-      "15:02:34 stream:error: code=515",
-      "15:02:34 xmlstreamend:"
+      "16:42:18 iq:set <pair-device>",
+      "16:42:18 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -114,6 +114,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T16:41:43.480Z",
-  "uptime_s": 22850
+  "updated_at": "2026-11-07T16:42:27.554Z",
+  "uptime_s": 22894
 }
