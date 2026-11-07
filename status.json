@@ -9,6 +9,39 @@
   "panel_at": "2026-11-07T04:13:01.110Z",
   "slots_max": "unlimited",
   "commands": 857,
-  "updated_at": "2026-11-07T04:13:03.033Z",
-  "uptime_s": 5
+  "linked": [
+    {
+      "number": "********8574",
+      "state": "connected",
+      "autostatus": "view+react"
+    },
+    {
+      "number": "********7157",
+      "state": "connected",
+      "autostatus": "off"
+    },
+    {
+      "number": "********1467",
+      "state": "connected",
+      "autostatus": "view"
+    },
+    {
+      "number": "********8582",
+      "state": "connected",
+      "autostatus": "view+react"
+    }
+  ],
+  "guest_log": [
+    "04:13:02 ********7157: LINKING (phone ne code accept kiya)",
+    "04:13:02 ********8582: LINKING (phone ne code accept kiya)",
+    "04:13:02 ********1467: LINKING (phone ne code accept kiya)",
+    "04:13:02 ********8582: CONNECTED ✅",
+    "04:13:02 ********7157: CONNECTED ✅",
+    "04:13:03 ********1467: CONNECTED ✅",
+    "04:13:03 ********8574: LINKING (phone ne code accept kiya)",
+    "04:13:03 ********8574: CONNECTED ✅"
+  ],
+  "guest_frames": null,
+  "updated_at": "2026-11-07T04:13:07.905Z",
+  "uptime_s": 10
 }
