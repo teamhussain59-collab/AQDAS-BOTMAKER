@@ -62,14 +62,11 @@
     },
     {
       "number": "********0931",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "09:19:09 ********1467: status ***********0370: seen ✅",
-    "09:19:38 ********8574: status ***********4278: seen ✅, react 🥱 ✅",
-    "09:19:56 ********8574: status ***********1986: seen ✅, react 🥵 ✅",
     "09:20:43 ********1467: status ***********9630: seen ✅",
     "09:21:18 ********7157: connection close 408 Connection was lost",
     "09:21:18 ********7324: connection close 408 Connection was lost",
@@ -86,17 +83,25 @@
     "09:22:28 ********7157: connection close 408 Connection was lost",
     "09:22:32 ********7157: CONNECTED ✅",
     "09:22:32 ********7324: CONNECTED ✅",
-    "09:22:32 ********6325: CONNECTED ✅"
+    "09:22:32 ********6325: CONNECTED ✅",
+    "09:22:45 ********0931: LINKING (phone ne code accept kiya)",
+    "09:22:48 ********0931: connection close 515 Stream Errored (restart required)",
+    "09:22:51 ********0931: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********0931",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "09:21:30 iq:set <pair-device>",
       "09:21:31 iq:result <link_code_companion_reg[companion_hello]>",
       "09:22:00 iq:result",
       "09:22:30 iq:get",
-      "09:22:30 iq:result"
+      "09:22:30 iq:result",
+      "09:22:45 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "09:22:45 iq:result",
+      "09:22:47 iq:set <pair-success>",
+      "09:22:48 stream:error: code=515",
+      "09:22:48 xmlstreamend:"
     ]
   },
   "mem": {
@@ -117,6 +122,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T09:22:36.688Z",
-  "uptime_s": 18578
+  "updated_at": "2026-11-07T09:22:56.120Z",
+  "uptime_s": 18598
 }
