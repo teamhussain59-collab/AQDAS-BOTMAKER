@@ -62,12 +62,11 @@
     },
     {
       "number": "********5115",
-      "state": "pairing",
+      "state": "linking",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "18:06:07 ********5115: code bana",
     "18:06:33 ********1467: connection close 403 Connection Failure",
     "18:07:09 ********1467: connection close 403 Connection Failure",
     "18:07:19 ********5115: LINKING (phone ne code accept kiya)",
@@ -86,14 +85,17 @@
     "18:09:35 ********5115: connection close 401 Connection Failure",
     "18:09:35 ********5115: logged out",
     "18:09:58 ********1467: connection close 403 Connection Failure",
-    "18:10:10 ********5115: code bana"
+    "18:10:10 ********5115: code bana",
+    "18:10:28 ********5115: LINKING (phone ne code accept kiya)"
   ],
   "guest_frames": {
     "number": "********5115",
-    "state": "pairing",
+    "state": "linking",
     "frames": [
       "18:10:05 iq:set <pair-device>",
-      "18:10:05 iq:result <link_code_companion_reg[companion_hello]>"
+      "18:10:05 iq:result <link_code_companion_reg[companion_hello]>",
+      "18:10:28 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "18:10:28 iq:result"
     ]
   },
   "mem": {
@@ -114,6 +116,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T18:10:14.623Z",
-  "uptime_s": 3176
+  "updated_at": "2026-11-07T18:10:32.786Z",
+  "uptime_s": 3194
 }
