@@ -47,12 +47,11 @@
     },
     {
       "number": "********6325",
-      "state": "pairing",
+      "state": "linking",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "04:57:17 ********8582: status ***********3032: seen ✅, react 🥱 ✅",
     "04:57:30 ********1467: status ***********3032: seen ✅",
     "04:57:32 ********1467: status ***********3032: seen ✅",
     "04:57:32 ********8582: status ***********3032: seen ✅, react 🥱 ✅",
@@ -71,15 +70,19 @@
     "05:01:37 ********8582: status ***********3032: seen ✅, react 😼 ✅",
     "05:01:38 ********8574: status ***********3032: seen ✅, react 🥱 ✅",
     "05:02:24 ********6325: code bana",
-    "05:02:57 ********1467: status ***********7046: seen ✅"
+    "05:02:57 ********1467: status ***********7046: seen ✅",
+    "05:03:02 ********6325: LINKING (phone ne code accept kiya)"
   ],
   "guest_frames": {
     "number": "********6325",
-    "state": "pairing",
+    "state": "linking",
     "frames": [
       "05:02:19 iq:set <pair-device>",
       "05:02:19 iq:result <link_code_companion_reg[companion_hello]>",
-      "05:02:49 iq:result"
+      "05:02:49 iq:result",
+      "05:03:01 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "05:03:02 iq:result",
+      "05:03:02 notification:link_code_companion_reg <link_code_companion_reg[refresh_code]>"
     ]
   },
   "mem": {
@@ -100,6 +103,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-07T05:03:02.187Z",
-  "uptime_s": 3004
+  "updated_at": "2026-11-07T05:03:06.323Z",
+  "uptime_s": 3008
 }
