@@ -83,9 +83,11 @@
       "03:35:23 iq:set <pair-device>",
       "03:35:23 iq:result <link_code_companion_reg[companion_hello]>",
       "03:35:32 notification:link_code_companion_reg <link_code_companion_reg[refresh_code]>",
-      "03:35:53 iq:result"
+      "03:35:53 iq:result",
+      "03:36:23 iq:get",
+      "03:36:23 iq:result"
     ]
   },
-  "updated_at": "2026-11-07T03:36:21.434Z",
-  "uptime_s": 40375
+  "updated_at": "2026-11-07T03:36:27.532Z",
+  "uptime_s": 40381
 }
