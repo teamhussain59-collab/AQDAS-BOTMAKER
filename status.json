@@ -67,15 +67,11 @@
     },
     {
       "number": "********7324",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "19:05:00 ********9569: CONNECTED ✅",
-    "19:05:00 ********5182: LINKING (phone ne code accept kiya)",
-    "19:05:00 ********2634: CONNECTED ✅",
-    "19:05:00 ********8574: CONNECTED ✅",
     "19:05:00 ********7793: CONNECTED ✅",
     "19:05:00 ********8582: CONNECTED ✅",
     "19:05:00 ********5182: CONNECTED ✅",
@@ -91,14 +87,23 @@
     "19:05:29 ********7793: code error: WhatsApp server se connection nahi bana (timeout)",
     "19:06:12 ********8582: status **********0728: seen ✅, react 🙂 ✅",
     "19:08:01 ********8582: status ***********0242: seen ✅, react 🙂 ✅",
-    "19:13:32 ********7324: code bana"
+    "19:13:32 ********7324: code bana",
+    "19:13:53 ********7324: LINKING (phone ne code accept kiya)",
+    "19:13:56 ********7324: connection close 515 Stream Errored (restart required)",
+    "19:13:59 ********7324: CONNECTED ✅",
+    "19:13:59 ********7324: brand: zabimd"
   ],
   "guest_frames": {
     "number": "********7324",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "19:13:27 iq:set <pair-device>",
-      "19:13:27 iq:result <link_code_companion_reg[companion_hello]>"
+      "19:13:27 iq:result <link_code_companion_reg[companion_hello]>",
+      "19:13:53 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "19:13:53 iq:result",
+      "19:13:55 iq:set <pair-success>",
+      "19:13:56 stream:error: code=515",
+      "19:13:56 xmlstreamend:"
     ]
   },
   "mem": {
@@ -119,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T19:13:41.134Z",
-  "uptime_s": 533
+  "updated_at": "2026-11-08T19:14:04.000Z",
+  "uptime_s": 556
 }
