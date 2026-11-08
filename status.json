@@ -77,7 +77,6 @@
     }
   ],
   "guest_log": [
-    "08:00:04 ********5182: connection close 515 Stream Errored (restart required)",
     "08:00:07 ********8582: status ***********6754: seen ✅, react 😼 ✅",
     "08:00:09 ********5182: CONNECTED ✅",
     "08:00:09 ********5182: brand: zabimd",
@@ -96,7 +95,8 @@
     "08:04:09 ********1467: connection close 403 Connection Failure",
     "08:04:23 ********8582: status **********0307: seen ✅, react 😼 ✅",
     "08:04:28 ********3532: code bana",
-    "08:04:43 ********1467: connection close 403 Connection Failure"
+    "08:04:43 ********1467: connection close 403 Connection Failure",
+    "08:05:15 ********1467: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********3532",
@@ -125,6 +125,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T08:04:58.200Z",
-  "uptime_s": 53259
+  "updated_at": "2026-11-08T08:05:19.550Z",
+  "uptime_s": 53281
 }
