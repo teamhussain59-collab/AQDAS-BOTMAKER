@@ -77,8 +77,6 @@
     }
   ],
   "guest_log": [
-    "12:29:35 ********1467: connection close 401 Connection Failure",
-    "12:29:35 ********1467: logged out",
     "12:33:31 ********8582: status **********0965: seen ✅, react 😼 ✅",
     "12:33:42 ********8582: status **********0965: seen ✅, react 🥱 ✅",
     "12:34:50 ********8582: status ***********9343: seen ✅, react 😼 ✅",
@@ -96,7 +94,9 @@
     "12:50:38 ********3532: CONNECTED ✅",
     "12:50:38 ********3532: brand: zabimd",
     "12:51:49 ********8574: status ***********8532: seen ✅, react 🤤 ✅",
-    "12:52:03 ********8574: status ***********1986: seen ✅, react 🤤 ✅"
+    "12:52:03 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
+    "12:53:05 ********8574: status ***********0732: seen ✅, react 🥵 ✅",
+    "12:53:06 ********8574: status ***********1986: seen ✅, react 🥵 ✅"
   ],
   "guest_frames": {
     "number": "********3532",
@@ -129,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T12:52:26.348Z",
-  "uptime_s": 70507
+  "updated_at": "2026-11-08T12:53:11.957Z",
+  "uptime_s": 70553
 }
