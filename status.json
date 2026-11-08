@@ -64,6 +64,11 @@
       "number": "********8508",
       "state": "pairing",
       "autostatus": "off"
+    },
+    {
+      "number": "qr",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -89,12 +94,10 @@
     "04:28:01 ********8582: status ***********9146: seen ✅, react 😼 ✅"
   ],
   "guest_frames": {
-    "number": "********8508",
+    "number": "",
     "state": "pairing",
     "frames": [
-      "04:27:29 iq:set <pair-device>",
-      "04:27:29 iq:result <link_code_companion_reg[companion_hello]>",
-      "04:27:59 iq:result"
+      "04:28:32 iq:set <pair-device>"
     ]
   },
   "mem": {
@@ -115,6 +118,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:28:05.462Z",
-  "uptime_s": 40247
+  "updated_at": "2026-11-08T04:28:36.793Z",
+  "uptime_s": 40278
 }
