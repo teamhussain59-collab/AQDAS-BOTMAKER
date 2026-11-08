@@ -72,8 +72,6 @@
     }
   ],
   "guest_log": [
-    "05:40:04 ********8582: status **********0861: seen ✅, react 🙂 ✅",
-    "05:41:10 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
     "05:42:11 ********8574: status ***********1986: seen ✅, react 🥱 ✅",
     "05:42:11 ********8574: status ***********1986: seen ✅, react 🥵 ✅",
     "05:42:11 ********8574: status ***********6484: seen ✅, react 🥱 ✅",
@@ -91,14 +89,14 @@
     "05:45:14 ********8574: status ***********8353: seen ✅, react 🥱 ✅",
     "05:46:13 ********8574: status ***********0732: seen ✅, react 🥵 ✅",
     "05:46:14 ********8574: status ***********0732: seen ✅, react 🤤 ✅",
-    "05:46:14 ********8574: status **********2745: seen ✅, react 🤤 ✅"
+    "05:46:14 ********8574: status **********2745: seen ✅, react 🤤 ✅",
+    "05:47:02 ********6092: connection close 503 Stream Errored (unknown)",
+    "05:47:06 ********6092: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********7793",
     "state": "connected",
     "frames": [
-      "05:35:58 iq:result",
-      "05:36:28 iq:result",
       "05:36:58 ib: <edge_routing>",
       "05:36:58 iq:result",
       "05:37:28 iq:result",
@@ -121,7 +119,9 @@
       "05:44:59 iq:result",
       "05:45:29 iq:result",
       "05:45:59 iq:result",
-      "05:46:29 iq:result"
+      "05:46:29 iq:result",
+      "05:46:58 ib: <edge_routing>",
+      "05:46:59 iq:result"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T05:46:38.940Z",
-  "uptime_s": 44960
+  "updated_at": "2026-11-08T05:47:10.790Z",
+  "uptime_s": 44992
 }
