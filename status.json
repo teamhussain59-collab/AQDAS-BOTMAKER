@@ -69,11 +69,19 @@
       "number": "qr",
       "state": "pairing",
       "autostatus": "off"
+    },
+    {
+      "number": "********3532",
+      "state": "pairing",
+      "autostatus": "off"
+    },
+    {
+      "number": "qr",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "04:22:20 ********8582: status ***********1277: seen ✅, react 🙂 ✅",
-    "04:22:23 ********8582: status ***********1277: seen ✅, react 🥱 ✅",
     "04:22:26 ********8582: status ***********1277: seen ✅, react 😼 ✅",
     "04:22:28 ********8582: status ***********1277: seen ✅, react 😼 ✅",
     "04:22:29 ********8582: status ***********1277: seen ✅, react 😼 ✅",
@@ -91,18 +99,15 @@
     "04:28:01 ********8582: status ***********9146: seen ✅, react 😼 ✅",
     "04:29:08 ********8574: status ***********4784: seen ✅, react 🥱 ✅",
     "04:29:31 ********8582: status ***********8813: seen ✅, react 🥱 ✅",
-    "04:29:35 ********8574: status ***********4278: seen ✅, react 🥵 ✅"
+    "04:29:35 ********8574: status ***********4278: seen ✅, react 🥵 ✅",
+    "04:30:30 ********8582: status ***********9146: seen ✅, react 🥱 ✅",
+    "04:30:33 ********3532: code bana"
   ],
   "guest_frames": {
     "number": "",
     "state": "pairing",
     "frames": [
-      "04:28:32 iq:set <pair-device>",
-      "04:29:02 iq:result",
-      "04:29:32 iq:get",
-      "04:29:32 iq:result",
-      "04:30:02 iq:get",
-      "04:30:02 iq:result"
+      "04:30:31 iq:set <pair-device>"
     ]
   },
   "mem": {
@@ -123,6 +128,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:30:06.641Z",
-  "uptime_s": 40368
+  "updated_at": "2026-11-08T04:30:37.022Z",
+  "uptime_s": 40398
 }
