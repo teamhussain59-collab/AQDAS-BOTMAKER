@@ -69,6 +69,11 @@
       "number": "********3532",
       "state": "linking",
       "autostatus": "off"
+    },
+    {
+      "number": "qr",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -94,23 +99,10 @@
     "04:46:17 ********8582: status ***********4940: seen ✅, react 🥱 ✅"
   ],
   "guest_frames": {
-    "number": "********3532",
-    "state": "linking",
+    "number": "",
+    "state": "pairing",
     "frames": [
-      "04:43:42 iq:set <pair-device>",
-      "04:43:42 iq:result <link_code_companion_reg[companion_hello]>",
-      "04:44:12 iq:result",
-      "04:44:16 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "04:44:16 iq:result",
-      "04:44:26 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "04:44:27 iq:result",
-      "04:44:27 notification:link_code_companion_reg <link_code_companion_reg[refresh_code]>",
-      "04:44:42 iq:result",
-      "04:45:12 iq:get",
-      "04:45:12 iq:result",
-      "04:45:42 iq:get",
-      "04:45:42 iq:result",
-      "04:46:12 iq:result"
+      "04:46:35 iq:set <pair-device>"
     ]
   },
   "mem": {
@@ -131,6 +123,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:46:21.067Z",
-  "uptime_s": 41342
+  "updated_at": "2026-11-08T04:46:39.884Z",
+  "uptime_s": 41361
 }
