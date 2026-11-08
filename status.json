@@ -67,16 +67,11 @@
     },
     {
       "number": "********1467",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "05:55:03 ********6092: logged out",
-    "05:55:04 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
-    "05:55:26 ********8582: status **********7653: seen ✅, react 🙂 ✅",
-    "05:55:30 ********8582: status ***********8353: seen ✅, react 🥱 ✅",
-    "05:55:34 ********8582: status ***********8353: seen ✅, react 🙂 ✅",
     "05:56:05 ********8574: status ***********8353: seen ✅, react 🥵 ✅",
     "05:56:05 ********8574: status ***********1986: seen ✅, react 🥵 ✅",
     "05:56:06 ********8574: status ***********8353: seen ✅, react 🤤 ✅",
@@ -91,14 +86,24 @@
     "05:56:48 ********8582: status **********7653: seen ✅, react 🙂 ✅",
     "05:56:50 ********8582: status ***********7722: seen ✅, react 🥱 ✅",
     "05:56:52 ********8582: status ***********7722: seen ✅, react 🥱 ✅",
-    "05:57:25 ********1467: code bana"
+    "05:57:25 ********1467: code bana",
+    "05:57:41 ********1467: LINKING (phone ne code accept kiya)",
+    "05:57:45 ********8582: status ***********8353: seen ✅, react 🙂 ✅",
+    "05:57:46 ********1467: connection close 515 Stream Errored (restart required)",
+    "05:57:52 ********1467: CONNECTED ✅",
+    "05:57:52 ********1467: brand: ahmi-jutt"
   ],
   "guest_frames": {
     "number": "********1467",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "05:57:20 iq:set <pair-device>",
-      "05:57:21 iq:result <link_code_companion_reg[companion_hello]>"
+      "05:57:21 iq:result <link_code_companion_reg[companion_hello]>",
+      "05:57:40 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "05:57:41 iq:result",
+      "05:57:44 iq:set <pair-success>",
+      "05:57:46 stream:error: code=515",
+      "05:57:46 xmlstreamend:"
     ]
   },
   "mem": {
@@ -119,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T05:57:29.361Z",
-  "uptime_s": 45610
+  "updated_at": "2026-11-08T05:57:56.286Z",
+  "uptime_s": 45637
 }
