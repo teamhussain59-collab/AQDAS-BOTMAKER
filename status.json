@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "12:08:51 qr: connection close 428 Connection Terminated by Server",
     "12:08:51 qr: expired / closed (code 428)",
     "12:09:17 ********8574: status *********2297: seen ✅, react 🤤 ✅",
     "12:09:18 ********1467: connection close 403 Connection Failure",
@@ -91,7 +90,8 @@
     "12:14:16 ********1467: connection close 403 Connection Failure",
     "12:14:48 ********1467: connection close 403 Connection Failure",
     "12:14:57 ********2634: connection close 500 Stream Errored (ack)",
-    "12:15:00 ********2634: CONNECTED ✅"
+    "12:15:00 ********2634: CONNECTED ✅",
+    "12:15:20 ********1467: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********5182",
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T12:15:04.827Z",
-  "uptime_s": 68266
+  "updated_at": "2026-11-08T12:15:25.440Z",
+  "uptime_s": 68287
 }
