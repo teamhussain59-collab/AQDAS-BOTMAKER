@@ -72,8 +72,6 @@
     }
   ],
   "guest_log": [
-    "04:33:42 ********8582: status ***********3032: seen ✅, react 🥱 ✅",
-    "04:33:58 ********3532: connection close 428 Connection Terminated by Server",
     "04:34:01 qr: connection close 428 Connection Terminated by Server",
     "04:34:01 qr: expired / closed (code 428)",
     "04:34:02 ********3532: connection close 401 Connection Failure",
@@ -91,11 +89,13 @@
     "04:37:04 ********8582: status ***********4940: seen ✅, react 😼 ✅",
     "04:37:21 ********8582: status ***********4424: seen ✅, react 🥱 ✅",
     "04:38:26 ********8582: status ***********9744: seen ✅, react 😼 ✅",
-    "04:38:41 ********8582: status ***********9744: seen ✅, react 🥱 ✅"
+    "04:38:41 ********8582: status ***********9744: seen ✅, react 🥱 ✅",
+    "04:39:06 qr: connection close 428 Connection Terminated by Server",
+    "04:39:06 qr: expired / closed (code 428)"
   ],
   "guest_frames": {
     "number": "",
-    "state": "pairing",
+    "state": "expired",
     "frames": [
       "04:35:36 iq:set <pair-device>",
       "04:36:06 iq:result",
@@ -104,7 +104,8 @@
       "04:37:36 iq:result",
       "04:38:06 iq:get",
       "04:38:06 iq:result",
-      "04:38:36 iq:result"
+      "04:38:36 iq:result",
+      "04:39:06 xmlstreamend:"
     ]
   },
   "mem": {
@@ -125,6 +126,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:38:45.850Z",
-  "uptime_s": 40887
+  "updated_at": "2026-11-08T04:39:06.749Z",
+  "uptime_s": 40908
 }
