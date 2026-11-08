@@ -57,13 +57,11 @@
     },
     {
       "number": "********9569",
-      "state": "linking",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "02:12:05 ********8582: status ***********6175: seen ✅, react 😼 ✅",
-    "02:15:08 ********8574: status ***********1986: seen ✅, react 🥱 ✅",
     "02:17:01 ********5182: status ***********0169: seen ✅, react 😳 ✅",
     "02:20:10 ********8582: status *********1492: seen ✅, react 😼 ✅",
     "02:20:45 ********5634: connection close 428 Connection Terminated",
@@ -81,11 +79,13 @@
     "02:36:42 ********8582: status ***********8529: seen ✅, react 😼 ✅",
     "02:36:44 ********9569: code bana",
     "02:37:03 ********9569: LINKING (phone ne code accept kiya)",
-    "02:37:08 ********9569: connection close 515 Stream Errored (restart required)"
+    "02:37:08 ********9569: connection close 515 Stream Errored (restart required)",
+    "02:37:13 ********9569: CONNECTED ✅",
+    "02:37:13 ********9569: brand: ahmi-jutt"
   ],
   "guest_frames": {
     "number": "********9569",
-    "state": "linking",
+    "state": "connected",
     "frames": [
       "02:36:39 iq:set <pair-device>",
       "02:36:40 iq:result <link_code_companion_reg[companion_hello]>",
@@ -114,6 +114,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T02:37:12.774Z",
-  "uptime_s": 33594
+  "updated_at": "2026-11-08T02:37:17.581Z",
+  "uptime_s": 33599
 }
