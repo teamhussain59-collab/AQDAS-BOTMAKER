@@ -62,17 +62,11 @@
     },
     {
       "number": "********5182",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "04:01:13 ********5182: status ***********3637: seen ✅, react 😍 ✅",
-    "04:06:04 ********6325: status ***********3637: seen ✅, react 😇 ✅",
-    "04:06:04 ********5182: status ***********3637: seen ✅, react 😢 ✅",
-    "04:06:59 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
-    "04:07:56 ********8582: status ***********4940: seen ✅, react 🙂 ✅",
-    "04:07:59 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
     "04:07:59 ********8574: status ***********1986: seen ✅, react 🥵 ✅",
     "04:09:14 ********8582: status *********8088: seen ✅, react 🥱 ✅",
     "04:09:30 ********8582: status ***********2308: seen ✅, react 🙂 ✅",
@@ -86,14 +80,25 @@
     "04:19:21 ********5182: connection close 401 Stream Errored (conflict)",
     "04:19:22 ********5182: logged out",
     "04:19:24 ********8508: code bana",
-    "04:20:24 ********5182: code bana"
+    "04:20:24 ********5182: code bana",
+    "04:20:41 ********5182: LINKING (phone ne code accept kiya)",
+    "04:20:42 ********9569: connection close 428 Connection Terminated",
+    "04:20:44 ********5182: connection close 515 Stream Errored (restart required)",
+    "04:20:45 ********9569: CONNECTED ✅",
+    "04:20:49 ********5182: CONNECTED ✅",
+    "04:20:49 ********5182: brand: zabimd"
   ],
   "guest_frames": {
     "number": "********5182",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "04:20:19 iq:set <pair-device>",
-      "04:20:20 iq:result <link_code_companion_reg[companion_hello]>"
+      "04:20:20 iq:result <link_code_companion_reg[companion_hello]>",
+      "04:20:40 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "04:20:41 iq:result",
+      "04:20:43 iq:set <pair-success>",
+      "04:20:44 stream:error: code=515",
+      "04:20:44 xmlstreamend:"
     ]
   },
   "mem": {
@@ -114,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:20:28.199Z",
-  "uptime_s": 39789
+  "updated_at": "2026-11-08T04:20:53.901Z",
+  "uptime_s": 39815
 }
