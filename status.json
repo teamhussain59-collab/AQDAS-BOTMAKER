@@ -82,8 +82,6 @@
     }
   ],
   "guest_log": [
-    "04:23:51 ********8582: status ***********9744: seen ✅, react 🙂 ✅",
-    "04:23:55 ********8582: status **********7653: seen ✅, react 😼 ✅",
     "04:24:21 ********8582: status **********7653: seen ✅, react 🙂 ✅",
     "04:25:20 ********8582: status ***********6954: seen ✅, react 🥱 ✅",
     "04:26:25 ********8508: code bana",
@@ -101,37 +99,24 @@
     "04:31:04 ********3532: LINKING (phone ne code accept kiya)",
     "04:31:31 qr: connection close 515 Stream Errored (restart required)",
     "04:31:34 ********8508: CONNECTED ✅",
-    "04:31:34 ********8508: brand: zabimd"
+    "04:31:34 ********8508: brand: zabimd",
+    "04:32:02 qr: connection close 428 Connection Terminated by Server",
+    "04:32:02 qr: expired / closed (code 428)"
   ],
   "guest_frames": {
-    "number": "********8508",
-    "state": "connected",
+    "number": "",
+    "state": "expired",
     "frames": [
-      "04:31:34 iq:result <active>",
-      "04:31:34 ib: <offline>",
-      "04:31:34 notification:account_sync <devices>",
-      "04:31:34 iq:result <digest>",
-      "04:31:34 iq:result <props+erid>",
-      "04:31:34 iq:result <list>",
-      "04:31:34 iq:result <privacy>",
-      "04:31:35 iq:result <sync>",
-      "04:31:35 notification:server_sync <collection+collection>",
-      "04:31:35 iq:result <sync>",
-      "04:31:36 iq:result <usync>",
-      "04:31:36 notification:privacy_token <tokens>",
-      "04:31:36 iq:result <list>",
-      "04:31:36 notification:privacy_token <tokens>",
-      "04:31:36 iq:result",
-      "04:31:36 notification:privacy_token <tokens>",
-      "04:31:36 notification:server_sync <collection+collection+collection>",
-      "04:31:36 iq:result <sync>",
-      "04:31:36 notification:privacy_token <tokens>",
-      "04:31:36 notification:server_sync <collection>",
-      "04:31:37 iq:result <sync>",
-      "04:31:44 notification:privacy_token <tokens>",
-      "04:31:44 notification:privacy_token <tokens>",
-      "04:31:48 notification:privacy_token <tokens>",
-      "04:31:48 notification:privacy_token <tokens>"
+      "04:28:32 iq:set <pair-device>",
+      "04:29:02 iq:result",
+      "04:29:32 iq:get",
+      "04:29:32 iq:result",
+      "04:30:02 iq:get",
+      "04:30:02 iq:result",
+      "04:30:32 iq:result",
+      "04:31:02 iq:result",
+      "04:31:32 iq:result",
+      "04:32:02 xmlstreamend:"
     ]
   },
   "mem": {
@@ -152,6 +137,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:31:52.574Z",
-  "uptime_s": 40474
+  "updated_at": "2026-11-08T04:32:02.810Z",
+  "uptime_s": 40484
 }
