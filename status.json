@@ -61,17 +61,17 @@
       "autostatus": "off"
     },
     {
-      "number": "********8508",
-      "state": "pairing",
-      "autostatus": "off"
-    },
-    {
       "number": "qr",
       "state": "pairing",
       "autostatus": "off"
     },
     {
       "number": "********3532",
+      "state": "linking",
+      "autostatus": "off"
+    },
+    {
+      "number": "qr",
       "state": "pairing",
       "autostatus": "off"
     },
@@ -82,7 +82,6 @@
     }
   ],
   "guest_log": [
-    "04:22:29 ********8582: status ***********1277: seen ✅, react 😼 ✅",
     "04:22:30 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
     "04:22:49 ********8508: connection close 428 Connection Terminated by Server",
     "04:22:49 ********8508: expired / closed (code 428)",
@@ -101,21 +100,14 @@
     "04:30:30 ********8582: status ***********9146: seen ✅, react 🥱 ✅",
     "04:30:33 ********3532: code bana",
     "04:30:59 ********8508: connection close 428 Connection Terminated by Server",
-    "04:30:59 ********8508: expired / closed (code 428)"
+    "04:30:59 ********8508: expired / closed (code 428)",
+    "04:31:04 ********3532: LINKING (phone ne code accept kiya)"
   ],
   "guest_frames": {
-    "number": "********8508",
-    "state": "expired",
+    "number": "",
+    "state": "pairing",
     "frames": [
-      "04:27:29 iq:set <pair-device>",
-      "04:27:29 iq:result <link_code_companion_reg[companion_hello]>",
-      "04:27:59 iq:result",
-      "04:28:29 iq:result",
-      "04:28:59 iq:result",
-      "04:29:29 iq:result",
-      "04:29:59 iq:result",
-      "04:30:29 iq:result",
-      "04:30:59 xmlstreamend:"
+      "04:30:56 iq:set <pair-device>"
     ]
   },
   "mem": {
@@ -136,6 +128,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:30:59.625Z",
-  "uptime_s": 40421
+  "updated_at": "2026-11-08T04:31:08.467Z",
+  "uptime_s": 40430
 }
