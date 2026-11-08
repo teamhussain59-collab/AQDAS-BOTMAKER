@@ -67,7 +67,6 @@
     }
   ],
   "guest_log": [
-    "19:05:00 ********8582: LINKING (phone ne code accept kiya)",
     "19:05:00 ********3032: CONNECTED ✅",
     "19:05:00 ********9569: CONNECTED ✅",
     "19:05:00 ********5182: LINKING (phone ne code accept kiya)",
@@ -86,7 +85,8 @@
     "19:05:02 ********6325: CONNECTED ✅",
     "19:05:29 ********8508: code error: WhatsApp server se connection nahi bana (timeout)",
     "19:05:29 ********7793: code error: WhatsApp server se connection nahi bana (timeout)",
-    "19:06:12 ********8582: status **********0728: seen ✅, react 🙂 ✅"
+    "19:06:12 ********8582: status **********0728: seen ✅, react 🙂 ✅",
+    "19:08:01 ********8582: status ***********0242: seen ✅, react 🙂 ✅"
   ],
   "guest_frames": {
     "number": "********8508",
@@ -110,7 +110,8 @@
       "19:05:59 iq:result",
       "19:06:29 iq:result",
       "19:06:59 iq:result",
-      "19:07:29 iq:result"
+      "19:07:29 iq:result",
+      "19:07:59 iq:result"
     ]
   },
   "mem": {
@@ -131,6 +132,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T19:07:33.998Z",
-  "uptime_s": 166
+  "updated_at": "2026-11-08T19:08:05.790Z",
+  "uptime_s": 198
 }
