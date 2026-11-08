@@ -74,6 +74,11 @@
       "number": "********3532",
       "state": "pairing",
       "autostatus": "off"
+    },
+    {
+      "number": "********6985",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -99,13 +104,11 @@
     "08:05:15 ********1467: connection close 403 Connection Failure"
   ],
   "guest_frames": {
-    "number": "********3532",
+    "number": "********6985",
     "state": "pairing",
     "frames": [
-      "08:04:23 iq:set <pair-device>",
-      "08:04:24 iq:result <link_code_companion_reg[companion_hello]>",
-      "08:04:53 iq:result",
-      "08:05:23 iq:result"
+      "08:05:30 iq:set <pair-device>",
+      "08:05:31 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -126,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T08:05:28.821Z",
-  "uptime_s": 53290
+  "updated_at": "2026-11-08T08:05:35.040Z",
+  "uptime_s": 53296
 }
