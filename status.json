@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "05:34:41 ********8574: status ***********8353: seen ✅, react 🥵 ✅",
     "05:34:41 ********8582: status ***********8353: seen ✅, react 🥱 ✅",
     "05:35:20 ********8574: status ***********1986: seen ✅, react 🥵 ✅",
     "05:35:28 ********8582: status **********2745: seen ✅, react 🙂 ✅",
@@ -91,13 +90,13 @@
     "05:42:11 ********8574: status ***********1986: seen ✅, react 🥱 ✅",
     "05:42:11 ********8574: status ***********1986: seen ✅, react 🥵 ✅",
     "05:42:11 ********8574: status ***********6484: seen ✅, react 🥱 ✅",
-    "05:42:11 ********8574: status ***********1986: seen ✅, react 🥱 ✅"
+    "05:42:11 ********8574: status ***********1986: seen ✅, react 🥱 ✅",
+    "05:42:25 ********8582: status ***********8353: seen ✅, react 🙂 ✅"
   ],
   "guest_frames": {
     "number": "********7793",
     "state": "connected",
     "frames": [
-      "05:32:55 notification:devices <add>",
       "05:32:57 notification:devices <remove>",
       "05:32:58 iq:result",
       "05:33:28 iq:result",
@@ -121,7 +120,8 @@
       "05:40:50 notification:business <profile>",
       "05:40:59 iq:result",
       "05:41:29 iq:result",
-      "05:41:59 iq:result"
+      "05:41:59 iq:result",
+      "05:42:29 iq:result"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T05:42:26.160Z",
-  "uptime_s": 44707
+  "updated_at": "2026-11-08T05:42:33.088Z",
+  "uptime_s": 44714
 }
