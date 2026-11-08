@@ -106,7 +106,10 @@
       "04:43:42 iq:result <link_code_companion_reg[companion_hello]>",
       "04:44:12 iq:result",
       "04:44:16 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "04:44:16 iq:result"
+      "04:44:16 iq:result",
+      "04:44:26 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "04:44:27 iq:result",
+      "04:44:27 notification:link_code_companion_reg <link_code_companion_reg[refresh_code]>"
     ]
   },
   "mem": {
@@ -127,6 +130,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:44:24.659Z",
-  "uptime_s": 41226
+  "updated_at": "2026-11-08T04:44:31.419Z",
+  "uptime_s": 41233
 }
