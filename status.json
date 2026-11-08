@@ -71,15 +71,17 @@
       "autostatus": "off"
     },
     {
+      "number": "********7793",
+      "state": "connected",
+      "autostatus": "off"
+    },
+    {
       "number": "qr",
       "state": "pairing",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "04:37:04 ********8582: status ***********4940: seen ✅, react 😼 ✅",
-    "04:37:21 ********8582: status ***********4424: seen ✅, react 🥱 ✅",
-    "04:38:26 ********8582: status ***********9744: seen ✅, react 😼 ✅",
     "04:38:41 ********8582: status ***********9744: seen ✅, react 🥱 ✅",
     "04:39:06 qr: connection close 428 Connection Terminated by Server",
     "04:39:06 qr: expired / closed (code 428)",
@@ -96,13 +98,16 @@
     "04:45:06 ********8574: status ***********4784: seen ✅, react 🥱 ✅",
     "04:45:08 ********8574: status ***********4784: seen ✅, react 🤤 ✅",
     "04:45:33 ********8582: status **********9885: seen ✅, react 😼 ✅",
-    "04:46:17 ********8582: status ***********4940: seen ✅, react 🥱 ✅"
+    "04:46:17 ********8582: status ***********4940: seen ✅, react 🥱 ✅",
+    "04:46:54 qr: connection close 515 Stream Errored (restart required)",
+    "04:46:57 ********7793: CONNECTED ✅",
+    "04:46:58 ********7793: brand: zabimd"
   ],
   "guest_frames": {
     "number": "",
     "state": "pairing",
     "frames": [
-      "04:46:35 iq:set <pair-device>"
+      "04:47:06 iq:set <pair-device>"
     ]
   },
   "mem": {
@@ -123,6 +128,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:46:39.884Z",
-  "uptime_s": 41361
+  "updated_at": "2026-11-08T04:47:10.260Z",
+  "uptime_s": 41391
 }
