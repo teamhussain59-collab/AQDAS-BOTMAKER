@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "08:07:53 ********3532: connection close 428 Connection Terminated by Server",
     "08:07:53 ********3532: expired / closed (code 428)",
     "08:07:59 ********1467: connection close 403 Connection Failure",
     "08:08:21 ********8574: status ***********5411: seen ✅, react 🥵 ✅",
@@ -91,7 +90,8 @@
     "08:10:16 ********1467: connection close 403 Connection Failure",
     "08:10:51 ********1467: connection close 403 Connection Failure",
     "08:11:23 ********1467: connection close 403 Connection Failure",
-    "08:11:56 ********1467: connection close 403 Connection Failure"
+    "08:11:56 ********1467: connection close 403 Connection Failure",
+    "08:12:29 ********1467: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********5182",
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T08:12:26.309Z",
-  "uptime_s": 53707
+  "updated_at": "2026-11-08T08:12:33.575Z",
+  "uptime_s": 53715
 }
