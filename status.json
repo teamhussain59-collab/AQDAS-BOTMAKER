@@ -67,8 +67,6 @@
     }
   ],
   "guest_log": [
-    "19:05:00 ********9569: LINKING (phone ne code accept kiya)",
-    "19:05:00 ********8574: LINKING (phone ne code accept kiya)",
     "19:05:00 ********8508: CONNECTED ✅",
     "19:05:00 ********8582: LINKING (phone ne code accept kiya)",
     "19:05:00 ********3032: CONNECTED ✅",
@@ -86,7 +84,9 @@
     "19:05:01 ********1467: logged out",
     "19:05:01 ********6092: CONNECTED ✅",
     "19:05:01 ********3532: CONNECTED ✅",
-    "19:05:02 ********6325: CONNECTED ✅"
+    "19:05:02 ********6325: CONNECTED ✅",
+    "19:05:29 ********8508: code error: WhatsApp server se connection nahi bana (timeout)",
+    "19:05:29 ********7793: code error: WhatsApp server se connection nahi bana (timeout)"
   ],
   "guest_frames": {
     "number": "********8508",
@@ -105,9 +105,10 @@
       "19:05:01 iq:result <list>",
       "19:05:02 notification:privacy_token <tokens>",
       "19:05:02 iq:result",
-      "19:05:02 notification:privacy_token <tokens>"
+      "19:05:02 notification:privacy_token <tokens>",
+      "19:05:29 iq:result"
     ]
   },
-  "updated_at": "2026-11-08T19:05:06.257Z",
-  "uptime_s": 18
+  "updated_at": "2026-11-08T19:05:33.989Z",
+  "uptime_s": 46
 }
