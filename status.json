@@ -72,8 +72,6 @@
     }
   ],
   "guest_log": [
-    "19:05:00 ********7793: CONNECTED ✅",
-    "19:05:00 ********8582: CONNECTED ✅",
     "19:05:00 ********5182: CONNECTED ✅",
     "19:05:00 ********6092: LINKING (phone ne code accept kiya)",
     "19:05:00 ********3532: LINKING (phone ne code accept kiya)",
@@ -91,7 +89,9 @@
     "19:13:53 ********7324: LINKING (phone ne code accept kiya)",
     "19:13:56 ********7324: connection close 515 Stream Errored (restart required)",
     "19:13:59 ********7324: CONNECTED ✅",
-    "19:13:59 ********7324: brand: zabimd"
+    "19:13:59 ********7324: brand: zabimd",
+    "19:16:07 ********6325: connection close 408 Connection was lost",
+    "19:16:10 ********6325: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********7324",
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T19:14:56.262Z",
-  "uptime_s": 608
+  "updated_at": "2026-11-08T19:16:14.598Z",
+  "uptime_s": 687
 }
