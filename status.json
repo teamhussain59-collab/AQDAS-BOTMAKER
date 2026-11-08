@@ -67,7 +67,6 @@
     }
   ],
   "guest_log": [
-    "19:05:00 ********8508: CONNECTED ✅",
     "19:05:00 ********8582: LINKING (phone ne code accept kiya)",
     "19:05:00 ********3032: CONNECTED ✅",
     "19:05:00 ********9569: CONNECTED ✅",
@@ -86,7 +85,8 @@
     "19:05:01 ********3532: CONNECTED ✅",
     "19:05:02 ********6325: CONNECTED ✅",
     "19:05:29 ********8508: code error: WhatsApp server se connection nahi bana (timeout)",
-    "19:05:29 ********7793: code error: WhatsApp server se connection nahi bana (timeout)"
+    "19:05:29 ********7793: code error: WhatsApp server se connection nahi bana (timeout)",
+    "19:06:12 ********8582: status **********0728: seen ✅, react 🙂 ✅"
   ],
   "guest_frames": {
     "number": "********8508",
@@ -120,6 +120,6 @@
     "per_session_mb": 15,
     "room_for": 36
   },
-  "updated_at": "2026-11-08T19:06:03.998Z",
-  "uptime_s": 76
+  "updated_at": "2026-11-08T19:06:16.339Z",
+  "uptime_s": 88
 }
