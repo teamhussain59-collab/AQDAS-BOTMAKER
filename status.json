@@ -26,11 +26,6 @@
       "autostatus": "off"
     },
     {
-      "number": "********6092",
-      "state": "connected",
-      "autostatus": "view"
-    },
-    {
       "number": "********5634",
       "state": "connected",
       "autostatus": "off"
@@ -72,10 +67,6 @@
     }
   ],
   "guest_log": [
-    "05:45:12 ********8574: status ***********6484: seen ✅, react 🥱 ✅",
-    "05:45:13 ********8574: status **********2745: seen ✅, react 🥱 ✅",
-    "05:45:13 ********8574: status ***********1986: seen ✅, react 🥵 ✅",
-    "05:45:13 ********8582: status **********2745: seen ✅, react 🙂 ✅",
     "05:45:14 ********8574: status ***********8353: seen ✅, react 🥵 ✅",
     "05:45:14 ********8574: status ***********8353: seen ✅, react 🥱 ✅",
     "05:46:13 ********8574: status ***********0732: seen ✅, react 🥵 ✅",
@@ -91,13 +82,16 @@
     "05:54:29 ********8574: status ***********4784: seen ✅, react 🥱 ✅",
     "05:54:36 ********8582: status ***********8353: seen ✅, react 😼 ✅",
     "05:54:37 ********8574: status ***********8353: seen ✅, react 🥱 ✅",
-    "05:54:46 ********8574: status ***********4278: seen ✅, react 🥱 ✅"
+    "05:54:46 ********8574: status ***********4278: seen ✅, react 🥱 ✅",
+    "05:54:56 ********8582: status ***********4625: seen ✅, react 🙂 ✅",
+    "05:55:03 ********6092: connection close 401 Stream Errored (conflict)",
+    "05:55:03 ********6092: logged out",
+    "05:55:04 ********8574: status ***********1986: seen ✅, react 🤤 ✅"
   ],
   "guest_frames": {
     "number": "********7793",
     "state": "connected",
     "frames": [
-      "05:43:29 iq:result",
       "05:43:59 iq:result",
       "05:44:29 iq:result",
       "05:44:59 iq:result",
@@ -121,7 +115,8 @@
       "05:53:00 iq:result",
       "05:53:30 iq:result",
       "05:54:00 iq:result",
-      "05:54:30 iq:result"
+      "05:54:30 iq:result",
+      "05:55:00 iq:result"
     ]
   },
   "mem": {
@@ -142,6 +137,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T05:54:50.890Z",
-  "uptime_s": 45452
+  "updated_at": "2026-11-08T05:55:08.864Z",
+  "uptime_s": 45470
 }
