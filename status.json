@@ -36,11 +36,6 @@
       "autostatus": "off"
     },
     {
-      "number": "********5182",
-      "state": "connected",
-      "autostatus": "view+react"
-    },
-    {
       "number": "********2634",
       "state": "connected",
       "autostatus": "off"
@@ -59,12 +54,14 @@
       "number": "********9569",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "********8508",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "03:47:51 ********8582: status **********6845: seen ✅, react 🙂 ✅",
-    "03:52:39 ********8574: status ***********2669: seen ✅, react 🥱 ✅",
-    "03:57:45 ********5182: status **********9124: seen ✅, react 🙂 ✅",
     "04:00:45 ********8574: status ***********2669: seen ✅, react 🥱 ✅",
     "04:01:13 ********5182: status ***********3637: seen ✅, react 😍 ✅",
     "04:06:04 ********6325: status ***********3637: seen ✅, react 😇 ✅",
@@ -81,19 +78,17 @@
     "04:14:46 ********8582: status ***********9424: seen ✅, react 😼 ✅",
     "04:15:49 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
     "04:16:49 ********8574: status ***********6484: seen ✅, react 🥱 ✅",
-    "04:16:50 ********8574: status ***********6484: seen ✅, react 🥵 ✅"
+    "04:16:50 ********8574: status ***********6484: seen ✅, react 🥵 ✅",
+    "04:19:21 ********5182: connection close 401 Stream Errored (conflict)",
+    "04:19:22 ********5182: logged out",
+    "04:19:24 ********8508: code bana"
   ],
   "guest_frames": {
-    "number": "********9569",
-    "state": "connected",
+    "number": "********8508",
+    "state": "pairing",
     "frames": [
-      "02:36:39 iq:set <pair-device>",
-      "02:36:40 iq:result <link_code_companion_reg[companion_hello]>",
-      "02:37:03 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "02:37:03 iq:result",
-      "02:37:06 iq:set <pair-success>",
-      "02:37:08 stream:error: code=515",
-      "02:37:08 xmlstreamend:"
+      "04:19:19 iq:set <pair-device>",
+      "04:19:19 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -114,6 +109,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:19:26.773Z",
-  "uptime_s": 39728
+  "updated_at": "2026-11-08T04:19:28.337Z",
+  "uptime_s": 39729
 }
