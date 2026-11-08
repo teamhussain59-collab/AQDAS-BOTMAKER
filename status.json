@@ -77,7 +77,6 @@
     }
   ],
   "guest_log": [
-    "12:06:36 ********3532: CONNECTED ✅",
     "12:06:36 ********3532: brand: zabimd",
     "12:06:43 ********1467: connection close 403 Connection Failure",
     "12:07:15 ********1467: connection close 403 Connection Failure",
@@ -96,7 +95,8 @@
     "12:11:31 ********1467: connection close 403 Connection Failure",
     "12:11:52 ********8574: status *********2297: seen ✅, react 🥵 ✅",
     "12:12:03 ********1467: connection close 403 Connection Failure",
-    "12:12:03 ********8574: status *********2297: seen ✅, react 🥵 ✅"
+    "12:12:03 ********8574: status *********2297: seen ✅, react 🥵 ✅",
+    "12:12:35 ********1467: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********3532",
@@ -130,6 +130,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T12:12:26.348Z",
-  "uptime_s": 68107
+  "updated_at": "2026-11-08T12:12:41.699Z",
+  "uptime_s": 68123
 }
