@@ -61,11 +61,6 @@
       "autostatus": "off"
     },
     {
-      "number": "********1467",
-      "state": "connected",
-      "autostatus": "view+react"
-    },
-    {
       "number": "********5182",
       "state": "connected",
       "autostatus": "off"
@@ -94,16 +89,16 @@
     "12:29:35 ********1467: logged out"
   ],
   "guest_frames": {
-    "number": "********1467",
+    "number": "********5182",
     "state": "connected",
     "frames": [
-      "05:57:20 iq:set <pair-device>",
-      "05:57:21 iq:result <link_code_companion_reg[companion_hello]>",
-      "05:57:40 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "05:57:41 iq:result",
-      "05:57:44 iq:set <pair-success>",
-      "05:57:46 stream:error: code=515",
-      "05:57:46 xmlstreamend:"
+      "07:59:40 iq:set <pair-device>",
+      "07:59:41 iq:result <link_code_companion_reg[companion_hello]>",
+      "08:00:00 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "08:00:00 iq:result",
+      "08:00:03 iq:set <pair-success>",
+      "08:00:04 stream:error: code=515",
+      "08:00:04 xmlstreamend:"
     ]
   },
   "mem": {
@@ -124,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T12:29:35.954Z",
-  "uptime_s": 69137
+  "updated_at": "2026-11-08T12:29:41.757Z",
+  "uptime_s": 69143
 }
