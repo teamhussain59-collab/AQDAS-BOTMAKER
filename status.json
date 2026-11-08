@@ -59,6 +59,11 @@
       "number": "********8508",
       "state": "pairing",
       "autostatus": "off"
+    },
+    {
+      "number": "********5182",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -84,12 +89,11 @@
     "04:19:24 ********8508: code bana"
   ],
   "guest_frames": {
-    "number": "********8508",
+    "number": "********5182",
     "state": "pairing",
     "frames": [
-      "04:19:19 iq:set <pair-device>",
-      "04:19:19 iq:result <link_code_companion_reg[companion_hello]>",
-      "04:19:49 iq:result"
+      "04:20:19 iq:set <pair-device>",
+      "04:20:20 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -110,6 +114,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:19:53.202Z",
-  "uptime_s": 39754
+  "updated_at": "2026-11-08T04:20:24.001Z",
+  "uptime_s": 39785
 }
