@@ -77,7 +77,6 @@
     }
   ],
   "guest_log": [
-    "04:39:55 ********8574: status ***********4784: seen ✅, react 🤤 ✅",
     "04:42:39 qr: connection close 428 Connection Terminated by Server",
     "04:42:39 qr: expired / closed (code 428)",
     "04:43:47 ********3532: code bana",
@@ -96,13 +95,15 @@
     "04:46:58 ********7793: brand: zabimd",
     "04:47:12 ********3532: connection close 428 Connection Terminated by Server",
     "04:47:16 ********3532: connection close 401 Connection Failure",
-    "04:47:16 ********3532: logged out"
+    "04:47:16 ********3532: logged out",
+    "04:47:39 ********8582: status ***********4940: seen ✅, react 😼 ✅"
   ],
   "guest_frames": {
     "number": "",
     "state": "pairing",
     "frames": [
-      "04:47:06 iq:set <pair-device>"
+      "04:47:06 iq:set <pair-device>",
+      "04:47:36 iq:result"
     ]
   },
   "mem": {
@@ -123,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:47:26.885Z",
-  "uptime_s": 41408
+  "updated_at": "2026-11-08T04:47:43.078Z",
+  "uptime_s": 41424
 }
