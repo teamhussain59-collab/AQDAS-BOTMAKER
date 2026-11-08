@@ -76,15 +76,12 @@
       "autostatus": "off"
     },
     {
-      "number": "qr",
-      "state": "pairing",
+      "number": "********8508",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "04:22:30 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
-    "04:22:49 ********8508: connection close 428 Connection Terminated by Server",
-    "04:22:49 ********8508: expired / closed (code 428)",
     "04:23:51 ********8582: status ***********9744: seen ✅, react 🙂 ✅",
     "04:23:55 ********8582: status **********7653: seen ✅, react 😼 ✅",
     "04:24:21 ********8582: status **********7653: seen ✅, react 🙂 ✅",
@@ -101,13 +98,40 @@
     "04:30:33 ********3532: code bana",
     "04:30:59 ********8508: connection close 428 Connection Terminated by Server",
     "04:30:59 ********8508: expired / closed (code 428)",
-    "04:31:04 ********3532: LINKING (phone ne code accept kiya)"
+    "04:31:04 ********3532: LINKING (phone ne code accept kiya)",
+    "04:31:31 qr: connection close 515 Stream Errored (restart required)",
+    "04:31:34 ********8508: CONNECTED ✅",
+    "04:31:34 ********8508: brand: zabimd"
   ],
   "guest_frames": {
-    "number": "",
-    "state": "pairing",
+    "number": "********8508",
+    "state": "connected",
     "frames": [
-      "04:30:56 iq:set <pair-device>"
+      "04:31:34 iq:result <active>",
+      "04:31:34 ib: <offline>",
+      "04:31:34 notification:account_sync <devices>",
+      "04:31:34 iq:result <digest>",
+      "04:31:34 iq:result <props+erid>",
+      "04:31:34 iq:result <list>",
+      "04:31:34 iq:result <privacy>",
+      "04:31:35 iq:result <sync>",
+      "04:31:35 notification:server_sync <collection+collection>",
+      "04:31:35 iq:result <sync>",
+      "04:31:36 iq:result <usync>",
+      "04:31:36 notification:privacy_token <tokens>",
+      "04:31:36 iq:result <list>",
+      "04:31:36 notification:privacy_token <tokens>",
+      "04:31:36 iq:result",
+      "04:31:36 notification:privacy_token <tokens>",
+      "04:31:36 notification:server_sync <collection+collection+collection>",
+      "04:31:36 iq:result <sync>",
+      "04:31:36 notification:privacy_token <tokens>",
+      "04:31:36 notification:server_sync <collection>",
+      "04:31:37 iq:result <sync>",
+      "04:31:44 notification:privacy_token <tokens>",
+      "04:31:44 notification:privacy_token <tokens>",
+      "04:31:48 notification:privacy_token <tokens>",
+      "04:31:48 notification:privacy_token <tokens>"
     ]
   },
   "mem": {
@@ -128,6 +152,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:31:26.774Z",
-  "uptime_s": 40448
+  "updated_at": "2026-11-08T04:31:52.574Z",
+  "uptime_s": 40474
 }
