@@ -72,17 +72,11 @@
     },
     {
       "number": "********5182",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "07:53:31 ********1467: connection close 403 Connection Failure",
-    "07:54:04 ********1467: connection close 403 Connection Failure",
-    "07:54:36 ********1467: connection close 403 Connection Failure",
-    "07:55:10 ********1467: connection close 403 Connection Failure",
-    "07:55:40 ********8582: status ***********4881: seen ✅, react 😼 ✅",
-    "07:55:43 ********1467: connection close 403 Connection Failure",
     "07:56:03 ********8582: status **********6386: seen ✅, react 😼 ✅",
     "07:56:17 ********1467: connection close 403 Connection Failure",
     "07:56:51 ********1467: connection close 403 Connection Failure",
@@ -96,14 +90,25 @@
     "07:59:18 ********6985: code bana",
     "07:59:38 ********1467: connection close 403 Connection Failure",
     "07:59:45 ********5182: code bana",
-    "07:59:48 ********6985: LINKING (phone ne code accept kiya)"
+    "07:59:48 ********6985: LINKING (phone ne code accept kiya)",
+    "08:00:00 ********5182: LINKING (phone ne code accept kiya)",
+    "08:00:04 ********5182: connection close 515 Stream Errored (restart required)",
+    "08:00:07 ********8582: status ***********6754: seen ✅, react 😼 ✅",
+    "08:00:09 ********5182: CONNECTED ✅",
+    "08:00:09 ********5182: brand: zabimd",
+    "08:00:13 ********1467: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********5182",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "07:59:40 iq:set <pair-device>",
-      "07:59:41 iq:result <link_code_companion_reg[companion_hello]>"
+      "07:59:41 iq:result <link_code_companion_reg[companion_hello]>",
+      "08:00:00 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "08:00:00 iq:result",
+      "08:00:03 iq:set <pair-success>",
+      "08:00:04 stream:error: code=515",
+      "08:00:04 xmlstreamend:"
     ]
   },
   "mem": {
@@ -124,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T07:59:52.849Z",
-  "uptime_s": 52954
+  "updated_at": "2026-11-08T08:00:17.625Z",
+  "uptime_s": 52979
 }
