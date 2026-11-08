@@ -82,8 +82,6 @@
     }
   ],
   "guest_log": [
-    "04:28:01 ********8582: status ***********9146: seen ✅, react 😼 ✅",
-    "04:29:08 ********8574: status ***********4784: seen ✅, react 🥱 ✅",
     "04:29:31 ********8582: status ***********8813: seen ✅, react 🥱 ✅",
     "04:29:35 ********8574: status ***********4278: seen ✅, react 🥵 ✅",
     "04:30:30 ********8582: status ***********9146: seen ✅, react 🥱 ✅",
@@ -101,21 +99,34 @@
     "04:33:42 ********8582: status ***********3032: seen ✅, react 🥱 ✅",
     "04:33:58 ********3532: connection close 428 Connection Terminated by Server",
     "04:34:01 qr: connection close 428 Connection Terminated by Server",
-    "04:34:01 qr: expired / closed (code 428)"
+    "04:34:01 qr: expired / closed (code 428)",
+    "04:34:02 ********3532: connection close 401 Connection Failure",
+    "04:34:02 ********3532: logged out"
   ],
   "guest_frames": {
-    "number": "",
-    "state": "expired",
+    "number": "********3532",
+    "state": "linking",
     "frames": [
-      "04:30:31 iq:set <pair-device>",
-      "04:31:00 iq:result",
-      "04:31:30 iq:result",
-      "04:32:00 iq:result",
-      "04:32:30 iq:result",
-      "04:33:00 iq:result",
-      "04:33:30 iq:get",
-      "04:33:30 iq:result",
-      "04:34:00 xmlstreamend:"
+      "04:30:28 iq:set <pair-device>",
+      "04:30:28 iq:result <link_code_companion_reg[companion_hello]>",
+      "04:30:57 iq:result",
+      "04:31:04 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "04:31:04 iq:result",
+      "04:31:12 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "04:31:12 iq:result",
+      "04:31:27 iq:result",
+      "04:31:33 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "04:31:33 iq:result",
+      "04:31:40 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "04:31:41 iq:result",
+      "04:31:57 iq:result",
+      "04:32:27 iq:result",
+      "04:32:57 iq:get",
+      "04:32:57 iq:result",
+      "04:33:04 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "04:33:04 iq:result",
+      "04:33:27 iq:result",
+      "04:33:57 xmlstreamend:"
     ]
   },
   "mem": {
@@ -136,6 +147,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:34:01.129Z",
-  "uptime_s": 40602
+  "updated_at": "2026-11-08T04:34:02.231Z",
+  "uptime_s": 40603
 }
