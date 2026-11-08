@@ -102,10 +102,6 @@
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "04:31:34 ib: <offline>",
-      "04:31:34 notification:account_sync <devices>",
-      "04:31:34 iq:result <digest>",
-      "04:31:34 iq:result <props+erid>",
       "04:31:34 iq:result <list>",
       "04:31:34 iq:result <privacy>",
       "04:31:35 iq:result <sync>",
@@ -126,7 +122,11 @@
       "04:31:44 notification:privacy_token <tokens>",
       "04:31:48 notification:privacy_token <tokens>",
       "04:31:48 notification:privacy_token <tokens>",
-      "04:32:02 iq:result"
+      "04:32:02 iq:result",
+      "04:32:15 notification:privacy_token <tokens>",
+      "04:32:16 notification:privacy_token <tokens>",
+      "04:32:16 notification:privacy_token <tokens>",
+      "04:32:16 notification:privacy_token <tokens>"
     ]
   },
   "mem": {
@@ -147,6 +147,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:32:06.995Z",
-  "uptime_s": 40488
+  "updated_at": "2026-11-08T04:32:20.711Z",
+  "uptime_s": 40502
 }
