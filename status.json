@@ -77,9 +77,6 @@
     }
   ],
   "guest_log": [
-    "04:34:47 ********8582: status ***********3032: seen ✅, react 🙂 ✅",
-    "04:35:26 ********8582: status ***********0242: seen ✅, react 😼 ✅",
-    "04:35:42 ********8574: status ***********3032: seen ✅, react 🥱 ✅",
     "04:35:43 ********8574: status ***********4784: seen ✅, react 🥵 ✅",
     "04:35:57 qr: connection close 428 Connection Terminated by Server",
     "04:35:57 qr: expired / closed (code 428)",
@@ -96,20 +93,25 @@
     "04:43:47 ********3532: code bana",
     "04:44:14 qr: connection close 428 Connection Terminated by Server",
     "04:44:14 qr: expired / closed (code 428)",
-    "04:44:16 ********3532: LINKING (phone ne code accept kiya)"
+    "04:44:16 ********3532: LINKING (phone ne code accept kiya)",
+    "04:44:48 ********8582: status ***********4940: seen ✅, react 😼 ✅",
+    "04:44:50 qr: connection close 428 Connection Terminated by Server",
+    "04:44:50 qr: expired / closed (code 428)"
   ],
   "guest_frames": {
-    "number": "********3532",
-    "state": "linking",
+    "number": "",
+    "state": "expired",
     "frames": [
-      "04:43:42 iq:set <pair-device>",
-      "04:43:42 iq:result <link_code_companion_reg[companion_hello]>",
-      "04:44:12 iq:result",
-      "04:44:16 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "04:44:16 iq:result",
-      "04:44:26 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "04:44:27 iq:result",
-      "04:44:27 notification:link_code_companion_reg <link_code_companion_reg[refresh_code]>"
+      "04:41:20 iq:set <pair-device>",
+      "04:41:50 iq:result",
+      "04:42:20 iq:get",
+      "04:42:20 iq:result",
+      "04:42:50 iq:get",
+      "04:42:50 iq:result",
+      "04:43:20 iq:result",
+      "04:43:50 iq:result",
+      "04:44:20 iq:result",
+      "04:44:50 xmlstreamend:"
     ]
   },
   "mem": {
@@ -130,6 +132,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:44:31.419Z",
-  "uptime_s": 41233
+  "updated_at": "2026-11-08T04:44:50.830Z",
+  "uptime_s": 41252
 }
