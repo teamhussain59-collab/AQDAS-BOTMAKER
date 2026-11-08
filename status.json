@@ -77,8 +77,6 @@
     }
   ],
   "guest_log": [
-    "07:58:31 ********1467: connection close 403 Connection Failure",
-    "07:59:00 ********5182: connection close 401 Stream Errored (conflict)",
     "07:59:00 ********5182: logged out",
     "07:59:06 ********1467: connection close 403 Connection Failure",
     "07:59:06 ********8582: status ***********6754: seen ✅, react 🙂 ✅",
@@ -96,19 +94,31 @@
     "08:01:22 ********1467: connection close 403 Connection Failure",
     "08:01:54 ********1467: connection close 403 Connection Failure",
     "08:02:28 ********1467: connection close 403 Connection Failure",
-    "08:02:43 ********6985: connection close 428 Connection Terminated by Server"
+    "08:02:43 ********6985: connection close 428 Connection Terminated by Server",
+    "08:02:52 ********6985: connection close 401 Connection Failure",
+    "08:02:52 ********6985: logged out"
   ],
   "guest_frames": {
-    "number": "********5182",
-    "state": "connected",
+    "number": "********6985",
+    "state": "linking",
     "frames": [
-      "07:59:40 iq:set <pair-device>",
-      "07:59:41 iq:result <link_code_companion_reg[companion_hello]>",
-      "08:00:00 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "08:00:00 iq:result",
-      "08:00:03 iq:set <pair-success>",
-      "08:00:04 stream:error: code=515",
-      "08:00:04 xmlstreamend:"
+      "07:59:13 iq:set <pair-device>",
+      "07:59:13 iq:result <link_code_companion_reg[companion_hello]>",
+      "07:59:43 iq:result",
+      "07:59:48 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "07:59:48 iq:result",
+      "08:00:03 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "08:00:03 iq:result",
+      "08:00:13 iq:result",
+      "08:00:33 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "08:00:33 iq:result",
+      "08:00:43 iq:result",
+      "08:00:44 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "08:00:44 iq:result",
+      "08:01:13 iq:result",
+      "08:01:43 iq:result",
+      "08:02:13 iq:result",
+      "08:02:43 xmlstreamend:"
     ]
   },
   "mem": {
@@ -129,6 +139,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T08:02:48.549Z",
-  "uptime_s": 53130
+  "updated_at": "2026-11-08T08:02:52.710Z",
+  "uptime_s": 53134
 }
