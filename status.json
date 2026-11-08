@@ -64,10 +64,14 @@
       "number": "********9569",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "********7324",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "19:05:00 ********3032: CONNECTED ✅",
     "19:05:00 ********9569: CONNECTED ✅",
     "19:05:00 ********5182: LINKING (phone ne code accept kiya)",
     "19:05:00 ********2634: CONNECTED ✅",
@@ -86,37 +90,15 @@
     "19:05:29 ********8508: code error: WhatsApp server se connection nahi bana (timeout)",
     "19:05:29 ********7793: code error: WhatsApp server se connection nahi bana (timeout)",
     "19:06:12 ********8582: status **********0728: seen ✅, react 🙂 ✅",
-    "19:08:01 ********8582: status ***********0242: seen ✅, react 🙂 ✅"
+    "19:08:01 ********8582: status ***********0242: seen ✅, react 🙂 ✅",
+    "19:13:32 ********7324: code bana"
   ],
   "guest_frames": {
-    "number": "********8508",
-    "state": "connected",
+    "number": "********7324",
+    "state": "pairing",
     "frames": [
-      "19:05:00 iq:result <digest>",
-      "19:05:00 iq:result <list>",
-      "19:05:00 iq:result <privacy>",
-      "19:05:00 iq:result <props+erid>",
-      "19:05:01 iq:result <usync>",
-      "19:05:01 iq:result <list>",
-      "19:05:02 notification:privacy_token <tokens>",
-      "19:05:02 iq:result",
-      "19:05:02 notification:privacy_token <tokens>",
-      "19:05:29 iq:result",
-      "19:05:59 iq:result",
-      "19:06:29 iq:result",
-      "19:06:59 iq:result",
-      "19:07:29 iq:result",
-      "19:07:59 iq:result",
-      "19:08:29 iq:result",
-      "19:08:59 iq:result",
-      "19:09:29 iq:result",
-      "19:09:59 iq:result",
-      "19:10:29 iq:result",
-      "19:10:59 iq:result",
-      "19:11:29 iq:result",
-      "19:11:59 iq:result",
-      "19:12:29 iq:result",
-      "19:12:59 iq:result"
+      "19:13:27 iq:set <pair-device>",
+      "19:13:27 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -137,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T19:13:04.002Z",
-  "uptime_s": 496
+  "updated_at": "2026-11-08T19:13:41.134Z",
+  "uptime_s": 533
 }
