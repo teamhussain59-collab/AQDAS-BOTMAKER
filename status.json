@@ -62,17 +62,11 @@
     },
     {
       "number": "********6092",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "15:47:43 ********8582: status **********0756: seen ✅, react 😼 ✅",
-    "15:47:57 ********8582: status **********0963: seen ✅, react 🥱 ✅",
-    "15:49:15 ********8574: status ***********2439: seen ✅, react 🥵 ✅",
-    "15:49:32 ********8582: status ***********2956: seen ✅, react 😼 ✅",
-    "15:50:34 ********8574: status ***********2439: seen ✅, react 🤤 ✅",
-    "15:51:02 ********8582: status **********3597: seen ✅, react 🙂 ✅",
     "15:51:29 ********8574: status **********7653: seen ✅, react 🥵 ✅",
     "15:51:30 ********8582: status **********7653: seen ✅, react 🙂 ✅",
     "15:51:56 ********8574: status **********1842: seen ✅, react 💋 ✅",
@@ -86,14 +80,25 @@
     "15:58:01 ********8582: status **********8510: seen ✅, react 😼 ✅",
     "16:00:33 ********8582: status ***********3962: seen ✅, react 🙂 ✅",
     "16:01:10 ********8582: status ***********2284: seen ✅, react 😼 ✅",
-    "16:03:06 ********6092: code bana"
+    "16:03:06 ********6092: code bana",
+    "16:03:16 ********8582: status **********6230: seen ✅, react 🥱 ✅",
+    "16:03:18 ********6092: LINKING (phone ne code accept kiya)",
+    "16:03:21 ********6092: connection close 515 Stream Errored (restart required)",
+    "16:03:25 ********6092: CONNECTED ✅",
+    "16:03:26 ********8582: status **********6230: seen ✅, react 🥱 ✅",
+    "16:03:27 ********8582: status **********6230: seen ✅, react 🙂 ✅"
   ],
   "guest_frames": {
     "number": "********6092",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "16:03:01 iq:set <pair-device>",
-      "16:03:01 iq:result <link_code_companion_reg[companion_hello]>"
+      "16:03:01 iq:result <link_code_companion_reg[companion_hello]>",
+      "16:03:18 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "16:03:18 iq:result",
+      "16:03:20 iq:set <pair-success>",
+      "16:03:21 stream:error: code=515",
+      "16:03:21 xmlstreamend:"
     ]
   },
   "mem": {
@@ -114,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T16:03:28.912Z",
-  "uptime_s": 81970
+  "updated_at": "2026-11-08T16:03:31.845Z",
+  "uptime_s": 81973
 }
