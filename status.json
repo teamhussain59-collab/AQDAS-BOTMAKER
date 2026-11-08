@@ -74,6 +74,11 @@
       "number": "********8508",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "qr",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -99,34 +104,10 @@
     "04:32:02 qr: expired / closed (code 428)"
   ],
   "guest_frames": {
-    "number": "********8508",
-    "state": "connected",
+    "number": "",
+    "state": "pairing",
     "frames": [
-      "04:31:34 iq:result <list>",
-      "04:31:34 iq:result <privacy>",
-      "04:31:35 iq:result <sync>",
-      "04:31:35 notification:server_sync <collection+collection>",
-      "04:31:35 iq:result <sync>",
-      "04:31:36 iq:result <usync>",
-      "04:31:36 notification:privacy_token <tokens>",
-      "04:31:36 iq:result <list>",
-      "04:31:36 notification:privacy_token <tokens>",
-      "04:31:36 iq:result",
-      "04:31:36 notification:privacy_token <tokens>",
-      "04:31:36 notification:server_sync <collection+collection+collection>",
-      "04:31:36 iq:result <sync>",
-      "04:31:36 notification:privacy_token <tokens>",
-      "04:31:36 notification:server_sync <collection>",
-      "04:31:37 iq:result <sync>",
-      "04:31:44 notification:privacy_token <tokens>",
-      "04:31:44 notification:privacy_token <tokens>",
-      "04:31:48 notification:privacy_token <tokens>",
-      "04:31:48 notification:privacy_token <tokens>",
-      "04:32:02 iq:result",
-      "04:32:15 notification:privacy_token <tokens>",
-      "04:32:16 notification:privacy_token <tokens>",
-      "04:32:16 notification:privacy_token <tokens>",
-      "04:32:16 notification:privacy_token <tokens>"
+      "04:32:27 iq:set <pair-device>"
     ]
   },
   "mem": {
@@ -147,6 +128,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:32:26.152Z",
-  "uptime_s": 40507
+  "updated_at": "2026-11-08T04:32:36.998Z",
+  "uptime_s": 40518
 }
