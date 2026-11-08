@@ -95,17 +95,9 @@
   ],
   "guest_frames": {
     "number": "",
-    "state": "expired",
+    "state": "pairing",
     "frames": [
-      "04:35:36 iq:set <pair-device>",
-      "04:36:06 iq:result",
-      "04:36:36 iq:result",
-      "04:37:06 iq:result",
-      "04:37:36 iq:result",
-      "04:38:06 iq:get",
-      "04:38:06 iq:result",
-      "04:38:36 iq:result",
-      "04:39:06 xmlstreamend:"
+      "04:39:09 iq:set <pair-device>"
     ]
   },
   "mem": {
@@ -126,6 +118,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:39:06.749Z",
-  "uptime_s": 40908
+  "updated_at": "2026-11-08T04:39:17.271Z",
+  "uptime_s": 40918
 }
