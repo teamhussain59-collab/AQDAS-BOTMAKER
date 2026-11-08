@@ -67,14 +67,16 @@
     },
     {
       "number": "********6985",
+      "state": "linking",
+      "autostatus": "off"
+    },
+    {
+      "number": "********5182",
       "state": "pairing",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "07:51:55 ********1467: connection close 403 Connection Failure",
-    "07:52:29 ********1467: connection close 403 Connection Failure",
-    "07:53:00 ********1467: connection close 403 Connection Failure",
     "07:53:31 ********1467: connection close 403 Connection Failure",
     "07:54:04 ********1467: connection close 403 Connection Failure",
     "07:54:36 ********1467: connection close 403 Connection Failure",
@@ -91,14 +93,17 @@
     "07:59:00 ********5182: logged out",
     "07:59:06 ********1467: connection close 403 Connection Failure",
     "07:59:06 ********8582: status ***********6754: seen ✅, react 🙂 ✅",
-    "07:59:18 ********6985: code bana"
+    "07:59:18 ********6985: code bana",
+    "07:59:38 ********1467: connection close 403 Connection Failure",
+    "07:59:45 ********5182: code bana",
+    "07:59:48 ********6985: LINKING (phone ne code accept kiya)"
   ],
   "guest_frames": {
-    "number": "********6985",
+    "number": "********5182",
     "state": "pairing",
     "frames": [
-      "07:59:13 iq:set <pair-device>",
-      "07:59:13 iq:result <link_code_companion_reg[companion_hello]>"
+      "07:59:40 iq:set <pair-device>",
+      "07:59:41 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -119,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T07:59:28.749Z",
-  "uptime_s": 52930
+  "updated_at": "2026-11-08T07:59:52.849Z",
+  "uptime_s": 52954
 }
