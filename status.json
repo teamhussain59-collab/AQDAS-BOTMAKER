@@ -82,8 +82,6 @@
     }
   ],
   "guest_log": [
-    "08:01:54 ********1467: connection close 403 Connection Failure",
-    "08:02:28 ********1467: connection close 403 Connection Failure",
     "08:02:43 ********6985: connection close 428 Connection Terminated by Server",
     "08:02:52 ********6985: connection close 401 Connection Failure",
     "08:02:52 ********6985: logged out",
@@ -101,20 +99,24 @@
     "08:06:02 ********6985: LINKING (phone ne code accept kiya)",
     "08:06:24 ********1467: connection close 403 Connection Failure",
     "08:06:55 ********1467: connection close 403 Connection Failure",
-    "08:07:28 ********1467: connection close 403 Connection Failure"
+    "08:07:28 ********1467: connection close 403 Connection Failure",
+    "08:07:53 ********3532: connection close 428 Connection Terminated by Server",
+    "08:07:53 ********3532: expired / closed (code 428)"
   ],
   "guest_frames": {
-    "number": "********6985",
-    "state": "linking",
+    "number": "********3532",
+    "state": "expired",
     "frames": [
-      "08:05:30 iq:set <pair-device>",
-      "08:05:31 iq:result <link_code_companion_reg[companion_hello]>",
-      "08:06:00 iq:result",
-      "08:06:02 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "08:06:02 iq:result",
-      "08:06:30 iq:result",
-      "08:07:00 iq:result",
-      "08:07:30 iq:result"
+      "08:04:23 iq:set <pair-device>",
+      "08:04:24 iq:result <link_code_companion_reg[companion_hello]>",
+      "08:04:53 iq:result",
+      "08:05:23 iq:result",
+      "08:05:53 iq:get",
+      "08:05:53 iq:result",
+      "08:06:23 iq:result",
+      "08:06:53 iq:result",
+      "08:07:23 iq:result",
+      "08:07:53 xmlstreamend:"
     ]
   },
   "mem": {
@@ -135,6 +137,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T08:07:34.533Z",
-  "uptime_s": 53416
+  "updated_at": "2026-11-08T08:07:53.889Z",
+  "uptime_s": 53435
 }
