@@ -77,8 +77,6 @@
     }
   ],
   "guest_log": [
-    "12:33:31 ********8582: status **********0965: seen ✅, react 😼 ✅",
-    "12:33:42 ********8582: status **********0965: seen ✅, react 🥱 ✅",
     "12:34:50 ********8582: status ***********9343: seen ✅, react 😼 ✅",
     "12:42:46 ********8582: status ***********9841: seen ✅, react 🙂 ✅",
     "12:43:06 ********8574: status ***********8532: seen ✅, react 🥵 ✅",
@@ -96,19 +94,26 @@
     "12:51:49 ********8574: status ***********8532: seen ✅, react 🤤 ✅",
     "12:52:03 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
     "12:53:05 ********8574: status ***********0732: seen ✅, react 🥵 ✅",
-    "12:53:06 ********8574: status ***********1986: seen ✅, react 🥵 ✅"
+    "12:53:06 ********8574: status ***********1986: seen ✅, react 🥵 ✅",
+    "12:53:20 qr: connection close 428 Connection Terminated by Server",
+    "12:53:20 qr: expired / closed (code 428)"
   ],
   "guest_frames": {
-    "number": "********3532",
-    "state": "connected",
+    "number": "",
+    "state": "expired",
     "frames": [
-      "12:50:06 iq:set <pair-device>",
-      "12:50:06 iq:result <link_code_companion_reg[companion_hello]>",
-      "12:50:30 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "12:50:30 iq:result",
-      "12:50:32 iq:set <pair-success>",
-      "12:50:32 stream:error: code=515",
-      "12:50:32 xmlstreamend:"
+      "12:49:49 iq:set <pair-device>",
+      "12:50:19 iq:result",
+      "12:50:49 iq:get",
+      "12:50:49 iq:result",
+      "12:51:19 iq:result",
+      "12:51:49 iq:get",
+      "12:51:49 iq:result",
+      "12:52:19 iq:get",
+      "12:52:19 iq:result",
+      "12:52:49 iq:result",
+      "12:53:19 iq:result",
+      "12:53:20 xmlstreamend:"
     ]
   },
   "mem": {
@@ -129,6 +134,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T12:53:11.957Z",
-  "uptime_s": 70553
+  "updated_at": "2026-11-08T12:53:20.521Z",
+  "uptime_s": 70562
 }
