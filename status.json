@@ -72,10 +72,6 @@
     }
   ],
   "guest_log": [
-    "05:00:52 ********8574: status **********1842: seen ✅, react 🥵 ✅",
-    "05:01:06 ********8582: status **********7653: seen ✅, react 🙂 ✅",
-    "05:01:37 ********8574: status **********1842: seen ✅, react 🤤 ✅",
-    "05:02:14 ********8574: status **********1842: seen ✅, react 🥵 ✅",
     "05:02:32 ********8582: status **********7653: seen ✅, react 😼 ✅",
     "05:03:00 ********8574: status **********1842: seen ✅, react 🤤 ✅",
     "05:03:17 ********8574: status **********1842: seen ✅, react 🤤 ✅",
@@ -91,13 +87,16 @@
     "05:08:33 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
     "05:10:41 ********8582: status **********0861: seen ✅, react 😼 ✅",
     "05:11:19 ********8574: status ***********3032: seen ✅, react 🤤 ✅",
-    "05:11:46 ********8582: status ***********3032: seen ✅, react 🥱 ✅"
+    "05:11:46 ********8582: status ***********3032: seen ✅, react 🥱 ✅",
+    "05:12:02 ********8582: status ***********3032: seen ✅, react 😼 ✅",
+    "05:12:03 ********8574: status ***********3032: seen ✅, react 🥱 ✅",
+    "05:12:05 ********8582: status **********0861: seen ✅, react 😼 ✅",
+    "05:12:08 ********8574: status ***********3032: seen ✅, react 🥱 ✅"
   ],
   "guest_frames": {
     "number": "********7793",
     "state": "connected",
     "frames": [
-      "05:00:56 iq:result",
       "05:01:26 iq:result",
       "05:01:56 iq:result",
       "05:02:26 iq:result",
@@ -121,7 +120,8 @@
       "05:10:50 notification:encrypt <identity>",
       "05:10:57 iq:result",
       "05:11:27 iq:result",
-      "05:11:57 iq:result"
+      "05:11:57 iq:result",
+      "05:12:02 notification:devices <add>"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T05:12:01.428Z",
-  "uptime_s": 42883
+  "updated_at": "2026-11-08T05:12:12.378Z",
+  "uptime_s": 42894
 }
