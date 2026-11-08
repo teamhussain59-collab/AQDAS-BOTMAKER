@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "04:34:01 qr: connection close 428 Connection Terminated by Server",
     "04:34:01 qr: expired / closed (code 428)",
     "04:34:02 ********3532: connection close 401 Connection Failure",
     "04:34:02 ********3532: logged out",
@@ -91,7 +90,8 @@
     "04:38:26 ********8582: status ***********9744: seen ✅, react 😼 ✅",
     "04:38:41 ********8582: status ***********9744: seen ✅, react 🥱 ✅",
     "04:39:06 qr: connection close 428 Connection Terminated by Server",
-    "04:39:06 qr: expired / closed (code 428)"
+    "04:39:06 qr: expired / closed (code 428)",
+    "04:39:55 ********8574: status ***********4784: seen ✅, react 🤤 ✅"
   ],
   "guest_frames": {
     "number": "",
@@ -119,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-08T04:39:43.799Z",
-  "uptime_s": 40945
+  "updated_at": "2026-11-08T04:39:59.345Z",
+  "uptime_s": 40960
 }
