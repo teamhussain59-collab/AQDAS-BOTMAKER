@@ -67,10 +67,6 @@
     }
   ],
   "guest_log": [
-    "09:12:46 ********5182: CONNECTED ✅",
-    "09:12:46 ********5182: brand: zabimd",
-    "09:13:16 ********8574: status ***********4784: seen ✅, react 🤤 ✅",
-    "09:13:16 ********8574: status **********6503: seen ✅, react 💋 ✅",
     "09:16:01 ********8574: status **********6503: seen ✅, react 💋 ✅",
     "09:16:01 ********8574: status ***********0732: seen ✅, react 🥵 ✅",
     "09:17:15 ********8574: status **********1842: seen ✅, react 💋 ✅",
@@ -86,7 +82,11 @@
     "09:21:08 ********8574: status **********6503: seen ✅, react 🤤 ✅",
     "09:21:08 ********8574: status **********1842: seen ✅, react 🥵 ✅",
     "09:21:38 ********8574: status **********6503: seen ✅, react 💋 ✅",
-    "09:21:46 ********5182: status ***********5514: seen ✅, react 😇 ✅"
+    "09:21:46 ********5182: status ***********5514: seen ✅, react 😇 ✅",
+    "09:22:03 ********8574: status ***********4784: seen ✅, react skip (120/ghanta had)",
+    "09:22:03 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
+    "09:22:04 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "09:22:04 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)"
   ],
   "guest_frames": {
     "number": "********5182",
@@ -120,6 +120,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T09:21:50.356Z",
-  "uptime_s": 51422
+  "updated_at": "2026-11-09T09:22:08.603Z",
+  "uptime_s": 51441
 }
