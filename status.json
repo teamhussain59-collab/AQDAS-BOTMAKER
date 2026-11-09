@@ -72,8 +72,6 @@
     }
   ],
   "guest_log": [
-    "09:09:49 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "09:10:54 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
     "09:10:56 ********8574: status **********1842: seen ✅, react 🤤 ✅",
     "09:12:05 ********5182: code bana",
     "09:12:37 ********5182: LINKING (phone ne code accept kiya)",
@@ -91,20 +89,21 @@
     "09:17:47 ********8574: status **********1842: seen ✅, react 💋 ✅",
     "09:17:48 ********8574: status **********6503: seen ✅, react 💋 ✅",
     "09:17:52 ********8574: status **********1842: seen ✅, react skip (120/ghanta had)",
-    "09:17:52 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)"
+    "09:17:52 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "09:19:40 ********7324: connection close 401 Stream Errored (conflict)",
+    "09:19:40 ********7324: logged out"
   ],
   "guest_frames": {
-    "number": "********5182",
+    "number": "********7324",
     "state": "connected",
     "frames": [
-      "09:12:00 iq:set <pair-device>",
-      "09:12:00 iq:result <link_code_companion_reg[companion_hello]>",
-      "09:12:30 iq:result",
-      "09:12:37 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "09:12:37 iq:result",
-      "09:12:40 iq:set <pair-success>",
-      "09:12:41 stream:error: code=515",
-      "09:12:41 xmlstreamend:"
+      "07:00:50 iq:set <pair-device>",
+      "07:00:50 iq:result <link_code_companion_reg[companion_hello]>",
+      "07:01:07 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "07:01:07 iq:result",
+      "07:01:10 iq:set <pair-success>",
+      "07:01:10 stream:error: code=515",
+      "07:01:10 xmlstreamend:"
     ]
   },
   "mem": {
@@ -125,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T09:18:56.300Z",
-  "uptime_s": 51248
+  "updated_at": "2026-11-09T09:19:40.342Z",
+  "uptime_s": 51292
 }
