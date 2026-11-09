@@ -67,15 +67,11 @@
     },
     {
       "number": "********7324",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "06:43:22 ********8574: status **********1842: seen ✅, react 🥵 ✅",
-    "06:43:48 ********8574: status **********1842: seen ✅, react 💋 ✅",
-    "06:43:49 ********8574: status **********2745: seen ✅, react 🥵 ✅",
-    "06:44:32 ********8574: status **********6503: seen ✅, react 🤤 ✅",
     "06:49:17 ********6325: status ***********9345: seen ✅, react 😳 ✅",
     "06:49:47 ********8574: status **********1842: seen ✅, react 🤤 ✅",
     "06:50:24 ********8574: status **********7533: seen ✅, react 🤤 ✅",
@@ -91,14 +87,23 @@
     "06:58:25 ********8574: status **********7533: seen ✅, react 🤤 ✅",
     "06:58:29 ********8574: status **********7533: seen ✅, react 🥵 ✅",
     "07:00:52 ********8574: status ***********3032: seen ✅, react 🥵 ✅",
-    "07:00:55 ********7324: code bana"
+    "07:00:55 ********7324: code bana",
+    "07:01:07 ********7324: LINKING (phone ne code accept kiya)",
+    "07:01:10 ********7324: connection close 515 Stream Errored (restart required)",
+    "07:01:13 ********7324: CONNECTED ✅",
+    "07:01:13 ********7324: brand: zabimd"
   ],
   "guest_frames": {
     "number": "********7324",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "07:00:50 iq:set <pair-device>",
-      "07:00:50 iq:result <link_code_companion_reg[companion_hello]>"
+      "07:00:50 iq:result <link_code_companion_reg[companion_hello]>",
+      "07:01:07 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "07:01:07 iq:result",
+      "07:01:10 iq:set <pair-success>",
+      "07:01:10 stream:error: code=515",
+      "07:01:10 xmlstreamend:"
     ]
   },
   "mem": {
@@ -119,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T07:00:59.014Z",
-  "uptime_s": 42971
+  "updated_at": "2026-11-09T07:01:17.735Z",
+  "uptime_s": 42990
 }
