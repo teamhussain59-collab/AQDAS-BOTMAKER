@@ -67,15 +67,11 @@
     },
     {
       "number": "********5182",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "09:06:16 ********5182: logged out",
-    "09:06:34 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "09:06:36 ********8574: status ***********4784: seen ✅, react 🤤 ✅",
-    "09:06:46 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
     "09:06:47 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
     "09:06:49 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
     "09:06:50 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
@@ -91,15 +87,24 @@
     "09:09:49 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
     "09:10:54 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
     "09:10:56 ********8574: status **********1842: seen ✅, react 🤤 ✅",
-    "09:12:05 ********5182: code bana"
+    "09:12:05 ********5182: code bana",
+    "09:12:37 ********5182: LINKING (phone ne code accept kiya)",
+    "09:12:41 ********5182: connection close 515 Stream Errored (restart required)",
+    "09:12:46 ********5182: CONNECTED ✅",
+    "09:12:46 ********5182: brand: zabimd"
   ],
   "guest_frames": {
     "number": "********5182",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "09:12:00 iq:set <pair-device>",
       "09:12:00 iq:result <link_code_companion_reg[companion_hello]>",
-      "09:12:30 iq:result"
+      "09:12:30 iq:result",
+      "09:12:37 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "09:12:37 iq:result",
+      "09:12:40 iq:set <pair-success>",
+      "09:12:41 stream:error: code=515",
+      "09:12:41 xmlstreamend:"
     ]
   },
   "mem": {
@@ -120,6 +125,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T09:12:34.091Z",
-  "uptime_s": 50866
+  "updated_at": "2026-11-09T09:12:50.452Z",
+  "uptime_s": 50882
 }
