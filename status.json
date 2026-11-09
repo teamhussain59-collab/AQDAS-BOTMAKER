@@ -77,10 +77,6 @@
     }
   ],
   "guest_log": [
-    "07:01:10 ********7324: connection close 515 Stream Errored (restart required)",
-    "07:01:13 ********7324: CONNECTED ✅",
-    "07:01:13 ********7324: brand: zabimd",
-    "07:01:38 ********8574: status ***********3032: seen ✅, react 💋 ✅",
     "07:02:03 ********8574: status ***********3032: seen ✅, react 🤤 ✅",
     "07:02:51 ********8574: status ***********4278: seen ✅, react 💋 ✅",
     "07:03:12 ********8574: status ***********3032: seen ✅, react 🥵 ✅",
@@ -96,14 +92,19 @@
     "07:08:45 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
     "07:08:45 ********8574: status ***********1986: seen ✅, react 💋 ✅",
     "07:08:45 ********8574: status **********7533: seen ✅, react 🥵 ✅",
-    "07:10:26 ********2701: code bana"
+    "07:10:26 ********2701: code bana",
+    "07:10:45 ********8574: status ***********7722: seen ✅, react 🤤 ✅",
+    "07:10:46 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
+    "07:10:46 ********8574: status ***********7722: seen ✅, react 🤤 ✅",
+    "07:10:46 ********8574: status ***********7722: seen ✅, react 🥵 ✅"
   ],
   "guest_frames": {
     "number": "********2701",
     "state": "pairing",
     "frames": [
       "07:10:21 iq:set <pair-device>",
-      "07:10:21 iq:result <link_code_companion_reg[companion_hello]>"
+      "07:10:21 iq:result <link_code_companion_reg[companion_hello]>",
+      "07:10:50 iq:result"
     ]
   },
   "mem": {
@@ -124,6 +125,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T07:10:30.053Z",
-  "uptime_s": 43542
+  "updated_at": "2026-11-09T07:10:54.914Z",
+  "uptime_s": 43567
 }
