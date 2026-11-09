@@ -67,8 +67,6 @@
     }
   ],
   "guest_log": [
-    "09:10:56 ********8574: status **********1842: seen ✅, react 🤤 ✅",
-    "09:12:05 ********5182: code bana",
     "09:12:37 ********5182: LINKING (phone ne code accept kiya)",
     "09:12:41 ********5182: connection close 515 Stream Errored (restart required)",
     "09:12:46 ********5182: CONNECTED ✅",
@@ -86,7 +84,9 @@
     "09:17:52 ********8574: status **********1842: seen ✅, react skip (120/ghanta had)",
     "09:17:52 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
     "09:19:40 ********7324: connection close 401 Stream Errored (conflict)",
-    "09:19:40 ********7324: logged out"
+    "09:19:40 ********7324: logged out",
+    "09:21:08 ********8574: status **********6503: seen ✅, react 🤤 ✅",
+    "09:21:08 ********8574: status **********1842: seen ✅, react 🥵 ✅"
   ],
   "guest_frames": {
     "number": "********5182",
@@ -120,6 +120,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T09:20:56.300Z",
-  "uptime_s": 51368
+  "updated_at": "2026-11-09T09:21:12.631Z",
+  "uptime_s": 51385
 }
