@@ -72,9 +72,6 @@
     }
   ],
   "guest_log": [
-    "03:32:16 ********5634: connection close 515 Stream Errored (restart required)",
-    "03:32:21 ********5634: CONNECTED ✅",
-    "03:32:21 ********5634: brand: ma",
     "03:32:31 ********8574: status **********2745: seen ✅, react 🤤 ✅",
     "03:33:25 ********8574: status ***********4784: seen ✅, react 💋 ✅",
     "03:35:40 ********8574: status ***********9024: seen ✅, react 💋 ✅",
@@ -91,7 +88,10 @@
     "03:58:31 ********8574: status ***********0001: seen ✅, react 💋 ✅",
     "04:03:17 ********8574: status **********2520: seen ✅, react 🥵 ✅",
     "04:04:11 ********8574: status ***********9024: seen ✅, react 🤤 ✅",
-    "04:04:12 ********8574: status ***********9024: seen ✅, react 💋 ✅"
+    "04:04:12 ********8574: status ***********9024: seen ✅, react 💋 ✅",
+    "04:04:16 ********8574: status ***********9024: seen ✅, react 💋 ✅",
+    "04:04:17 ********8574: status ***********9024: seen ✅, react 🥵 ✅",
+    "04:04:17 ********8574: status ***********9024: seen ✅, react 🤤 ✅"
   ],
   "guest_frames": {
     "number": "********5634",
@@ -125,6 +125,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T04:04:16.125Z",
-  "uptime_s": 32368
+  "updated_at": "2026-11-09T04:04:21.512Z",
+  "uptime_s": 32373
 }
