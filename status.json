@@ -77,9 +77,6 @@
     }
   ],
   "guest_log": [
-    "19:11:06 ********8582: status **********5314: seen ✅, react 😼 ✅",
-    "19:11:49 ********8582: status **********5314: seen ✅, react 🥵 ✅",
-    "19:11:56 ********3032: connection close 428 Connection Terminated",
     "19:11:59 ********3032: CONNECTED ✅",
     "19:12:36 ********8582: status ***********7331: seen ✅, react 😴 ✅",
     "19:13:22 ********6092: connection close 428 Connection Terminated",
@@ -96,7 +93,10 @@
     "19:16:30 ********8574: status ***********1791: seen ✅, react 💋 ✅",
     "19:16:31 ********8574: status **********6503: seen ✅, react 💋 ✅",
     "19:18:16 ********7793: connection close 428 Connection Terminated",
-    "19:18:20 ********7793: CONNECTED ✅"
+    "19:18:20 ********7793: CONNECTED ✅",
+    "19:18:41 ********8582: connection close 428 Connection Terminated",
+    "19:18:45 ********8582: CONNECTED ✅",
+    "19:18:48 ********7793: code error: WhatsApp server se connection nahi bana (timeout)"
   ],
   "guest_frames": {
     "number": "********8582",
@@ -129,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T19:18:26.331Z",
-  "uptime_s": 87218
+  "updated_at": "2026-11-09T19:18:52.713Z",
+  "uptime_s": 87245
 }
