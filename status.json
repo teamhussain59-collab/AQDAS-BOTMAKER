@@ -73,7 +73,7 @@
     {
       "number": "********8582",
       "state": "connected",
-      "autostatus": "off"
+      "autostatus": "view"
     }
   ],
   "guest_log": [
@@ -129,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T11:40:56.573Z",
-  "uptime_s": 59769
+  "updated_at": "2026-11-09T11:41:13.024Z",
+  "uptime_s": 59785
 }
