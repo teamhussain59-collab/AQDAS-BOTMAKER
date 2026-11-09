@@ -77,7 +77,6 @@
     }
   ],
   "guest_log": [
-    "07:08:45 ********8574: status ***********1986: seen ✅, react 🤤 ✅",
     "07:08:45 ********8574: status ***********1986: seen ✅, react 💋 ✅",
     "07:08:45 ********8574: status **********7533: seen ✅, react 🥵 ✅",
     "07:10:26 ********2701: code bana",
@@ -96,7 +95,8 @@
     "07:14:12 ********9569: connection close 503 Stream Errored (unknown)",
     "07:14:15 ********9569: CONNECTED ✅",
     "07:16:20 ********8574: status ***********7722: seen ✅, react 🥵 ✅",
-    "07:16:27 ********8574: status ***********7722: seen ✅, react 💋 ✅"
+    "07:16:27 ********8574: status ***********7722: seen ✅, react 💋 ✅",
+    "07:17:16 ********2701: connection close 428 Connection Terminated by Server"
   ],
   "guest_frames": {
     "number": "********2701",
@@ -112,7 +112,8 @@
       "07:15:45 iq:result",
       "07:15:56 notification:link_code_companion_reg <link_code_companion_reg[refresh_code]>",
       "07:16:16 iq:result",
-      "07:16:46 iq:result"
+      "07:16:46 iq:result",
+      "07:17:16 xmlstreamend:"
     ]
   },
   "mem": {
@@ -133,6 +134,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T07:16:56.262Z",
-  "uptime_s": 43928
+  "updated_at": "2026-11-09T07:17:20.173Z",
+  "uptime_s": 43952
 }
