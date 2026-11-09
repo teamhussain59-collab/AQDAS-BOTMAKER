@@ -67,15 +67,11 @@
     },
     {
       "number": "********8582",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "23:33:41 ********6325: connection close 428 Connection Terminated",
-    "23:33:44 ********6325: CONNECTED ✅",
-    "23:37:46 ********8582: status ***********3162: seen ✅, react 🙂 ✅",
-    "23:38:38 ********8582: status ***********3162: seen ✅, react 🙂 ✅",
     "23:38:39 ********8582: status ***********3162: seen ✅, react 😼 ✅",
     "23:58:00 ********8582: status **********8528: seen ✅, react 🙂 ✅",
     "00:05:41 ********2634: connection close 500 Stream Errored (ack)",
@@ -91,14 +87,24 @@
     "01:34:55 ********8582: status **********3122: seen ✅, react 🙂 ✅",
     "01:35:36 ********8582: connection close 401 Stream Errored (conflict)",
     "01:35:36 ********8582: logged out",
-    "01:37:29 ********8582: code bana"
+    "01:37:29 ********8582: code bana",
+    "01:37:54 ********8582: LINKING (phone ne code accept kiya)",
+    "01:37:57 ********8582: connection close 515 Stream Errored (restart required)",
+    "01:38:01 ********8582: CONNECTED ✅",
+    "01:38:01 ********8582: brand: ahmi-jutt"
   ],
   "guest_frames": {
     "number": "********8582",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "01:37:24 iq:set <pair-device>",
-      "01:37:24 iq:result <link_code_companion_reg[companion_hello]>"
+      "01:37:24 iq:result <link_code_companion_reg[companion_hello]>",
+      "01:37:53 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "01:37:54 iq:result",
+      "01:37:54 iq:result",
+      "01:37:56 iq:set <pair-success>",
+      "01:37:57 stream:error: code=515",
+      "01:37:57 xmlstreamend:"
     ]
   },
   "mem": {
@@ -119,6 +125,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T01:37:33.751Z",
-  "uptime_s": 23566
+  "updated_at": "2026-11-09T01:38:05.119Z",
+  "uptime_s": 23597
 }
