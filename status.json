@@ -72,15 +72,11 @@
     },
     {
       "number": "********8582",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "11:22:59 ********8574: status **********6503: seen ✅, react 🥵 ✅",
-    "11:22:59 ********8574: status **********6503: seen ✅, react 🤤 ✅",
-    "11:22:59 ********8574: status **********6503: seen ✅, react 💋 ✅",
-    "11:22:59 ********8574: status **********6503: seen ✅, react 🤤 ✅",
     "11:23:00 ********8574: status **********6503: seen ✅, react 🥵 ✅",
     "11:23:01 ********8574: status **********6503: seen ✅, react 🤤 ✅",
     "11:23:01 ********8574: status **********6503: seen ✅, react 💋 ✅",
@@ -96,14 +92,23 @@
     "11:38:20 ********8574: status **********6503: seen ✅, react 🤤 ✅",
     "11:39:02 ********8574: status **********7533: seen ✅, react 💋 ✅",
     "11:39:03 ********8574: status **********6503: seen ✅, react 💋 ✅",
-    "11:39:55 ********8582: code bana"
+    "11:39:55 ********8582: code bana",
+    "11:40:09 ********8582: LINKING (phone ne code accept kiya)",
+    "11:40:13 ********8582: connection close 515 Stream Errored (restart required)",
+    "11:40:16 ********8582: CONNECTED ✅",
+    "11:40:16 ********8582: brand: ahmi-jutt"
   ],
   "guest_frames": {
     "number": "********8582",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "11:39:50 iq:set <pair-device>",
-      "11:39:51 iq:result <link_code_companion_reg[companion_hello]>"
+      "11:39:51 iq:result <link_code_companion_reg[companion_hello]>",
+      "11:40:09 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "11:40:09 iq:result",
+      "11:40:12 iq:set <pair-success>",
+      "11:40:12 stream:error: code=515",
+      "11:40:12 xmlstreamend:"
     ]
   },
   "mem": {
@@ -124,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T11:39:59.774Z",
-  "uptime_s": 59712
+  "updated_at": "2026-11-09T11:40:20.300Z",
+  "uptime_s": 59732
 }
