@@ -77,9 +77,6 @@
     }
   ],
   "guest_log": [
-    "12:08:00 ********8582: connection close 428 Connection Terminated",
-    "12:08:02 ********8582: CONNECTED ✅",
-    "12:09:45 ********6985: status ***********4606: seen ✅",
     "12:09:54 ********8582: status ***********6209: seen ✅, react 👻 ✅",
     "12:10:18 ********8582: status ***********8163: seen ✅, react 😼 ✅",
     "12:10:27 ********5182: status **********6579: seen ✅, react 🙂 ✅",
@@ -96,7 +93,10 @@
     "12:14:00 ********8582: status **********8157: seen ✅, react 😴 ✅",
     "12:14:11 ********8582: status ***********6209: seen ✅, react 👻 ✅",
     "12:14:45 ********6985: status ***********4606: seen ✅",
-    "12:16:23 ********8582: status ***********7353: seen ✅, react 👻 ✅"
+    "12:16:23 ********8582: status ***********7353: seen ✅, react 👻 ✅",
+    "12:17:24 ********8574: status **********2745: seen ✅, react 🥵 ✅",
+    "12:17:24 ********8582: status **********2745: seen ✅, react 👻 ✅",
+    "12:17:28 ********8582: status **********2565: seen ✅, react 👻 ✅"
   ],
   "guest_frames": {
     "number": "********8582",
@@ -129,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T12:16:56.638Z",
-  "uptime_s": 61929
+  "updated_at": "2026-11-09T12:17:32.336Z",
+  "uptime_s": 61964
 }
