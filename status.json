@@ -67,7 +67,6 @@
     }
   ],
   "guest_log": [
-    "01:37:57 ********8582: connection close 515 Stream Errored (restart required)",
     "01:38:01 ********8582: CONNECTED ✅",
     "01:38:01 ********8582: brand: ahmi-jutt",
     "01:40:48 ********8582: connection close 401 Stream Errored (conflict)",
@@ -86,7 +85,8 @@
     "02:24:09 ********8574: status ***********9024: seen ✅, react 🥵 ✅",
     "02:26:31 ********8574: status ***********9024: seen ✅, react 🤤 ✅",
     "02:28:42 ********8574: status ***********9024: seen ✅, react 🤤 ✅",
-    "02:30:06 ********8574: status ***********9024: seen ✅, react 💋 ✅"
+    "02:30:06 ********8574: status ***********9024: seen ✅, react 💋 ✅",
+    "02:30:41 ********8574: status ***********4784: seen ✅, react 🥵 ✅"
   ],
   "guest_frames": {
     "number": "********7324",
@@ -119,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T02:30:11.727Z",
-  "uptime_s": 26724
+  "updated_at": "2026-11-09T02:30:45.799Z",
+  "uptime_s": 26758
 }
