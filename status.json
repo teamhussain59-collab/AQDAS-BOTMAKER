@@ -72,8 +72,6 @@
     }
   ],
   "guest_log": [
-    "09:30:19 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "09:30:19 ********8574: status ***********8736: seen ✅, react skip (120/ghanta had)",
     "09:30:20 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
     "09:30:20 ********8574: status ***********1986: seen ✅, react skip (120/ghanta had)",
     "09:30:20 ********8574: status ***********0368: seen ✅, react skip (120/ghanta had)",
@@ -91,11 +89,13 @@
     "09:31:42 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
     "09:31:43 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
     "09:31:47 ********8574: status **********1842: seen ✅, react skip (120/ghanta had)",
-    "09:31:48 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)"
+    "09:31:48 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "09:32:17 ********7324: connection close 428 Connection Terminated by Server",
+    "09:32:17 ********7324: expired / closed (code 428)"
   ],
   "guest_frames": {
     "number": "********7324",
-    "state": "pairing",
+    "state": "expired",
     "frames": [
       "09:28:47 iq:set <pair-device>",
       "09:28:48 iq:result <link_code_companion_reg[companion_hello]>",
@@ -105,7 +105,8 @@
       "09:30:17 iq:result",
       "09:30:47 iq:result",
       "09:31:17 iq:result",
-      "09:31:47 iq:result"
+      "09:31:47 iq:result",
+      "09:32:17 xmlstreamend:"
     ]
   },
   "mem": {
@@ -126,6 +127,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T09:31:52.144Z",
-  "uptime_s": 52024
+  "updated_at": "2026-11-09T09:32:17.979Z",
+  "uptime_s": 52050
 }
