@@ -67,7 +67,6 @@
     }
   ],
   "guest_log": [
-    "01:37:54 ********8582: LINKING (phone ne code accept kiya)",
     "01:37:57 ********8582: connection close 515 Stream Errored (restart required)",
     "01:38:01 ********8582: CONNECTED ✅",
     "01:38:01 ********8582: brand: ahmi-jutt",
@@ -86,7 +85,8 @@
     "02:24:06 ********8574: status ***********9024: seen ✅, react 💋 ✅",
     "02:24:09 ********8574: status ***********9024: seen ✅, react 🥵 ✅",
     "02:26:31 ********8574: status ***********9024: seen ✅, react 🤤 ✅",
-    "02:28:42 ********8574: status ***********9024: seen ✅, react 🤤 ✅"
+    "02:28:42 ********8574: status ***********9024: seen ✅, react 🤤 ✅",
+    "02:30:06 ********8574: status ***********9024: seen ✅, react 💋 ✅"
   ],
   "guest_frames": {
     "number": "********7324",
@@ -119,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-09T02:29:55.689Z",
-  "uptime_s": 26708
+  "updated_at": "2026-11-09T02:30:11.727Z",
+  "uptime_s": 26724
 }
