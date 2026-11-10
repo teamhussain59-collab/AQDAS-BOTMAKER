@@ -72,14 +72,6 @@
     }
   ],
   "guest_log": [
-    "10:12:59 ********6092: connection close 403 Connection Failure",
-    "10:13:17 ********8582: status **********2780: seen ✅, react 😴 ✅",
-    "10:13:20 ********8582: status **********2780: seen ✅, react 😴 ✅",
-    "10:13:32 ********8582: status ***********7685: seen ✅, react 😴 ✅",
-    "10:13:34 ********6092: connection close 403 Connection Failure",
-    "10:14:07 ********6092: connection close 403 Connection Failure",
-    "10:14:39 ********6092: connection close 403 Connection Failure",
-    "10:15:02 ********8582: status ***********7685: seen ✅, react 🥵 ✅",
     "10:15:11 ********6092: connection close 403 Connection Failure",
     "10:15:42 ********8582: status ***********7685: seen ✅, react 💋 ✅",
     "10:15:44 ********6092: connection close 403 Connection Failure",
@@ -91,13 +83,20 @@
     "10:16:34 ********8574: status **********6503: seen ✅, react 🤤 ✅",
     "10:16:34 ********8582: status ***********7069: seen ✅, react 👻 ✅",
     "10:16:34 ********8582: status ***********7685: seen ✅, react 😼 ✅",
-    "10:16:50 ********6092: connection close 403 Connection Failure"
+    "10:16:50 ********6092: connection close 403 Connection Failure",
+    "10:17:20 ********8582: status **********2780: seen ✅, react 💋 ✅",
+    "10:17:23 ********6092: connection close 403 Connection Failure",
+    "10:17:25 ********8574: status ***********0001: seen ✅, react 🥵 ✅",
+    "10:17:27 ********8582: status ***********0001: seen ✅, react 😴 ✅",
+    "10:17:27 ********8574: status **********6503: seen ✅, react 💋 ✅",
+    "10:17:29 ********8574: status **********6503: seen ✅, react 💋 ✅",
+    "10:17:31 ********8574: status **********6503: seen ✅, react 🤤 ✅",
+    "10:17:33 ********8582: status ***********0001: seen ✅, react 👻 ✅"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "10:05:43 iq:result",
       "10:06:13 iq:result",
       "10:06:43 iq:result",
       "10:07:13 iq:result",
@@ -121,7 +120,8 @@
       "10:15:43 iq:result",
       "10:16:13 iq:result",
       "10:16:43 iq:result",
-      "10:17:13 iq:result"
+      "10:17:13 iq:result",
+      "10:17:33 notification:business <verified_name>"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-10T10:17:18.911Z",
-  "uptime_s": 4765
+  "updated_at": "2026-11-10T10:17:37.681Z",
+  "uptime_s": 4784
 }
