@@ -72,34 +72,31 @@
     }
   ],
   "guest_log": [
-    "16:20:58 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:20:58 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:20:59 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:00 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:00 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:01 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:01 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:02 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:03 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:03 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:04 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:04 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:05 ********6092: connection close 408 WebSocket Error (read ECONNRESET)",
-    "16:21:05 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:05 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:06 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:07 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
-    "16:21:36 ********8582: status **********6316: seen ✅, react 😼 ✅",
-    "16:21:39 ********6092: connection close 403 Connection Failure",
-    "16:21:54 ********8582: status ***********6296: seen ✅, react 👀 ✅"
+    "16:22:37 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:38 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:39 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:39 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:40 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:40 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:41 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:42 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:42 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:43 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:43 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:44 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:44 ********6092: connection close 403 Connection Failure",
+    "16:22:44 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:45 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:46 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:46 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:46 ********8574: status ***********0368: seen ✅, react skip (120/ghanta had)",
+    "16:22:47 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "16:22:49 ********8582: status ***********0368: seen ✅, react 👀 ✅"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "16:11:17 iq:result",
-      "16:11:29 notification:business <remove>",
-      "16:11:47 iq:result",
       "16:12:17 iq:result",
       "16:12:47 ib: <edge_routing>",
       "16:12:47 iq:result",
@@ -121,7 +118,10 @@
       "16:20:17 iq:result",
       "16:20:47 iq:result",
       "16:21:17 iq:result",
-      "16:21:47 iq:result"
+      "16:21:47 iq:result",
+      "16:22:17 iq:result",
+      "16:22:47 ib: <edge_routing>",
+      "16:22:47 iq:result"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-10T16:22:02.739Z",
-  "uptime_s": 26649
+  "updated_at": "2026-11-10T16:22:53.435Z",
+  "uptime_s": 26700
 }
