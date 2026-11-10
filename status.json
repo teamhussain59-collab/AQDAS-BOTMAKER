@@ -72,11 +72,6 @@
     }
   ],
   "guest_log": [
-    "16:42:59 ********8582: status ***********6296: seen ✅, react 👻 ✅",
-    "16:43:11 ********6092: connection close 403 Connection Failure",
-    "16:43:34 ********8582: status ***********5498: seen ✅, react 👻 ✅",
-    "16:43:43 ********8582: status **********9885: seen ✅, react 👀 ✅",
-    "16:43:46 ********6092: connection close 403 Connection Failure",
     "16:44:19 ********6092: connection close 403 Connection Failure",
     "16:44:51 ********6092: connection close 403 Connection Failure",
     "16:45:23 ********6092: connection close 403 Connection Failure",
@@ -91,13 +86,17 @@
     "16:49:49 ********6092: connection close 403 Connection Failure",
     "16:50:22 ********6092: connection close 403 Connection Failure",
     "16:50:56 ********6092: connection close 403 Connection Failure",
-    "16:51:30 ********6092: connection close 403 Connection Failure"
+    "16:51:30 ********6092: connection close 403 Connection Failure",
+    "16:52:01 ********6325: status **********0819: seen ✅, react 😘 ✅",
+    "16:52:02 ********6092: connection close 403 Connection Failure",
+    "16:52:04 ********8582: status ***********0368: seen ✅, react 😼 ✅",
+    "16:52:04 ********8574: status **********6503: seen ✅, react 💋 ✅",
+    "16:52:05 ********8574: status ***********0368: seen ✅, react 🥵 ✅"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "16:41:18 iq:result",
       "16:41:48 iq:result",
       "16:42:18 iq:result",
       "16:42:47 ib: <edge_routing>",
@@ -121,7 +120,8 @@
       "16:51:18 iq:result",
       "16:51:48 iq:result",
       "16:51:50 notification:server_sync <collection+collection>",
-      "16:51:50 iq:result <sync>"
+      "16:51:50 iq:result <sync>",
+      "16:51:58 notification:privacy_token <tokens>"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-10T16:52:02.743Z",
-  "uptime_s": 28449
+  "updated_at": "2026-11-10T16:52:09.153Z",
+  "uptime_s": 28455
 }
