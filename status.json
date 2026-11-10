@@ -72,11 +72,6 @@
     }
   ],
   "guest_log": [
-    "11:42:59 ********8582: status ***********6856: seen ✅, react 💋 ✅",
-    "11:43:10 ********6092: connection close 403 Connection Failure",
-    "11:43:40 ********6092: connection close 403 Connection Failure",
-    "11:44:13 ********6092: connection close 403 Connection Failure",
-    "11:44:44 ********6092: connection close 403 Connection Failure",
     "11:45:18 ********6092: connection close 403 Connection Failure",
     "11:45:50 ********6092: connection close 403 Connection Failure",
     "11:46:11 ********8582: status **********1708: seen ✅, react 💋 ✅",
@@ -91,13 +86,17 @@
     "11:49:03 ********8582: status **********5528: seen ✅, react 😴 ✅",
     "11:49:07 ********6092: connection close 403 Connection Failure",
     "11:49:41 ********6092: connection close 403 Connection Failure",
-    "11:50:15 ********6092: connection close 403 Connection Failure"
+    "11:50:15 ********6092: connection close 403 Connection Failure",
+    "11:50:42 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "11:50:42 ********8574: status **********2745: seen ✅, react skip (120/ghanta had)",
+    "11:50:45 ********8574: status **********6503: seen ✅, react 🥵 ✅",
+    "11:50:46 ********8582: status **********2745: seen ✅, react 🥵 ✅",
+    "11:50:49 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "11:39:16 iq:result",
       "11:39:46 iq:result",
       "11:40:16 iq:result",
       "11:40:46 iq:result",
@@ -121,7 +120,8 @@
       "11:48:46 iq:result",
       "11:49:16 iq:result",
       "11:49:46 iq:result",
-      "11:50:16 iq:result"
+      "11:50:16 iq:result",
+      "11:50:46 iq:result"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-10T11:50:20.485Z",
-  "uptime_s": 10347
+  "updated_at": "2026-11-10T11:50:53.793Z",
+  "uptime_s": 10380
 }
