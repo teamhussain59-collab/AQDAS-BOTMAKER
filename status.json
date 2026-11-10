@@ -72,11 +72,6 @@
     }
   ],
   "guest_log": [
-    "17:45:24 ********6092: connection close 403 Connection Failure",
-    "17:45:57 ********6092: connection close 403 Connection Failure",
-    "17:46:30 ********6092: connection close 403 Connection Failure",
-    "17:47:03 ********6092: connection close 403 Connection Failure",
-    "17:47:33 ********6092: connection close 403 Connection Failure",
     "17:48:08 ********6092: connection close 403 Connection Failure",
     "17:48:15 ********8582: status **********1368: seen ✅, react 👀 ✅",
     "17:48:38 ********6092: connection close 403 Connection Failure",
@@ -91,13 +86,17 @@
     "17:50:48 ********6092: connection close 403 Connection Failure",
     "17:50:51 ********8582: status **********0965: seen ✅, react 👀 ✅",
     "17:51:22 ********6092: connection close 403 Connection Failure",
-    "17:51:55 ********6092: connection close 403 Connection Failure"
+    "17:51:55 ********6092: connection close 403 Connection Failure",
+    "17:52:14 ********8582: status **********0965: seen ✅, react 👻 ✅",
+    "17:52:18 ********8582: status **********0965: seen ✅, react 😴 ✅",
+    "17:52:23 ********8582: status **********0965: seen ✅, react 💋 ✅",
+    "17:52:25 ********8582: status **********0965: seen ✅, react 😴 ✅",
+    "17:52:28 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "17:43:51 iq:result",
       "17:44:21 iq:result",
       "17:44:51 iq:result",
       "17:45:07 notification:server_sync <collection+collection>",
@@ -121,7 +120,8 @@
       "17:50:21 iq:result",
       "17:50:51 iq:result",
       "17:51:21 iq:result",
-      "17:51:51 iq:result"
+      "17:51:51 iq:result",
+      "17:52:21 iq:result"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-10T17:52:02.757Z",
-  "uptime_s": 32049
+  "updated_at": "2026-11-10T17:52:33.500Z",
+  "uptime_s": 32080
 }
