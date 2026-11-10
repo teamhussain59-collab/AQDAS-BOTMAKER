@@ -97,7 +97,6 @@
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "17:15:21 iq:result",
       "17:15:51 iq:result",
       "17:16:21 iq:result",
       "17:16:51 iq:result",
@@ -121,7 +120,8 @@
       "17:25:21 iq:result",
       "17:25:51 iq:result",
       "17:26:21 iq:result",
-      "17:26:51 iq:result"
+      "17:26:51 iq:result",
+      "17:27:21 iq:result"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-10T17:26:57.034Z",
-  "uptime_s": 30543
+  "updated_at": "2026-11-10T17:27:25.558Z",
+  "uptime_s": 30572
 }
