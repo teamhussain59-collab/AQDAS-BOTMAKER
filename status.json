@@ -77,7 +77,6 @@
     }
   ],
   "guest_log": [
-    "23:43:05 ********2634: connection close 500 Stream Errored (ack)",
     "23:43:08 ********2634: connection close 428 Connection Terminated",
     "23:43:14 ********2634: CONNECTED ✅",
     "00:01:46 ********8582: status ***********3962: seen ✅, react 💋 ✅",
@@ -96,7 +95,8 @@
     "00:16:27 ********3532: connection close 428 Connection Terminated",
     "00:16:30 ********3532: CONNECTED ✅",
     "00:16:52 ********7793: connection close 428 Connection Terminated",
-    "00:16:55 ********7793: CONNECTED ✅"
+    "00:16:55 ********7793: CONNECTED ✅",
+    "00:17:24 ********7793: code error: WhatsApp server se connection nahi bana (timeout)"
   ],
   "guest_frames": {
     "number": "********8582",
@@ -129,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-10T00:17:01.413Z",
-  "uptime_s": 105133
+  "updated_at": "2026-11-10T00:17:31.358Z",
+  "uptime_s": 105163
 }
