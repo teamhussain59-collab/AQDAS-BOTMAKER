@@ -72,26 +72,26 @@
     }
   ],
   "guest_log": [
-    "08:58:09 ********8582: LINKING (phone ne code accept kiya)",
-    "08:58:09 ********6985: LINKING (phone ne code accept kiya)",
-    "08:58:09 ********3532: CONNECTED ✅",
-    "08:58:09 ********6985: CONNECTED ✅",
-    "08:58:09 ********3032: CONNECTED ✅",
-    "08:58:09 ********8508: CONNECTED ✅",
-    "08:58:09 ********2634: CONNECTED ✅",
-    "08:58:09 ********8582: CONNECTED ✅",
-    "08:58:10 ********8574: LINKING (phone ne code accept kiya)",
-    "08:58:10 ********6325: LINKING (phone ne code accept kiya)",
-    "08:58:10 ********9569: LINKING (phone ne code accept kiya)",
-    "08:58:10 ********5634: LINKING (phone ne code accept kiya)",
-    "08:58:11 ********6325: CONNECTED ✅",
-    "08:58:11 ********9569: CONNECTED ✅",
-    "08:58:11 ********7793: CONNECTED ✅",
-    "08:58:11 ********8574: CONNECTED ✅",
-    "08:58:11 ********5634: CONNECTED ✅",
-    "08:58:12 ********6092: connection close 403 Connection Failure",
-    "08:58:14 ********6092: connection close 403 Connection Failure",
-    "08:58:20 ********6092: connection close 403 Connection Failure"
+    "08:58:34 ********8574: status **********6503: seen ✅, react 🤤 ✅",
+    "08:58:34 ********8574: status **********6503: seen ✅, react 🥵 ✅",
+    "08:58:34 ********8574: status **********6503: seen ✅, react 💋 ✅",
+    "08:58:34 ********8574: status **********6503: seen ✅, react 💋 ✅",
+    "08:58:34 ********8574: status **********6503: seen ✅, react 🥵 ✅",
+    "08:58:34 ********8574: status **********6503: seen ✅, react 🤤 ✅",
+    "08:58:34 ********8574: status **********6503: seen ✅, react 🤤 ✅",
+    "08:58:35 ********8574: status **********6503: seen ✅, react 💋 ✅",
+    "08:58:35 ********8574: status **********6503: seen ✅, react 🥵 ✅",
+    "08:58:36 ********8574: status **********6503: seen ✅, react 🤤 ✅",
+    "08:58:37 ********8574: status **********6503: seen ✅, react 🤤 ✅",
+    "08:58:37 ********8574: status **********6503: seen ✅, react 🥵 ✅",
+    "08:58:38 ********8574: status **********6503: seen ✅, react 💋 ✅",
+    "08:58:38 ********8574: status **********6503: seen ✅, react 🥵 ✅",
+    "08:58:38 ********7793: code error: WhatsApp server se connection nahi bana (timeout)",
+    "08:58:38 ********8508: code error: WhatsApp server se connection nahi bana (timeout)",
+    "08:58:38 ********8574: status **********6503: seen ✅, react 🤤 ✅",
+    "08:58:39 ********8574: status **********6503: seen ✅, react 💋 ✅",
+    "08:58:39 ********8574: status **********6503: seen ✅, react 🥵 ✅",
+    "08:58:42 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8508",
@@ -110,9 +110,10 @@
       "08:58:11 iq:result <list>",
       "08:58:11 notification:privacy_token <tokens>",
       "08:58:11 iq:result",
-      "08:58:11 notification:privacy_token <tokens>"
+      "08:58:11 notification:privacy_token <tokens>",
+      "08:58:39 iq:result"
     ]
   },
-  "updated_at": "2026-11-10T08:58:28.159Z",
-  "uptime_s": 34
+  "updated_at": "2026-11-10T08:58:46.543Z",
+  "uptime_s": 53
 }
