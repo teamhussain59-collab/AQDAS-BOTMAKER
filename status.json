@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "09:20:53 ********8574: connection close 428 Connection Terminated",
     "09:20:55 ********8574: connection close 408 WebSocket Error (read ECONNRESET)",
     "09:20:59 ********8574: CONNECTED ✅",
     "09:21:14 ********6092: connection close 403 Connection Failure",
@@ -91,7 +90,8 @@
     "09:26:40 ********6092: connection close 403 Connection Failure",
     "09:27:12 ********6092: connection close 403 Connection Failure",
     "09:27:44 ********6092: connection close 403 Connection Failure",
-    "09:28:18 ********6092: connection close 403 Connection Failure"
+    "09:28:18 ********6092: connection close 403 Connection Failure",
+    "09:28:51 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8574",
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T09:28:25.879Z",
-  "uptime_s": 88232
+  "updated_at": "2026-11-11T09:28:55.878Z",
+  "uptime_s": 88262
 }
