@@ -87,7 +87,6 @@
     }
   ],
   "guest_log": [
-    "14:49:22 ********8704: connection close 403 Connection Failure",
     "14:49:26 ********6092: connection close 403 Connection Failure",
     "14:49:55 ********8704: connection close 403 Connection Failure",
     "14:50:00 ********6092: connection close 403 Connection Failure",
@@ -106,7 +105,8 @@
     "14:51:59 ********8704: brand: f-ali-xmd",
     "14:52:08 ********6092: connection close 403 Connection Failure",
     "14:52:10 ********8704: connection close 403 Connection Failure",
-    "14:52:22 ********8582: status ***********9130: seen ✅, react 👻 ✅"
+    "14:52:22 ********8582: status ***********9130: seen ✅, react 👻 ✅",
+    "14:52:30 ********8582: status ***********2956: seen ✅, react 🥵 ✅"
   ],
   "guest_frames": {
     "number": "********8704",
@@ -139,6 +139,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T14:52:26.976Z",
-  "uptime_s": 16856
+  "updated_at": "2026-11-11T14:52:36.157Z",
+  "uptime_s": 16865
 }
