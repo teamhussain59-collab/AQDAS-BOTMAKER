@@ -87,7 +87,6 @@
     }
   ],
   "guest_log": [
-    "17:45:08 ********0977: code bana",
     "17:45:13 ********0977: LINKING (phone ne code accept kiya)",
     "17:45:24 ********8704: connection close 403 Connection Failure",
     "17:45:26 ********6092: connection close 403 Connection Failure",
@@ -106,7 +105,8 @@
     "17:48:17 ********6092: connection close 403 Connection Failure",
     "17:48:33 ********0977: connection close 428 Connection Terminated by Server",
     "17:48:36 ********0977: connection close 401 Connection Failure",
-    "17:48:36 ********0977: logged out"
+    "17:48:36 ********0977: logged out",
+    "17:48:43 ********8704: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********2806",
@@ -140,6 +140,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T17:48:40.498Z",
-  "uptime_s": 27429
+  "updated_at": "2026-11-11T17:48:47.853Z",
+  "uptime_s": 27437
 }
