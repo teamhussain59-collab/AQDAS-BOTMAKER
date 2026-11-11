@@ -7,6 +7,8 @@
   "run_id": null,
   "panel_url": "https://aqdas-botmaker-production.up.railway.app",
   "panel_at": "2026-11-11T10:11:40.613Z",
-  "updated_at": "2026-11-11T10:11:40.613Z",
-  "uptime_s": 9
+  "slots_max": "unlimited",
+  "commands": 857,
+  "updated_at": "2026-11-11T10:11:47.327Z",
+  "uptime_s": 16
 }
