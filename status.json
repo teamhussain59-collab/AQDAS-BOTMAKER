@@ -72,12 +72,11 @@
     },
     {
       "number": "********8704",
-      "state": "linking",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "09:45:49 ********6092: connection close 403 Connection Failure",
     "09:46:20 ********6092: connection close 403 Connection Failure",
     "09:46:40 ********8582: status ***********0695: seen ✅, react 🥵 ✅",
     "09:46:47 ********8574: status ***********7805: seen ✅, react 😊 ✅",
@@ -96,11 +95,12 @@
     "09:50:38 ********8704: code bana",
     "09:50:42 ********6092: connection close 403 Connection Failure",
     "09:51:00 ********8704: LINKING (phone ne code accept kiya)",
-    "09:51:03 ********8704: connection close 515 Stream Errored (restart required)"
+    "09:51:03 ********8704: connection close 515 Stream Errored (restart required)",
+    "09:51:08 ********8704: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********8704",
-    "state": "linking",
+    "state": "connected",
     "frames": [
       "09:50:33 iq:set <pair-device>",
       "09:50:33 iq:result <link_code_companion_reg[companion_hello]>",
@@ -129,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T09:51:07.286Z",
-  "uptime_s": 89594
+  "updated_at": "2026-11-11T09:51:12.663Z",
+  "uptime_s": 89599
 }
