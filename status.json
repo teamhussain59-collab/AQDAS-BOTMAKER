@@ -92,11 +92,6 @@
     }
   ],
   "guest_log": [
-    "17:42:39 ********2806: brand: ahmi-jutt",
-    "17:42:49 ********6092: connection close 403 Connection Failure",
-    "17:43:06 ********8704: connection close 403 Connection Failure",
-    "17:43:19 ********6092: connection close 403 Connection Failure",
-    "17:43:41 ********8704: connection close 403 Connection Failure",
     "17:43:44 ********8582: status ***********7494: seen ✅, react 🥵 ✅",
     "17:43:44 ********8582: status ***********6061: seen ✅, react 🥵 ✅",
     "17:43:44 ********8582: status **********7130: seen ✅, react 👀 ✅",
@@ -111,20 +106,30 @@
     "17:43:55 qr: connection close 428 Connection Terminated by Server",
     "17:43:55 qr: expired / closed (code 428)",
     "17:44:13 ********8704: connection close 403 Connection Failure",
-    "17:44:22 ********6092: connection close 403 Connection Failure"
+    "17:44:22 ********6092: connection close 403 Connection Failure",
+    "17:44:49 ********8704: connection close 403 Connection Failure",
+    "17:44:53 ********6092: connection close 403 Connection Failure",
+    "17:44:55 ********0977: connection close 428 Connection Terminated by Server",
+    "17:44:58 ********0977: connection close 401 Connection Failure",
+    "17:44:58 ********0977: logged out"
   ],
   "guest_frames": {
-    "number": "********2806",
-    "state": "connected",
+    "number": "********0977",
+    "state": "linking",
     "frames": [
-      "17:42:02 iq:set <pair-device>",
-      "17:42:02 iq:result <link_code_companion_reg[companion_hello]>",
-      "17:42:32 iq:result",
-      "17:42:33 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "17:42:33 iq:result",
-      "17:42:36 iq:set <pair-success>",
-      "17:42:36 stream:error: code=515",
-      "17:42:36 xmlstreamend:"
+      "17:41:25 iq:set <pair-device>",
+      "17:41:25 iq:result <link_code_companion_reg[companion_hello]>",
+      "17:41:37 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "17:41:38 iq:result",
+      "17:41:45 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "17:41:45 iq:result",
+      "17:41:54 iq:result",
+      "17:42:24 iq:result",
+      "17:42:54 iq:result",
+      "17:43:24 iq:result",
+      "17:43:54 iq:result",
+      "17:44:24 iq:result",
+      "17:44:54 xmlstreamend:"
     ]
   },
   "mem": {
@@ -145,6 +150,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T17:44:28.927Z",
-  "uptime_s": 27178
+  "updated_at": "2026-11-11T17:44:58.733Z",
+  "uptime_s": 27207
 }
