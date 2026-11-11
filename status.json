@@ -89,6 +89,11 @@
       "number": "qr",
       "state": "pairing",
       "autostatus": "off"
+    },
+    {
+      "number": "********0977",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -139,6 +144,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T17:41:12.535Z",
-  "uptime_s": 26981
+  "updated_at": "2026-11-11T17:41:24.583Z",
+  "uptime_s": 26993
 }
