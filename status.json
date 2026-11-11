@@ -82,16 +82,11 @@
     },
     {
       "number": "********2806",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "18:02:27 ********8704: connection close 403 Connection Failure",
-    "18:02:38 ********6092: connection close 403 Connection Failure",
-    "18:03:01 ********8704: connection close 403 Connection Failure",
-    "18:03:10 ********6092: connection close 403 Connection Failure",
-    "18:03:31 ********8582: status ***********7550: seen ✅, react 👀 ✅",
     "18:03:32 ********8582: status **********5314: seen ✅, react 😼 ✅",
     "18:03:33 ********8704: connection close 403 Connection Failure",
     "18:03:42 ********6092: connection close 403 Connection Failure",
@@ -106,14 +101,24 @@
     "18:05:25 ********6092: connection close 403 Connection Failure",
     "18:05:42 ********8704: connection close 403 Connection Failure",
     "18:05:58 ********6092: connection close 403 Connection Failure",
-    "18:06:01 ********2806: code bana"
+    "18:06:01 ********2806: code bana",
+    "18:06:12 ********2806: LINKING (phone ne code accept kiya)",
+    "18:06:15 ********2806: connection close 515 Stream Errored (restart required)",
+    "18:06:16 ********8704: connection close 403 Connection Failure",
+    "18:06:20 ********2806: CONNECTED ✅",
+    "18:06:20 ********2806: brand: ahmi-jutt"
   ],
   "guest_frames": {
     "number": "********2806",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "18:05:56 iq:set <pair-device>",
-      "18:05:56 iq:result <link_code_companion_reg[companion_hello]>"
+      "18:05:56 iq:result <link_code_companion_reg[companion_hello]>",
+      "18:06:12 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "18:06:12 iq:result",
+      "18:06:14 iq:set <pair-success>",
+      "18:06:15 stream:error: code=515",
+      "18:06:15 xmlstreamend:"
     ]
   },
   "mem": {
@@ -134,6 +139,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T18:06:05.440Z",
-  "uptime_s": 28474
+  "updated_at": "2026-11-11T18:06:26.887Z",
+  "uptime_s": 28496
 }
