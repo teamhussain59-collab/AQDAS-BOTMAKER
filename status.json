@@ -67,15 +67,11 @@
     },
     {
       "number": "********8574",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "09:10:16 ********6092: connection close 403 Connection Failure",
-    "09:10:48 ********6092: connection close 403 Connection Failure",
-    "09:11:21 ********6092: connection close 403 Connection Failure",
-    "09:11:56 ********6092: connection close 403 Connection Failure",
     "09:12:13 ********8582: status ***********2956: seen ✅, react 🥵 ✅",
     "09:12:29 ********6092: connection close 403 Connection Failure",
     "09:13:02 ********6092: connection close 403 Connection Failure",
@@ -91,14 +87,23 @@
     "09:16:44 ********6092: connection close 403 Connection Failure",
     "09:16:47 ********3532: connection close 428 Connection Terminated",
     "09:16:49 ********8574: code bana",
-    "09:16:49 ********3532: CONNECTED ✅"
+    "09:16:49 ********3532: CONNECTED ✅",
+    "09:16:59 ********8574: LINKING (phone ne code accept kiya)",
+    "09:17:04 ********8574: connection close 515 Stream Errored (restart required)",
+    "09:17:07 ********8574: CONNECTED ✅",
+    "09:17:07 ********8574: brand: ahmi-jutt"
   ],
   "guest_frames": {
     "number": "********8574",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "09:16:44 iq:set <pair-device>",
-      "09:16:44 iq:result <link_code_companion_reg[companion_hello]>"
+      "09:16:44 iq:result <link_code_companion_reg[companion_hello]>",
+      "09:16:59 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "09:16:59 iq:result",
+      "09:17:03 iq:set <pair-success>",
+      "09:17:03 stream:error: code=515",
+      "09:17:03 xmlstreamend:"
     ]
   },
   "mem": {
@@ -119,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T09:16:55.872Z",
-  "uptime_s": 87542
+  "updated_at": "2026-11-11T09:17:11.771Z",
+  "uptime_s": 87558
 }
