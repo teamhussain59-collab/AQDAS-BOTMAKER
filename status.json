@@ -82,26 +82,26 @@
     }
   ],
   "guest_log": [
-    "17:08:04 ********8704: connection close 403 Connection Failure",
-    "17:08:17 ********6092: connection close 403 Connection Failure",
-    "17:08:28 ********8582: status ***********9054: seen ✅, react 👀 ✅",
-    "17:08:38 ********8704: connection close 403 Connection Failure",
-    "17:08:53 ********6092: connection close 403 Connection Failure",
-    "17:09:08 ********8704: connection close 403 Connection Failure",
-    "17:09:26 ********6092: connection close 403 Connection Failure",
-    "17:09:38 ********8582: status ***********9054: seen ✅, react 😴 ✅",
-    "17:09:42 ********8704: connection close 403 Connection Failure",
-    "17:09:57 ********6092: connection close 403 Connection Failure",
-    "17:10:12 ********8582: status ***********9054: seen ✅, react 😼 ✅",
-    "17:10:14 ********8704: connection close 403 Connection Failure",
-    "17:10:21 ********3032: connection close 428 Connection Terminated",
-    "17:10:26 ********3032: CONNECTED ✅",
-    "17:10:30 ********6092: connection close 403 Connection Failure",
-    "17:10:45 ********8704: connection close 403 Connection Failure",
-    "17:11:02 ********6985: status ***********2938: seen ✅, react 😇 ✅",
-    "17:11:03 ********6092: connection close 403 Connection Failure",
-    "17:11:17 ********8582: status **********6316: seen ✅, react 👀 ✅",
-    "17:11:18 ********8704: connection close 403 Connection Failure"
+    "17:11:18 ********8704: connection close 403 Connection Failure",
+    "17:11:32 ********8582: status ***********9054: seen ✅, react 😼 ✅",
+    "17:11:34 ********6092: connection close 403 Connection Failure",
+    "17:11:38 ********8582: status ***********9054: seen ✅, react 😼 ✅",
+    "17:11:40 ********8582: status ***********9054: seen ✅, react 💋 ✅",
+    "17:11:41 ********8582: status ***********9054: seen ✅, react 💋 ✅",
+    "17:11:42 ********8582: status ***********9054: seen ✅, react 👻 ✅",
+    "17:11:43 ********8582: status ***********9054: seen ✅, react 👀 ✅",
+    "17:11:43 ********8582: status ***********9054: seen ✅, react 👀 ✅",
+    "17:11:47 ********8582: status ***********9054: seen ✅, react 😼 ✅",
+    "17:11:47 ********8582: status ***********9054: seen ✅, react 👀 ✅",
+    "17:11:48 ********8582: status ***********9054: seen ✅, react 😼 ✅",
+    "17:11:50 ********8582: status ***********9054: seen ✅, react 👀 ✅",
+    "17:11:50 ********8582: status ***********7353: seen ✅, react 💋 ✅",
+    "17:11:52 ********8582: status ***********9054: seen ✅, react 😼 ✅",
+    "17:11:53 ********8582: status ***********9054: seen ✅, react 💋 ✅",
+    "17:11:53 ********8704: connection close 403 Connection Failure",
+    "17:11:55 ********8582: status ***********9054: seen ✅, react 😼 ✅",
+    "17:11:55 ********8582: status ***********9054: seen ✅, react 😴 ✅",
+    "17:11:57 ********8582: status ***********9054: seen ✅, react 💋 ✅"
   ],
   "guest_frames": {
     "number": "********7324",
@@ -134,6 +134,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T17:11:43.860Z",
-  "uptime_s": 25213
+  "updated_at": "2026-11-11T17:12:01.501Z",
+  "uptime_s": 25230
 }
