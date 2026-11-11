@@ -79,6 +79,11 @@
       "number": "********9569",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "********8704",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -104,34 +109,11 @@
     "14:51:12 ********8574: status **********2520: seen ✅, react 🙂 ✅"
   ],
   "guest_frames": {
-    "number": "********8508",
-    "state": "connected",
+    "number": "********8704",
+    "state": "pairing",
     "frames": [
-      "14:41:30 iq:result",
-      "14:42:00 iq:result",
-      "14:42:32 iq:result",
-      "14:43:02 iq:result",
-      "14:43:32 iq:result",
-      "14:44:02 iq:result",
-      "14:44:32 iq:result",
-      "14:45:02 iq:result",
-      "14:45:32 iq:result",
-      "14:46:02 iq:result",
-      "14:46:07 notification:devices <add>",
-      "14:46:32 iq:result",
-      "14:47:02 iq:result",
-      "14:47:32 iq:result",
-      "14:48:02 iq:result",
-      "14:48:11 notification:encrypt <identity>",
-      "14:48:11 notification:encrypt <identity>",
-      "14:48:18 notification:business <verified_name>",
-      "14:48:32 iq:result",
-      "14:49:02 iq:result",
-      "14:49:32 iq:result",
-      "14:50:02 iq:result",
-      "14:50:31 ib: <edge_routing>",
-      "14:50:32 iq:result",
-      "14:51:02 iq:result"
+      "14:51:27 iq:set <pair-device>",
+      "14:51:27 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -152,6 +134,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T14:51:16.243Z",
-  "uptime_s": 16785
+  "updated_at": "2026-11-11T14:51:31.996Z",
+  "uptime_s": 16801
 }
