@@ -92,8 +92,6 @@
     }
   ],
   "guest_log": [
-    "17:42:36 ********2806: connection close 515 Stream Errored (restart required)",
-    "17:42:39 ********2806: CONNECTED ✅",
     "17:42:39 ********2806: brand: ahmi-jutt",
     "17:42:49 ********6092: connection close 403 Connection Failure",
     "17:43:06 ********8704: connection close 403 Connection Failure",
@@ -111,7 +109,9 @@
     "17:43:45 ********8582: status ***********3032: seen ✅, react 🥵 ✅",
     "17:43:50 ********6092: connection close 403 Connection Failure",
     "17:43:55 qr: connection close 428 Connection Terminated by Server",
-    "17:43:55 qr: expired / closed (code 428)"
+    "17:43:55 qr: expired / closed (code 428)",
+    "17:44:13 ********8704: connection close 403 Connection Failure",
+    "17:44:22 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********2806",
@@ -145,6 +145,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T17:43:59.397Z",
-  "uptime_s": 27148
+  "updated_at": "2026-11-11T17:44:28.927Z",
+  "uptime_s": 27178
 }
