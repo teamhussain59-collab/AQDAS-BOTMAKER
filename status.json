@@ -77,16 +77,11 @@
     },
     {
       "number": "********8090",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "09:56:18 ********6092: connection close 403 Connection Failure",
-    "09:56:52 ********6092: connection close 403 Connection Failure",
-    "09:57:08 ********8582: status **********6316: seen ✅, react 👀 ✅",
-    "09:57:25 ********6092: connection close 403 Connection Failure",
-    "09:57:57 ********6092: connection close 403 Connection Failure",
     "09:58:06 ********8582: status ***********0063: seen ✅, react 😴 ✅",
     "09:58:13 ********8582: status ***********7722: seen ✅, react 👀 ✅",
     "09:58:13 ********8574: status ***********7722: seen ✅, react 😳 ✅",
@@ -101,14 +96,25 @@
     "10:01:48 ********6092: connection close 403 Connection Failure",
     "10:02:21 ********6092: connection close 403 Connection Failure",
     "10:02:54 ********6092: connection close 403 Connection Failure",
-    "10:02:56 ********8090: code bana"
+    "10:02:56 ********8090: code bana",
+    "10:03:23 ********8090: LINKING (phone ne code accept kiya)",
+    "10:03:27 ********8090: connection close 515 Stream Errored (restart required)",
+    "10:03:29 ********6092: connection close 403 Connection Failure",
+    "10:03:30 ********8090: CONNECTED ✅",
+    "10:03:30 ********8090: brand: ahmi-jutt"
   ],
   "guest_frames": {
     "number": "********8090",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "10:02:51 iq:set <pair-device>",
-      "10:02:51 iq:result <link_code_companion_reg[companion_hello]>"
+      "10:02:51 iq:result <link_code_companion_reg[companion_hello]>",
+      "10:03:21 iq:result",
+      "10:03:23 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "10:03:23 iq:result",
+      "10:03:26 iq:set <pair-success>",
+      "10:03:27 stream:error: code=515",
+      "10:03:27 xmlstreamend:"
     ]
   },
   "mem": {
@@ -129,6 +135,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T10:03:14.714Z",
-  "uptime_s": 90321
+  "updated_at": "2026-11-11T10:03:34.774Z",
+  "uptime_s": 90341
 }
