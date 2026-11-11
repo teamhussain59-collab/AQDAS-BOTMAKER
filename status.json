@@ -64,13 +64,14 @@
       "number": "********9569",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "********8574",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "09:08:38 ********6092: connection close 403 Connection Failure",
-    "09:09:10 ********6092: connection close 403 Connection Failure",
-    "09:09:24 ********8582: status ***********0439: seen ✅, react 👀 ✅",
-    "09:09:43 ********6092: connection close 403 Connection Failure",
     "09:10:16 ********6092: connection close 403 Connection Failure",
     "09:10:48 ********6092: connection close 403 Connection Failure",
     "09:11:21 ********6092: connection close 403 Connection Failure",
@@ -86,37 +87,18 @@
     "09:14:37 ********6092: connection close 403 Connection Failure",
     "09:15:07 ********6092: connection close 403 Connection Failure",
     "09:15:40 ********6092: connection close 403 Connection Failure",
-    "09:16:12 ********6092: connection close 403 Connection Failure"
+    "09:16:12 ********6092: connection close 403 Connection Failure",
+    "09:16:44 ********6092: connection close 403 Connection Failure",
+    "09:16:47 ********3532: connection close 428 Connection Terminated",
+    "09:16:49 ********8574: code bana",
+    "09:16:49 ********3532: CONNECTED ✅"
   ],
   "guest_frames": {
-    "number": "********8508",
-    "state": "connected",
+    "number": "********8574",
+    "state": "pairing",
     "frames": [
-      "09:05:37 iq:result",
-      "09:05:47 notification:encrypt <identity>",
-      "09:06:07 iq:result",
-      "09:06:37 iq:result",
-      "09:07:07 iq:result",
-      "09:07:34 ib: <edge_routing>",
-      "09:07:37 iq:result",
-      "09:08:07 iq:result",
-      "09:08:37 iq:result",
-      "09:09:07 iq:result",
-      "09:09:37 iq:result",
-      "09:10:07 iq:result",
-      "09:10:37 iq:result",
-      "09:11:07 iq:result",
-      "09:11:37 iq:result",
-      "09:12:07 iq:result",
-      "09:12:37 iq:result",
-      "09:13:07 iq:result",
-      "09:13:37 iq:result",
-      "09:14:07 iq:result",
-      "09:14:37 iq:result",
-      "09:15:07 iq:result",
-      "09:15:37 iq:result",
-      "09:16:07 iq:result",
-      "09:16:37 iq:result"
+      "09:16:44 iq:set <pair-device>",
+      "09:16:44 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -137,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T09:16:41.247Z",
-  "uptime_s": 87527
+  "updated_at": "2026-11-11T09:16:55.872Z",
+  "uptime_s": 87542
 }
