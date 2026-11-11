@@ -72,9 +72,6 @@
     }
   ],
   "guest_log": [
-    "09:16:44 ********6092: connection close 403 Connection Failure",
-    "09:16:47 ********3532: connection close 428 Connection Terminated",
-    "09:16:49 ********8574: code bana",
     "09:16:49 ********3532: CONNECTED ✅",
     "09:16:59 ********8574: LINKING (phone ne code accept kiya)",
     "09:17:04 ********8574: connection close 515 Stream Errored (restart required)",
@@ -91,7 +88,10 @@
     "09:20:53 ********8574: connection close 428 Connection Terminated",
     "09:20:55 ********8574: connection close 408 WebSocket Error (read ECONNRESET)",
     "09:20:59 ********8574: CONNECTED ✅",
-    "09:21:14 ********6092: connection close 403 Connection Failure"
+    "09:21:14 ********6092: connection close 403 Connection Failure",
+    "09:21:41 ********3032: connection close 500 Stream Errored (ack)",
+    "09:21:44 ********3032: CONNECTED ✅",
+    "09:21:47 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8574",
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T09:21:21.847Z",
-  "uptime_s": 87808
+  "updated_at": "2026-11-11T09:21:51.570Z",
+  "uptime_s": 87838
 }
