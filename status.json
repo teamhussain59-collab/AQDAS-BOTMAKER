@@ -92,8 +92,6 @@
     }
   ],
   "guest_log": [
-    "17:43:44 ********8582: status **********7130: seen ✅, react 👀 ✅",
-    "17:43:44 ********8582: status ***********0695: seen ✅, react 👀 ✅",
     "17:43:45 ********8582: status ***********7069: seen ✅, react 👀 ✅",
     "17:43:45 ********8582: status ***********0695: seen ✅, react 👀 ✅",
     "17:43:45 ********8582: status ***********7069: seen ✅, react 🥵 ✅",
@@ -111,7 +109,9 @@
     "17:44:58 ********0977: connection close 401 Connection Failure",
     "17:44:58 ********0977: logged out",
     "17:45:08 ********0977: code bana",
-    "17:45:13 ********0977: LINKING (phone ne code accept kiya)"
+    "17:45:13 ********0977: LINKING (phone ne code accept kiya)",
+    "17:45:24 ********8704: connection close 403 Connection Failure",
+    "17:45:26 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********0977",
@@ -141,6 +141,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T17:45:24.588Z",
-  "uptime_s": 27233
+  "updated_at": "2026-11-11T17:45:30.135Z",
+  "uptime_s": 27239
 }
