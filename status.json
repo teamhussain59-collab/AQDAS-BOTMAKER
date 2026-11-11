@@ -72,11 +72,6 @@
     }
   ],
   "guest_log": [
-    "04:31:54 ********6092: connection close 403 Connection Failure",
-    "04:32:28 ********6092: connection close 403 Connection Failure",
-    "04:32:59 ********6092: connection close 403 Connection Failure",
-    "04:33:33 ********6092: connection close 403 Connection Failure",
-    "04:34:05 ********6092: connection close 403 Connection Failure",
     "04:34:42 ********6092: connection close 403 Connection Failure",
     "04:35:16 ********6092: connection close 403 Connection Failure",
     "04:35:49 ********6092: connection close 403 Connection Failure",
@@ -91,13 +86,17 @@
     "04:37:40 ********8582: status **********2544: seen ✅, react 💋 ✅",
     "04:37:57 ********8582: status **********2544: seen ✅, react 👻 ✅",
     "04:38:06 ********8582: status **********2544: seen ✅, react 😼 ✅",
-    "04:38:06 ********6092: connection close 403 Connection Failure"
+    "04:38:06 ********6092: connection close 403 Connection Failure",
+    "04:38:32 ********8582: status **********2544: seen ✅, react 🥵 ✅",
+    "04:38:40 ********6092: connection close 403 Connection Failure",
+    "04:38:40 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "04:38:41 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "04:38:43 ********8582: status **********2544: seen ✅, react 👻 ✅"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "04:27:34 ib: <edge_routing>",
       "04:27:35 iq:result",
       "04:28:05 iq:result",
       "04:28:35 iq:result",
@@ -121,7 +120,8 @@
       "04:37:05 iq:result",
       "04:37:34 ib: <edge_routing>",
       "04:37:35 iq:result",
-      "04:38:05 iq:result"
+      "04:38:05 iq:result",
+      "04:38:35 iq:result"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T04:38:14.073Z",
-  "uptime_s": 70820
+  "updated_at": "2026-11-11T04:38:47.093Z",
+  "uptime_s": 70853
 }
