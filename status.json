@@ -84,15 +84,14 @@
       "number": "********8704",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "********7324",
+      "state": "linking",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "15:00:55 ********8704: connection close 403 Connection Failure",
-    "15:01:05 ********6092: connection close 403 Connection Failure",
-    "15:01:08 ********8582: status **********8507: seen ✅, react 😼 ✅",
-    "15:01:26 ********8704: connection close 403 Connection Failure",
-    "15:01:35 ********6092: connection close 403 Connection Failure",
-    "15:01:40 ********8574: status **********2520: seen ✅, react 😇 ✅",
     "15:01:59 ********8704: connection close 403 Connection Failure",
     "15:02:08 ********6092: connection close 403 Connection Failure",
     "15:02:33 ********8704: connection close 403 Connection Failure",
@@ -106,19 +105,25 @@
     "15:04:53 ********8704: connection close 403 Connection Failure",
     "15:04:59 ********6092: connection close 403 Connection Failure",
     "15:05:24 ********8704: connection close 403 Connection Failure",
-    "15:05:30 ********6092: connection close 403 Connection Failure"
+    "15:05:30 ********6092: connection close 403 Connection Failure",
+    "15:05:54 ********6325: status **********5684: seen ✅, react 🙂 ✅",
+    "15:05:59 ********8704: connection close 403 Connection Failure",
+    "15:06:02 ********7324: code bana",
+    "15:06:03 ********6092: connection close 403 Connection Failure",
+    "15:06:16 ********7324: LINKING (phone ne code accept kiya)",
+    "15:06:20 ********7324: connection close 515 Stream Errored (restart required)"
   ],
   "guest_frames": {
-    "number": "********8704",
-    "state": "connected",
+    "number": "********7324",
+    "state": "linking",
     "frames": [
-      "14:51:27 iq:set <pair-device>",
-      "14:51:27 iq:result <link_code_companion_reg[companion_hello]>",
-      "14:51:50 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "14:51:51 iq:result",
-      "14:51:54 iq:set <pair-success>",
-      "14:51:55 stream:error: code=515",
-      "14:51:55 xmlstreamend:"
+      "15:05:57 iq:set <pair-device>",
+      "15:05:57 iq:result <link_code_companion_reg[companion_hello]>",
+      "15:06:16 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "15:06:16 iq:result",
+      "15:06:19 iq:set <pair-success>",
+      "15:06:19 stream:error: code=515",
+      "15:06:19 xmlstreamend:"
     ]
   },
   "mem": {
@@ -139,6 +144,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T15:05:40.754Z",
-  "uptime_s": 17649
+  "updated_at": "2026-11-11T15:06:24.563Z",
+  "uptime_s": 17693
 }
