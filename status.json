@@ -123,7 +123,8 @@
       "11:54:49 iq:result",
       "11:54:49 notification:privacy_token <tokens>",
       "11:55:17 iq:result",
-      "11:55:47 iq:result"
+      "11:55:47 iq:result",
+      "11:56:10 notification:business <verified_name>"
     ]
   },
   "mem": {
@@ -144,6 +145,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T11:56:07.649Z",
-  "uptime_s": 6276
+  "updated_at": "2026-11-11T11:56:14.568Z",
+  "uptime_s": 6283
 }
