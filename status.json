@@ -72,12 +72,6 @@
     }
   ],
   "guest_log": [
-    "07:16:33 ********6092: connection close 403 Connection Failure",
-    "07:17:08 ********6092: connection close 403 Connection Failure",
-    "07:17:39 ********6092: connection close 403 Connection Failure",
-    "07:18:11 ********6092: connection close 403 Connection Failure",
-    "07:18:46 ********6092: connection close 403 Connection Failure",
-    "07:19:17 ********6092: connection close 403 Connection Failure",
     "07:19:52 ********6092: connection close 403 Connection Failure",
     "07:20:26 ********8582: status *********1492: seen ✅, react 😼 ✅",
     "07:20:26 ********6092: connection close 403 Connection Failure",
@@ -91,14 +85,18 @@
     "07:22:55 ********8582: status ***********7069: seen ✅, react 💋 ✅",
     "07:22:55 ********8574: status ***********7069: seen ✅, react 🥵 ✅",
     "07:23:09 ********8582: status ***********5490: seen ✅, react 👻 ✅",
-    "07:23:15 ********6092: connection close 403 Connection Failure"
+    "07:23:15 ********6092: connection close 403 Connection Failure",
+    "07:23:42 ********8574: status **********6503: seen ✅, react 🥵 ✅",
+    "07:23:43 ********8574: status **********6503: seen ✅, react 🤤 ✅",
+    "07:23:43 ********8574: status **********6503: seen ✅, react 🤤 ✅",
+    "07:23:43 ********8574: status **********6503: seen ✅, react 🥵 ✅",
+    "07:23:43 ********8574: status **********6503: seen ✅, react 💋 ✅",
+    "07:23:49 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "07:12:05 iq:result",
-      "07:12:36 iq:result",
       "07:13:05 iq:result",
       "07:13:35 iq:result",
       "07:14:05 iq:result",
@@ -121,7 +119,9 @@
       "07:22:05 iq:result",
       "07:22:35 iq:result",
       "07:23:05 iq:result",
-      "07:23:35 iq:result"
+      "07:23:35 iq:result",
+      "07:23:46 notification:encrypt <identity>",
+      "07:23:48 notification:encrypt <identity>"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T07:23:39.894Z",
-  "uptime_s": 80746
+  "updated_at": "2026-11-11T07:23:55.665Z",
+  "uptime_s": 80762
 }
