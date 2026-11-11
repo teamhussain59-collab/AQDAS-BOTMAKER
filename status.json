@@ -77,8 +77,6 @@
     }
   ],
   "guest_log": [
-    "22:39:18 ********8704: connection close 403 Connection Failure",
-    "22:39:31 ********6092: connection close 403 Connection Failure",
     "22:39:53 ********8704: connection close 403 Connection Failure",
     "22:40:02 ********6092: connection close 403 Connection Failure",
     "22:40:25 ********8704: connection close 403 Connection Failure",
@@ -96,7 +94,9 @@
     "22:43:04 ********8704: connection close 403 Connection Failure",
     "22:43:16 ********6092: connection close 403 Connection Failure",
     "22:43:40 ********8704: connection close 403 Connection Failure",
-    "22:43:46 ********6092: connection close 403 Connection Failure"
+    "22:43:46 ********6092: connection close 403 Connection Failure",
+    "22:43:55 ********2634: connection close 503 Stream Errored (unknown)",
+    "22:43:59 ********2634: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********7324",
@@ -129,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-11T22:43:50.986Z",
-  "uptime_s": 45140
+  "updated_at": "2026-11-11T22:44:03.580Z",
+  "uptime_s": 45152
 }
