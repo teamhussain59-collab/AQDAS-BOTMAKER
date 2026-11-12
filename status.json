@@ -67,19 +67,11 @@
     },
     {
       "number": "********2806",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "15:22:28 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
-    "15:22:28 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
-    "15:22:28 ********8574: status **********2520: seen ✅, react 😊 ✅",
-    "15:22:29 ********8574: status **********2520: seen ✅, react 😊 ✅",
-    "15:22:29 ********2634: connection close 500 Stream Errored (ack)",
-    "15:22:29 ********8574: status **********2520: seen ✅, react 😊 ✅",
-    "15:22:29 ********8574: status **********2520: seen ✅, react 🥺 ✅",
-    "15:22:30 ********6092: connection close 403 Connection Failure",
     "15:22:32 ********2634: CONNECTED ✅",
     "15:23:04 ********6092: connection close 403 Connection Failure",
     "15:23:38 ********6092: connection close 403 Connection Failure",
@@ -91,15 +83,28 @@
     "15:26:54 ********6092: connection close 403 Connection Failure",
     "15:27:26 ********6092: connection close 403 Connection Failure",
     "15:27:47 ********2806: code bana",
-    "15:28:01 ********6092: connection close 403 Connection Failure"
+    "15:28:01 ********6092: connection close 403 Connection Failure",
+    "15:28:19 ********2806: LINKING (phone ne code accept kiya)",
+    "15:28:25 ********2806: connection close 515 Stream Errored (restart required)",
+    "15:28:28 ********2806: CONNECTED ✅",
+    "15:28:28 ********2806: brand: ahmi-jutt",
+    "15:28:31 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
+    "15:28:31 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
+    "15:28:33 ********6092: connection close 403 Connection Failure",
+    "15:28:33 ********8574: status **********2520: seen ✅, react 😳 ✅"
   ],
   "guest_frames": {
     "number": "********2806",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "15:27:42 iq:set <pair-device>",
       "15:27:42 iq:result <link_code_companion_reg[companion_hello]>",
-      "15:28:12 iq:result"
+      "15:28:12 iq:result",
+      "15:28:19 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "15:28:19 iq:result",
+      "15:28:23 iq:set <pair-success>",
+      "15:28:25 stream:error: code=515",
+      "15:28:25 xmlstreamend:"
     ]
   },
   "mem": {
@@ -120,6 +125,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T15:28:16.246Z",
-  "uptime_s": 29776
+  "updated_at": "2026-11-12T15:28:37.891Z",
+  "uptime_s": 29798
 }
