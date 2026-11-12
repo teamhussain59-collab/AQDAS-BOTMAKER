@@ -77,8 +77,6 @@
     }
   ],
   "guest_log": [
-    "01:27:14 ********6092: connection close 403 Connection Failure",
-    "01:27:15 ********8704: connection close 403 Connection Failure",
     "01:27:18 ********7793: code error: WhatsApp server se connection nahi bana (timeout)",
     "01:27:46 ********6092: connection close 403 Connection Failure",
     "01:27:48 ********8704: connection close 403 Connection Failure",
@@ -96,7 +94,9 @@
     "01:30:34 ********8704: connection close 403 Connection Failure",
     "01:30:34 ********6092: connection close 403 Connection Failure",
     "01:31:06 ********8704: connection close 403 Connection Failure",
-    "01:31:06 ********6092: connection close 403 Connection Failure"
+    "01:31:06 ********6092: connection close 403 Connection Failure",
+    "01:31:38 ********8704: connection close 403 Connection Failure",
+    "01:31:40 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********7324",
@@ -129,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T01:31:10.935Z",
-  "uptime_s": 55180
+  "updated_at": "2026-11-12T01:31:44.823Z",
+  "uptime_s": 55214
 }
