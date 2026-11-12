@@ -67,18 +67,6 @@
     }
   ],
   "guest_log": [
-    "09:57:51 ********6092: connection close 403 Connection Failure",
-    "09:58:17 ********8508: connection close 428 Connection Terminated",
-    "09:58:21 ********8508: CONNECTED ✅",
-    "09:58:23 ********6092: connection close 403 Connection Failure",
-    "09:58:23 ********8574: status ***********2412: seen ✅, react 😘 ✅",
-    "09:58:49 ********8508: code error: WhatsApp server se connection nahi bana (timeout)",
-    "09:58:57 ********6092: connection close 403 Connection Failure",
-    "09:59:29 ********8582: status ***********3578: seen ✅, react 👀 ✅",
-    "09:59:31 ********6092: connection close 403 Connection Failure",
-    "09:59:36 ********8582: status ***********5086: seen ✅, react 👻 ✅",
-    "10:00:03 ********6092: connection close 403 Connection Failure",
-    "10:00:30 ********8582: status ***********3578: seen ✅, react 💋 ✅",
     "10:00:37 ********6092: connection close 403 Connection Failure",
     "10:00:40 ********8582: status ***********6856: seen ✅, react 🥵 ✅",
     "10:00:50 ********6325: connection close 428 Connection Terminated",
@@ -86,13 +74,24 @@
     "10:01:11 ********6092: connection close 403 Connection Failure",
     "10:01:41 ********6092: connection close 403 Connection Failure",
     "10:02:14 ********6092: connection close 403 Connection Failure",
-    "10:02:48 ********6092: connection close 403 Connection Failure"
+    "10:02:48 ********6092: connection close 403 Connection Failure",
+    "10:02:59 ********8582: status ***********1277: seen ✅, react 💋 ✅",
+    "10:03:02 ********8582: status ***********1277: seen ✅, react 💋 ✅",
+    "10:03:03 ********8582: status ***********1277: seen ✅, react 😴 ✅",
+    "10:03:07 ********8582: status ***********1277: seen ✅, react 👻 ✅",
+    "10:03:08 ********8582: status ***********1277: seen ✅, react 👻 ✅",
+    "10:03:11 ********8582: status ***********1277: seen ✅, react 💋 ✅",
+    "10:03:11 ********8582: status ***********1277: seen ✅, react 🥵 ✅",
+    "10:03:13 ********8582: status ***********1277: seen ✅, react 👀 ✅",
+    "10:03:14 ********8582: status ***********1277: seen ✅, react 💋 ✅",
+    "10:03:15 ********8582: status ***********1277: seen ✅, react 🥵 ✅",
+    "10:03:19 ********8582: status ***********0695: seen ✅, react 😴 ✅",
+    "10:03:23 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "09:58:19 success:",
       "09:58:20 ib: <edge_routing>",
       "09:58:20 iq:result <count+pq_count>",
       "09:58:20 iq:result <list>",
@@ -115,7 +114,9 @@
       "10:01:19 iq:result",
       "10:01:49 iq:result",
       "10:02:19 iq:result",
-      "10:02:49 iq:result"
+      "10:02:49 iq:result",
+      "10:03:18 notification:devices <add>",
+      "10:03:19 iq:result"
     ]
   },
   "mem": {
@@ -136,6 +137,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T10:02:53.557Z",
-  "uptime_s": 10253
+  "updated_at": "2026-11-12T10:03:27.408Z",
+  "uptime_s": 10287
 }
