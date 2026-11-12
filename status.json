@@ -69,10 +69,14 @@
       "number": "********2806",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "********4280",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "21:42:44 ********6092: connection close 403 Connection Failure",
     "21:43:16 ********6092: connection close 403 Connection Failure",
     "21:43:50 ********6092: connection close 403 Connection Failure",
     "21:44:24 ********6092: connection close 403 Connection Failure",
@@ -91,19 +95,15 @@
     "21:50:32 ********6092: connection close 403 Connection Failure",
     "21:51:06 ********6092: connection close 403 Connection Failure",
     "21:51:36 ********6092: connection close 403 Connection Failure",
-    "21:52:10 ********6092: connection close 403 Connection Failure"
+    "21:52:10 ********6092: connection close 403 Connection Failure",
+    "21:52:24 ********4280: code bana"
   ],
   "guest_frames": {
-    "number": "********2806",
-    "state": "connected",
+    "number": "********4280",
+    "state": "pairing",
     "frames": [
-      "15:32:08 iq:set <pair-device>",
-      "15:32:08 iq:result <link_code_companion_reg[companion_hello]>",
-      "15:32:21 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "15:32:21 iq:result",
-      "15:32:23 iq:set <pair-success>",
-      "15:32:25 stream:error: code=515",
-      "15:32:25 xmlstreamend:"
+      "21:52:19 iq:set <pair-device>",
+      "21:52:19 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T21:52:14.666Z",
-  "uptime_s": 52814
+  "updated_at": "2026-11-12T21:52:30.198Z",
+  "uptime_s": 52830
 }
