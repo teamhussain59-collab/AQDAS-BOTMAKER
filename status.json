@@ -67,8 +67,6 @@
     }
   ],
   "guest_log": [
-    "15:27:26 ********6092: connection close 403 Connection Failure",
-    "15:27:47 ********2806: code bana",
     "15:28:01 ********6092: connection close 403 Connection Failure",
     "15:28:19 ********2806: LINKING (phone ne code accept kiya)",
     "15:28:25 ********2806: connection close 515 Stream Errored (restart required)",
@@ -86,7 +84,9 @@
     "15:30:32 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
     "15:30:32 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
     "15:30:32 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
-    "15:30:32 ********8574: status ***********9024: seen ✅, react skip (120/ghanta had)"
+    "15:30:32 ********8574: status ***********9024: seen ✅, react skip (120/ghanta had)",
+    "15:30:51 ********6092: connection close 403 Connection Failure",
+    "15:30:52 ********6325: status ***********2734: seen ✅, react 😇 ✅"
   ],
   "guest_frames": {
     "number": "********5182",
@@ -119,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T15:30:37.530Z",
-  "uptime_s": 29917
+  "updated_at": "2026-11-12T15:30:56.080Z",
+  "uptime_s": 29936
 }
