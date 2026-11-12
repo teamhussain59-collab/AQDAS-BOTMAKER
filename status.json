@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "15:32:28 ********2806: brand: ahmi-jutt",
     "15:32:28 ********6092: connection close 403 Connection Failure",
     "15:32:49 ********8574: connection close 500 Stream Errored (ack)",
     "15:32:53 ********8574: CONNECTED ✅",
@@ -91,7 +90,8 @@
     "15:34:12 ********6092: connection close 403 Connection Failure",
     "15:34:47 ********6092: connection close 403 Connection Failure",
     "15:35:21 ********6092: connection close 403 Connection Failure",
-    "15:35:52 ********6092: connection close 403 Connection Failure"
+    "15:35:52 ********6092: connection close 403 Connection Failure",
+    "15:36:26 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********2806",
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T15:36:08.341Z",
-  "uptime_s": 30248
+  "updated_at": "2026-11-12T15:36:30.285Z",
+  "uptime_s": 30270
 }
