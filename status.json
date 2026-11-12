@@ -72,8 +72,6 @@
     }
   ],
   "guest_log": [
-    "07:12:14 ********6325: LINKING (phone ne code accept kiya)",
-    "07:12:14 ********2634: LINKING (phone ne code accept kiya)",
     "07:12:14 ********5634: LINKING (phone ne code accept kiya)",
     "07:12:14 ********8574: CONNECTED ✅",
     "07:12:14 ********6092: connection close 403 Connection Failure",
@@ -91,7 +89,9 @@
     "07:12:42 ********7793: code error: WhatsApp server se connection nahi bana (timeout)",
     "07:12:42 ********8508: code error: WhatsApp server se connection nahi bana (timeout)",
     "07:12:47 ********6092: connection close 403 Connection Failure",
-    "07:12:47 ********8704: connection close 403 Connection Failure"
+    "07:12:47 ********8704: connection close 403 Connection Failure",
+    "07:13:01 ********8704: connection close 403 Connection Failure",
+    "07:13:01 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8508",
@@ -117,6 +117,6 @@
       "07:12:43 iq:result"
     ]
   },
-  "updated_at": "2026-11-12T07:12:51.875Z",
-  "uptime_s": 52
+  "updated_at": "2026-11-12T07:13:05.465Z",
+  "uptime_s": 65
 }
