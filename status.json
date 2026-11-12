@@ -59,6 +59,11 @@
       "number": "********6325",
       "state": "connected",
       "autostatus": "view+react"
+    },
+    {
+      "number": "********5182",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -84,34 +89,11 @@
     "11:16:59 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
-    "number": "********8508",
-    "state": "connected",
+    "number": "********5182",
+    "state": "pairing",
     "frames": [
-      "11:07:19 iq:result",
-      "11:07:49 iq:result",
-      "11:08:19 iq:result",
-      "11:08:20 ib: <edge_routing>",
-      "11:08:49 iq:result",
-      "11:09:19 iq:result",
-      "11:09:49 iq:result",
-      "11:10:00 notification:business <remove>",
-      "11:10:00 notification:w:gp2 <remove>",
-      "11:10:19 iq:result",
-      "11:10:47 notification:devices <add>",
-      "11:10:49 iq:result",
-      "11:11:19 iq:result",
-      "11:11:49 iq:result",
-      "11:12:19 iq:result",
-      "11:12:49 iq:result",
-      "11:13:19 iq:result",
-      "11:13:49 iq:result",
-      "11:14:09 notification:devices <add>",
-      "11:14:19 iq:result",
-      "11:14:49 iq:result",
-      "11:15:19 iq:result",
-      "11:15:49 iq:result",
-      "11:16:19 iq:result",
-      "11:16:49 iq:result"
+      "11:17:12 iq:set <pair-device>",
+      "11:17:13 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -132,6 +114,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T11:17:08.186Z",
-  "uptime_s": 14708
+  "updated_at": "2026-11-12T11:17:17.516Z",
+  "uptime_s": 14717
 }
