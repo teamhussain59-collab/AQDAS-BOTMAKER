@@ -67,10 +67,6 @@
     }
   ],
   "guest_log": [
-    "09:52:14 ********6092: connection close 403 Connection Failure",
-    "09:52:16 ********8582: status ***********7722: seen ✅, react 💋 ✅",
-    "09:52:26 ********8574: status ***********7722: seen ✅, react 😘 ✅",
-    "09:52:34 ********8582: status ***********6296: seen ✅, react 🥵 ✅",
     "09:52:47 ********6092: connection close 403 Connection Failure",
     "09:53:20 ********6092: connection close 403 Connection Failure",
     "09:53:52 ********8582: status ***********3578: seen ✅, react 👻 ✅",
@@ -86,37 +82,31 @@
     "09:56:46 ********6092: connection close 403 Connection Failure",
     "09:57:11 ********8582: status ***********6296: seen ✅, react 👻 ✅",
     "09:57:16 ********6092: connection close 403 Connection Failure",
-    "09:57:51 ********6092: connection close 403 Connection Failure"
+    "09:57:51 ********6092: connection close 403 Connection Failure",
+    "09:58:17 ********8508: connection close 428 Connection Terminated",
+    "09:58:21 ********8508: CONNECTED ✅",
+    "09:58:23 ********6092: connection close 403 Connection Failure",
+    "09:58:23 ********8574: status ***********2412: seen ✅, react 😘 ✅"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "09:47:48 iq:result",
-      "09:48:18 iq:result",
-      "09:48:48 iq:result",
-      "09:48:50 notification:devices <add>",
-      "09:49:18 iq:result",
-      "09:49:48 iq:result",
-      "09:50:18 iq:result",
-      "09:50:48 iq:result",
-      "09:50:51 notification:business <verified_name>",
-      "09:51:18 iq:result",
-      "09:51:48 iq:result",
-      "09:52:14 ib: <edge_routing>",
-      "09:52:18 iq:result",
-      "09:52:48 iq:result",
-      "09:53:18 iq:result",
-      "09:53:48 iq:result",
-      "09:54:18 iq:result",
-      "09:54:46 notification:encrypt <identity>",
-      "09:54:48 iq:result",
-      "09:55:18 iq:result",
-      "09:55:48 iq:result",
-      "09:56:18 iq:result",
-      "09:56:48 iq:result",
-      "09:57:18 iq:result",
-      "09:57:48 iq:result"
+      "09:58:19 success:",
+      "09:58:20 ib: <edge_routing>",
+      "09:58:20 iq:result <count+pq_count>",
+      "09:58:20 iq:result <list>",
+      "09:58:20 iq:result <active>",
+      "09:58:21 ib: <offline>",
+      "09:58:21 iq:result <digest>",
+      "09:58:21 iq:result <list>",
+      "09:58:21 iq:result <props+erid>",
+      "09:58:21 iq:result <privacy>",
+      "09:58:22 iq:result <usync>",
+      "09:58:23 iq:result <list>",
+      "09:58:23 notification:privacy_token <tokens>",
+      "09:58:23 iq:result",
+      "09:58:23 notification:privacy_token <tokens>"
     ]
   },
   "mem": {
@@ -137,6 +127,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T09:58:08.199Z",
-  "uptime_s": 9968
+  "updated_at": "2026-11-12T09:58:27.363Z",
+  "uptime_s": 9987
 }
