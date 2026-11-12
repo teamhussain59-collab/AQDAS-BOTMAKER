@@ -67,9 +67,6 @@
     }
   ],
   "guest_log": [
-    "09:11:56 ********8574: status ***********2669: seen ✅, react 😍 ✅",
-    "09:12:27 ********6092: connection close 403 Connection Failure",
-    "09:13:01 ********6092: connection close 403 Connection Failure",
     "09:13:34 ********6092: connection close 403 Connection Failure",
     "09:14:07 ********6092: connection close 403 Connection Failure",
     "09:14:38 ********6092: connection close 403 Connection Failure",
@@ -86,17 +83,15 @@
     "09:16:40 ********8574: status **********2520: seen ✅, react 😌 ✅",
     "09:16:54 ********6092: connection close 403 Connection Failure",
     "09:16:58 ********8582: status **********5528: seen ✅, react 👀 ✅",
-    "09:17:05 ********8582: status ***********6354: seen ✅, react 👀 ✅"
+    "09:17:05 ********8582: status ***********6354: seen ✅, react 👀 ✅",
+    "09:17:21 ********8582: status **********7644: seen ✅, react 👻 ✅",
+    "09:17:28 ********6092: connection close 403 Connection Failure",
+    "09:17:28 ********8582: status **********5528: seen ✅, react 💋 ✅"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "09:05:18 iq:result",
-      "09:05:48 iq:result",
-      "09:06:18 iq:result",
-      "09:06:48 iq:result",
-      "09:07:18 iq:result",
       "09:07:48 iq:result",
       "09:08:18 iq:result",
       "09:08:48 iq:result",
@@ -116,7 +111,12 @@
       "09:15:18 iq:result",
       "09:15:48 iq:result",
       "09:16:18 iq:result",
-      "09:16:48 iq:result"
+      "09:16:48 iq:result",
+      "09:17:18 iq:result",
+      "09:17:25 notification:server_sync <collection+collection+collection>",
+      "09:17:25 iq:result <sync>",
+      "09:17:25 notification:server_sync <collection>",
+      "09:17:26 iq:result <sync>"
     ]
   },
   "mem": {
@@ -137,6 +137,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T09:17:09.268Z",
-  "uptime_s": 7509
+  "updated_at": "2026-11-12T09:17:32.434Z",
+  "uptime_s": 7532
 }
