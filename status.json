@@ -92,8 +92,6 @@
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "09:21:48 iq:result",
-      "09:22:14 ib: <edge_routing>",
       "09:22:18 iq:result",
       "09:22:48 iq:result",
       "09:23:18 iq:result",
@@ -116,7 +114,9 @@
       "09:31:18 iq:result",
       "09:31:48 iq:result",
       "09:32:14 ib: <edge_routing>",
-      "09:32:18 iq:result"
+      "09:32:18 iq:result",
+      "09:32:48 iq:result",
+      "09:32:49 notification:business <verified_name>"
     ]
   },
   "mem": {
@@ -137,6 +137,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T09:32:33.095Z",
-  "uptime_s": 8433
+  "updated_at": "2026-11-12T09:32:53.624Z",
+  "uptime_s": 8453
 }
