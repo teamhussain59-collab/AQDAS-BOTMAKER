@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "15:28:28 ********2806: brand: ahmi-jutt",
     "15:28:31 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
     "15:28:31 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
     "15:28:33 ********6092: connection close 403 Connection Failure",
@@ -91,7 +90,8 @@
     "15:30:57 ********6325: status ***********2734: seen ✅, react 😘 ✅",
     "15:31:24 ********6092: connection close 403 Connection Failure",
     "15:31:33 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
-    "15:31:56 ********6092: connection close 403 Connection Failure"
+    "15:31:56 ********6092: connection close 403 Connection Failure",
+    "15:32:13 ********2806: code bana"
   ],
   "guest_frames": {
     "number": "********2806",
@@ -119,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T15:32:12.881Z",
-  "uptime_s": 30013
+  "updated_at": "2026-11-12T15:32:18.662Z",
+  "uptime_s": 30018
 }
