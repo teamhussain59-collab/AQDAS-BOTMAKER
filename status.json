@@ -67,17 +67,11 @@
     },
     {
       "number": "********2806",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "15:28:31 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
-    "15:28:31 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
-    "15:28:33 ********6092: connection close 403 Connection Failure",
-    "15:28:33 ********8574: status **********2520: seen ✅, react 😳 ✅",
-    "15:29:09 ********6092: connection close 403 Connection Failure",
-    "15:29:44 ********6092: connection close 403 Connection Failure",
     "15:29:53 ********2806: connection close 401 Stream Errored (conflict)",
     "15:29:53 ********2806: logged out",
     "15:30:16 ********6092: connection close 403 Connection Failure",
@@ -91,14 +85,25 @@
     "15:31:24 ********6092: connection close 403 Connection Failure",
     "15:31:33 ********8574: status **********2520: seen ✅, react skip (120/ghanta had)",
     "15:31:56 ********6092: connection close 403 Connection Failure",
-    "15:32:13 ********2806: code bana"
+    "15:32:13 ********2806: code bana",
+    "15:32:21 ********6985: status ***********1776: seen ✅, react 😳 ✅",
+    "15:32:21 ********2806: LINKING (phone ne code accept kiya)",
+    "15:32:25 ********2806: connection close 515 Stream Errored (restart required)",
+    "15:32:28 ********2806: CONNECTED ✅",
+    "15:32:28 ********2806: brand: ahmi-jutt",
+    "15:32:28 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********2806",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "15:32:08 iq:set <pair-device>",
-      "15:32:08 iq:result <link_code_companion_reg[companion_hello]>"
+      "15:32:08 iq:result <link_code_companion_reg[companion_hello]>",
+      "15:32:21 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "15:32:21 iq:result",
+      "15:32:23 iq:set <pair-success>",
+      "15:32:25 stream:error: code=515",
+      "15:32:25 xmlstreamend:"
     ]
   },
   "mem": {
@@ -119,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-12T15:32:18.662Z",
-  "uptime_s": 30018
+  "updated_at": "2026-11-12T15:32:32.956Z",
+  "uptime_s": 30033
 }
