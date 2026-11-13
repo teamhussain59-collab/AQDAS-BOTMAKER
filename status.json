@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "10:50:17 ********8582: status ***********0695: seen ✅, react 🪄 ✅",
     "10:50:23 ********6092: connection close 403 Connection Failure",
     "10:50:37 ********8582: status ***********1252: seen ✅, react 🧸 ✅",
     "10:50:57 ********6092: connection close 403 Connection Failure",
@@ -91,7 +90,8 @@
     "10:53:37 ********8582: status ***********7069: seen ✅, react 💎 ✅",
     "10:53:38 ********8574: status ***********7069: seen ✅, react 😘 ✅",
     "10:53:51 ********6092: connection close 403 Connection Failure",
-    "10:55:01 ********6092: connection close 408 WebSocket Error (Opening handshake has timed out)"
+    "10:55:01 ********6092: connection close 408 WebSocket Error (Opening handshake has timed out)",
+    "10:55:35 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********5634",
@@ -125,6 +125,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T10:55:05.760Z",
-  "uptime_s": 99785
+  "updated_at": "2026-11-13T10:55:39.538Z",
+  "uptime_s": 99819
 }
