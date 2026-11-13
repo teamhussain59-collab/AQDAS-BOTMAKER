@@ -67,15 +67,11 @@
     },
     {
       "number": "********8704",
-      "state": "pairing",
+      "state": "connected",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "16:26:02 ********8574: status **********6503: seen ✅, react 🙂 ✅",
-    "16:26:13 ********6092: connection close 403 Connection Failure",
-    "16:26:15 ********8574: status **********6503: seen ✅, react 😊 ✅",
-    "16:26:16 ********8574: status **********6503: seen ✅, react 😇 ✅",
     "16:26:35 ********8582: status **********5528: seen ✅, react 🌝 ✅",
     "16:26:48 ********6092: connection close 403 Connection Failure",
     "16:27:22 ********6092: connection close 403 Connection Failure",
@@ -91,14 +87,23 @@
     "16:29:54 ********8704: code bana",
     "16:29:55 ********8582: status ***********9130: seen ✅, react 🎈 ✅",
     "16:29:58 ********8582: status ***********6296: seen ✅, react 🎈 ✅",
-    "16:30:10 ********6092: connection close 403 Connection Failure"
+    "16:30:10 ********6092: connection close 403 Connection Failure",
+    "16:30:14 ********8704: LINKING (phone ne code accept kiya)",
+    "16:30:18 ********8704: connection close 515 Stream Errored (restart required)",
+    "16:30:21 ********8704: CONNECTED ✅",
+    "16:30:21 ********8704: brand: f-ali-xmd"
   ],
   "guest_frames": {
     "number": "********8704",
-    "state": "pairing",
+    "state": "connected",
     "frames": [
       "16:29:49 iq:set <pair-device>",
-      "16:29:49 iq:result <link_code_companion_reg[companion_hello]>"
+      "16:29:49 iq:result <link_code_companion_reg[companion_hello]>",
+      "16:30:14 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "16:30:14 iq:result",
+      "16:30:17 iq:set <pair-success>",
+      "16:30:17 stream:error: code=515",
+      "16:30:17 xmlstreamend:"
     ]
   },
   "mem": {
@@ -119,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T16:30:14.266Z",
-  "uptime_s": 4903
+  "updated_at": "2026-11-13T16:30:25.004Z",
+  "uptime_s": 4913
 }
