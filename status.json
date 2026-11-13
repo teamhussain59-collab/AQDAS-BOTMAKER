@@ -72,9 +72,6 @@
     }
   ],
   "guest_log": [
-    "18:53:23 ********6092: connection close 403 Connection Failure",
-    "18:53:58 ********6092: connection close 403 Connection Failure",
-    "18:54:32 ********6092: connection close 403 Connection Failure",
     "18:55:05 ********6092: connection close 403 Connection Failure",
     "18:55:38 ********6092: connection close 403 Connection Failure",
     "18:56:10 ********6092: connection close 403 Connection Failure",
@@ -91,7 +88,10 @@
     "18:59:31 ********8508: connection close 500 Stream Errored (ack)",
     "18:59:34 ********8508: CONNECTED ✅",
     "18:59:45 ********8582: status ***********6489: seen ✅, react 💎 ✅",
-    "18:59:56 ********6092: connection close 403 Connection Failure"
+    "18:59:56 ********6092: connection close 403 Connection Failure",
+    "19:00:03 ********8508: code error: WhatsApp server se connection nahi bana (timeout)",
+    "19:00:04 ********6985: connection close 428 Connection Terminated",
+    "19:00:08 ********6985: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********8704",
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T19:00:00.462Z",
-  "uptime_s": 13889
+  "updated_at": "2026-11-13T19:00:12.299Z",
+  "uptime_s": 13901
 }
