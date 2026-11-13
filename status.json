@@ -72,8 +72,6 @@
     }
   ],
   "guest_log": [
-    "09:47:19 ********6092: connection close 403 Connection Failure",
-    "09:47:52 ********6092: connection close 403 Connection Failure",
     "09:48:18 ********8582: status ***********6856: seen ✅, react 🌝 ✅",
     "09:48:24 ********6092: connection close 403 Connection Failure",
     "09:48:41 ********8582: status ***********7069: seen ✅, react 🎈 ✅",
@@ -91,7 +89,9 @@
     "09:50:27 ********5634: CONNECTED ✅",
     "09:50:27 ********5634: brand: onlya",
     "09:50:30 ********6092: connection close 403 Connection Failure",
-    "09:51:02 ********6092: connection close 403 Connection Failure"
+    "09:51:02 ********6092: connection close 403 Connection Failure",
+    "09:51:32 ********6092: connection close 408 WebSocket Error (read ECONNRESET)",
+    "09:51:33 ********8582: status ***********0439: seen ✅, react 🎀 ✅"
   ],
   "guest_frames": {
     "number": "********5634",
@@ -125,6 +125,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T09:51:06.173Z",
-  "uptime_s": 95946
+  "updated_at": "2026-11-13T09:51:37.779Z",
+  "uptime_s": 95977
 }
