@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "15:08:44 ********2806: LINKING (phone ne code accept kiya)",
     "15:08:45 ********2634: LINKING (phone ne code accept kiya)",
     "15:08:45 ********5182: CONNECTED ✅",
     "15:08:45 ********8508: CONNECTED ✅",
@@ -91,7 +90,8 @@
     "15:08:46 ********8582: CONNECTED ✅",
     "15:08:46 ********6985: CONNECTED ✅",
     "15:08:48 ********6092: connection close 403 Connection Failure",
-    "15:08:55 ********6092: connection close 403 Connection Failure"
+    "15:08:55 ********6092: connection close 403 Connection Failure",
+    "15:09:02 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8508",
@@ -114,6 +114,6 @@
       "15:08:46 notification:privacy_token <tokens>"
     ]
   },
-  "updated_at": "2026-11-13T15:08:59.590Z",
-  "uptime_s": 28
+  "updated_at": "2026-11-13T15:09:06.533Z",
+  "uptime_s": 35
 }
