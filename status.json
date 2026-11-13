@@ -72,26 +72,26 @@
     }
   ],
   "guest_log": [
-    "19:13:13 ********6092: connection close 403 Connection Failure",
-    "19:13:48 ********6092: connection close 403 Connection Failure",
-    "19:14:22 ********6092: connection close 403 Connection Failure",
-    "19:14:51 ********8582: status ***********3864: seen ✅, react 🪄 ✅",
-    "19:14:53 ********6092: connection close 403 Connection Failure",
-    "19:15:25 ********6092: connection close 403 Connection Failure",
-    "19:15:56 ********6092: connection close 403 Connection Failure",
-    "19:16:00 ********8704: connection close 428 Connection Terminated",
-    "19:16:04 ********8704: CONNECTED ✅",
-    "19:16:30 ********6092: connection close 403 Connection Failure",
-    "19:17:03 ********6092: connection close 403 Connection Failure",
-    "19:17:33 ********3532: connection close 428 Connection Terminated",
-    "19:17:36 ********3532: CONNECTED ✅",
-    "19:17:36 ********8582: status **********3122: seen ✅, react 🎈 ✅",
-    "19:17:37 ********6092: connection close 403 Connection Failure",
-    "19:18:10 ********6092: connection close 403 Connection Failure",
-    "19:18:11 ********6985: status **********1259: seen ✅, react 😌 ✅",
-    "19:18:44 ********6092: connection close 403 Connection Failure",
-    "19:19:09 ********8582: status ***********5902: seen ✅, react 💎 ✅",
-    "19:19:16 ********6092: connection close 403 Connection Failure"
+    "19:23:59 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:23:59 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:00 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:00 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:00 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:00 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:01 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:01 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:01 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:01 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:02 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:02 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:02 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:03 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:03 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:03 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:03 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:04 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:04 ********8574: status **********6503: seen ✅, react skip (120/ghanta had)",
+    "19:24:05 ********8574: status ***********7722: seen ✅, react skip (120/ghanta had)"
   ],
   "guest_frames": {
     "number": "********8704",
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T19:23:39.087Z",
-  "uptime_s": 15307
+  "updated_at": "2026-11-13T19:24:09.078Z",
+  "uptime_s": 15337
 }
