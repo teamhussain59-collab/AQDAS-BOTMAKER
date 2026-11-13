@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "16:26:35 ********8582: status **********5528: seen ✅, react 🌝 ✅",
     "16:26:48 ********6092: connection close 403 Connection Failure",
     "16:27:22 ********6092: connection close 403 Connection Failure",
     "16:27:38 ********8582: status **********5528: seen ✅, react 💎 ✅",
@@ -91,7 +90,8 @@
     "16:30:14 ********8704: LINKING (phone ne code accept kiya)",
     "16:30:18 ********8704: connection close 515 Stream Errored (restart required)",
     "16:30:21 ********8704: CONNECTED ✅",
-    "16:30:21 ********8704: brand: f-ali-xmd"
+    "16:30:21 ********8704: brand: f-ali-xmd",
+    "16:30:41 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8704",
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T16:30:39.061Z",
-  "uptime_s": 4927
+  "updated_at": "2026-11-13T16:30:45.346Z",
+  "uptime_s": 4934
 }
