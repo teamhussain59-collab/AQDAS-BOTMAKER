@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "09:50:23 ********5634: connection close 515 Stream Errored (restart required)",
     "09:50:25 ********8582: status ***********6262: seen ✅, react 🪄 ✅",
     "09:50:27 ********5634: CONNECTED ✅",
     "09:50:27 ********5634: brand: onlya",
@@ -91,7 +90,8 @@
     "09:54:33 ********8582: status ***********7266: seen ✅, react 🎀 ✅",
     "09:54:50 ********6092: connection close 403 Connection Failure",
     "09:55:00 ********6325: connection close 428 Connection Terminated",
-    "09:55:03 ********6325: CONNECTED ✅"
+    "09:55:03 ********6325: CONNECTED ✅",
+    "09:55:21 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********5634",
@@ -125,6 +125,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T09:55:07.690Z",
-  "uptime_s": 96187
+  "updated_at": "2026-11-13T09:55:25.971Z",
+  "uptime_s": 96206
 }
