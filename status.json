@@ -72,15 +72,6 @@
     }
   ],
   "guest_log": [
-    "15:13:46 ********6092: connection close 403 Connection Failure",
-    "15:13:51 ********8574: status ***********0368: seen ✅, react 😘 ✅",
-    "15:13:52 ********8582: status ***********0368: seen ✅, react 🌝 ✅",
-    "15:13:53 ********8582: status ***********0695: seen ✅, react 🎈 ✅",
-    "15:14:17 ********6092: connection close 403 Connection Failure",
-    "15:14:48 ********6092: connection close 403 Connection Failure",
-    "15:14:59 ********8582: status ***********4816: seen ✅, react 🎈 ✅",
-    "15:15:22 ********6092: connection close 403 Connection Failure",
-    "15:15:56 ********6092: connection close 403 Connection Failure",
     "15:16:05 ********6985: status ***********4150: seen ✅, react 😌 ✅",
     "15:16:31 ********6092: connection close 403 Connection Failure",
     "15:17:05 ********6092: connection close 403 Connection Failure",
@@ -91,37 +82,36 @@
     "15:18:57 ********8574: status ***********9024: seen ✅, react 🥺 ✅",
     "15:18:57 ********8582: status **********1368: seen ✅, react 💎 ✅",
     "15:19:13 ********6092: connection close 403 Connection Failure",
-    "15:19:16 ********8582: status ***********3864: seen ✅, react 🎈 ✅"
+    "15:19:16 ********8582: status ***********3864: seen ✅, react 🎈 ✅",
+    "15:19:54 ********6092: connection close 403 Connection Failure",
+    "15:19:54 ********8508: connection close 408 Connection was lost",
+    "15:19:54 ********8574: connection close 408 Connection was lost",
+    "15:19:54 ********6325: connection close 408 Connection was lost",
+    "15:19:54 ********6985: connection close 408 Connection was lost",
+    "15:19:57 ********8574: CONNECTED ✅",
+    "15:19:57 ********8508: CONNECTED ✅",
+    "15:19:58 ********6325: CONNECTED ✅",
+    "15:19:58 ********6985: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "15:08:46 notification:privacy_token <tokens>",
-      "15:09:14 iq:result",
-      "15:09:44 iq:result",
-      "15:10:14 iq:result",
-      "15:10:44 iq:result",
-      "15:11:14 iq:result",
-      "15:11:28 notification:devices <update>",
-      "15:11:44 iq:result",
-      "15:12:14 iq:result",
-      "15:12:44 iq:result",
-      "15:13:14 iq:result",
-      "15:13:46 iq:result",
-      "15:14:15 iq:result",
-      "15:14:45 iq:result",
-      "15:15:15 iq:result",
-      "15:15:45 iq:result",
-      "15:16:15 iq:result",
-      "15:16:45 iq:result",
-      "15:17:15 iq:result",
-      "15:17:45 iq:result",
-      "15:18:15 iq:result",
-      "15:18:45 ib: <edge_routing>",
-      "15:18:45 iq:result",
-      "15:19:12 notification:devices <add>",
-      "15:19:15 iq:result"
+      "15:19:56 success:",
+      "15:19:57 ib: <edge_routing>",
+      "15:19:57 iq:result <count+pq_count>",
+      "15:19:57 iq:result <list>",
+      "15:19:57 iq:result <active>",
+      "15:19:57 ib: <offline>",
+      "15:19:57 iq:result <digest>",
+      "15:19:58 iq:result <list>",
+      "15:19:58 iq:result <props+erid>",
+      "15:19:58 iq:result <privacy>",
+      "15:19:59 iq:result <usync>",
+      "15:19:59 iq:result <list>",
+      "15:19:59 notification:privacy_token <tokens>",
+      "15:19:59 notification:privacy_token <tokens>",
+      "15:19:59 iq:result"
     ]
   },
   "mem": {
@@ -142,6 +132,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T15:19:20.077Z",
-  "uptime_s": 648
+  "updated_at": "2026-11-13T15:20:03.677Z",
+  "uptime_s": 692
 }
