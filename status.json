@@ -64,6 +64,11 @@
       "number": "********2806",
       "state": "connected",
       "autostatus": "off"
+    },
+    {
+      "number": "********8582",
+      "state": "pairing",
+      "autostatus": "off"
     }
   ],
   "guest_log": [
@@ -89,16 +94,11 @@
     "06:47:23 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
-    "number": "********2806",
-    "state": "connected",
+    "number": "********8582",
+    "state": "pairing",
     "frames": [
-      "15:32:08 iq:set <pair-device>",
-      "15:32:08 iq:result <link_code_companion_reg[companion_hello]>",
-      "15:32:21 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "15:32:21 iq:result",
-      "15:32:23 iq:set <pair-success>",
-      "15:32:25 stream:error: code=515",
-      "15:32:25 xmlstreamend:"
+      "06:47:46 iq:set <pair-device>",
+      "06:47:47 iq:result <link_code_companion_reg[companion_hello]>"
     ]
   },
   "mem": {
@@ -119,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T06:47:27.277Z",
-  "uptime_s": 84927
+  "updated_at": "2026-11-13T06:47:51.244Z",
+  "uptime_s": 84951
 }
