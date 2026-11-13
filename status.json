@@ -36,11 +36,6 @@
       "autostatus": "off"
     },
     {
-      "number": "********5634",
-      "state": "connected",
-      "autostatus": "off"
-    },
-    {
       "number": "********2634",
       "state": "connected",
       "autostatus": "off"
@@ -72,8 +67,6 @@
     }
   ],
   "guest_log": [
-    "08:52:57 ********8582: status ***********7069: seen ✅, react 🎈 ✅",
-    "08:53:09 ********6092: connection close 403 Connection Failure",
     "08:53:39 ********8574: status ***********7069: seen ✅, react 😢 ✅",
     "08:53:43 ********6092: connection close 403 Connection Failure",
     "08:54:12 ********6985: status ***********2386: seen ✅, react 😘 ✅",
@@ -91,7 +84,9 @@
     "08:58:28 ********6325: status ***********4513: seen ✅, react 😌 ✅",
     "08:58:42 ********8582: status **********1368: seen ✅, react 💎 ✅",
     "08:58:44 ********8582: status ***********2117: seen ✅, react 🌝 ✅",
-    "08:58:44 ********6092: connection close 403 Connection Failure"
+    "08:58:44 ********6092: connection close 403 Connection Failure",
+    "08:58:58 ********5634: connection close 401 Stream Errored (conflict)",
+    "08:58:58 ********5634: logged out"
   ],
   "guest_frames": {
     "number": "********8582",
@@ -124,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T08:58:50.448Z",
-  "uptime_s": 92810
+  "updated_at": "2026-11-13T08:59:02.806Z",
+  "uptime_s": 92822
 }
