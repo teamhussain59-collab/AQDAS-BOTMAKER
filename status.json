@@ -72,9 +72,6 @@
     }
   ],
   "guest_log": [
-    "01:20:34 ********6092: connection close 403 Connection Failure",
-    "01:21:07 ********6092: connection close 403 Connection Failure",
-    "01:21:40 ********6092: connection close 403 Connection Failure",
     "01:22:12 ********6092: connection close 403 Connection Failure",
     "01:22:43 ********6092: connection close 403 Connection Failure",
     "01:23:18 ********6092: connection close 403 Connection Failure",
@@ -91,19 +88,16 @@
     "01:28:11 ********6092: connection close 403 Connection Failure",
     "01:28:44 ********6092: connection close 403 Connection Failure",
     "01:29:18 ********6092: connection close 403 Connection Failure",
-    "01:29:36 ********7793: connection close 503 Stream Errored (unknown)"
+    "01:29:36 ********7793: connection close 503 Stream Errored (unknown)",
+    "01:29:40 ********7793: connection close 403 Connection Failure",
+    "01:29:46 ********7793: connection close 401 Connection Failure",
+    "01:29:46 ********7793: logged out"
   ],
   "guest_frames": {
-    "number": "********2806",
+    "number": "********7793",
     "state": "connected",
     "frames": [
-      "15:32:08 iq:set <pair-device>",
-      "15:32:08 iq:result <link_code_companion_reg[companion_hello]>",
-      "15:32:21 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "15:32:21 iq:result",
-      "15:32:23 iq:set <pair-success>",
-      "15:32:25 stream:error: code=515",
-      "15:32:25 xmlstreamend:"
+      "01:29:46 failure:"
     ]
   },
   "mem": {
@@ -124,6 +118,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T01:29:40.097Z",
-  "uptime_s": 65860
+  "updated_at": "2026-11-13T01:29:46.172Z",
+  "uptime_s": 65866
 }
