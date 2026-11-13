@@ -72,7 +72,6 @@
     }
   ],
   "guest_log": [
-    "16:30:21 ********8704: CONNECTED ✅",
     "16:30:21 ********8704: brand: f-ali-xmd",
     "16:30:41 ********6092: connection close 403 Connection Failure",
     "16:31:01 ********8574: status ***********9024: seen ✅, react 😢 ✅",
@@ -91,7 +90,8 @@
     "16:34:55 ********8582: status ***********3375: seen ✅, react 💎 ✅",
     "16:35:05 ********6092: connection close 403 Connection Failure",
     "16:35:24 ********8574: status **********6503: seen ✅, react 😊 ✅",
-    "16:35:25 ********8574: status ***********7646: seen ✅, react 😌 ✅"
+    "16:35:25 ********8574: status ***********7646: seen ✅, react 😌 ✅",
+    "16:35:35 ********6092: connection close 408 WebSocket Error (read ECONNRESET)"
   ],
   "guest_frames": {
     "number": "********8704",
@@ -124,6 +124,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-13T16:35:31.031Z",
-  "uptime_s": 5219
+  "updated_at": "2026-11-13T16:35:39.989Z",
+  "uptime_s": 5228
 }
