@@ -77,7 +77,6 @@
     }
   ],
   "guest_log": [
-    "02:20:04 ********5634: LINKING (phone ne code accept kiya)",
     "02:20:07 ********5634: connection close 515 Stream Errored (restart required)",
     "02:20:11 ********5634: CONNECTED ✅",
     "02:20:11 ********5634: brand: juttnot-in-your-range",
@@ -96,7 +95,8 @@
     "02:25:42 ********6092: connection close 403 Connection Failure",
     "02:25:44 ********8582: status *********7311: seen ✅, react 🪄 ✅",
     "02:26:14 ********6092: connection close 403 Connection Failure",
-    "02:26:44 ********6092: connection close 403 Connection Failure"
+    "02:26:44 ********6092: connection close 403 Connection Failure",
+    "02:27:18 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********5634",
@@ -129,6 +129,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-14T02:26:48.939Z",
-  "uptime_s": 40697
+  "updated_at": "2026-11-14T02:27:22.444Z",
+  "uptime_s": 40731
 }
