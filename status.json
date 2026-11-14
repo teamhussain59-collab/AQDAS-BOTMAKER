@@ -72,11 +72,6 @@
     }
   ],
   "guest_log": [
-    "20:12:32 ********6092: connection close 403 Connection Failure",
-    "20:13:07 ********6092: connection close 403 Connection Failure",
-    "20:13:15 ********8582: status **********8161: seen ✅, react 🌝 ✅",
-    "20:13:31 ********8582: status ***********7046: seen ✅, react 💎 ✅",
-    "20:13:39 ********6092: connection close 403 Connection Failure",
     "20:14:13 ********6092: connection close 403 Connection Failure",
     "20:14:46 ********6092: connection close 403 Connection Failure",
     "20:15:13 ********8582: status ***********9944: seen ✅, react 🌝 ✅",
@@ -91,14 +86,17 @@
     "20:18:34 ********6092: connection close 403 Connection Failure",
     "20:19:04 ********8582: status **********8157: seen ✅, react 🧸 ✅",
     "20:19:08 ********6092: connection close 403 Connection Failure",
-    "20:19:42 ********6092: connection close 403 Connection Failure"
+    "20:19:42 ********6092: connection close 403 Connection Failure",
+    "20:20:15 ********6092: connection close 403 Connection Failure",
+    "20:20:22 ********5182: connection close 500 Stream Errored (ack)",
+    "20:20:23 ********8574: connection close 500 Stream Errored (ack)",
+    "20:20:26 ********8574: CONNECTED ✅",
+    "20:20:26 ********5182: CONNECTED ✅"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "20:08:19 iq:result",
-      "20:08:49 iq:result",
       "20:09:19 iq:result",
       "20:09:49 iq:result",
       "20:10:19 iq:result",
@@ -121,7 +119,9 @@
       "20:18:19 iq:result",
       "20:18:49 iq:result",
       "20:19:19 iq:result",
-      "20:19:49 iq:result"
+      "20:19:49 iq:result",
+      "20:20:19 iq:result",
+      "20:20:20 ib: <edge_routing>"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-14T20:20:15.726Z",
-  "uptime_s": 6009
+  "updated_at": "2026-11-14T20:20:30.415Z",
+  "uptime_s": 6024
 }
