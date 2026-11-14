@@ -64,18 +64,9 @@
       "number": "********8704",
       "state": "connected",
       "autostatus": "off"
-    },
-    {
-      "number": "********6760",
-      "state": "linking",
-      "autostatus": "off"
     }
   ],
   "guest_log": [
-    "08:59:10 ********8582: status ***********7550: seen ✅, react 🎀 ✅",
-    "08:59:17 ********6092: connection close 403 Connection Failure",
-    "08:59:33 ********8582: status **********2109: seen ✅, react 🎀 ✅",
-    "08:59:44 ********8582: status ***********6856: seen ✅, react 🪄 ✅",
     "08:59:51 ********6092: connection close 403 Connection Failure",
     "09:00:04 ********8582: status ***********0695: seen ✅, react 🌝 ✅",
     "09:00:08 ********6760: code bana",
@@ -91,26 +82,23 @@
     "09:03:12 ********6092: connection close 403 Connection Failure",
     "09:03:33 ********6760: connection close 428 Connection Terminated by Server",
     "09:03:38 ********6760: connection close 401 Connection Failure",
-    "09:03:38 ********6760: logged out"
+    "09:03:38 ********6760: logged out",
+    "09:03:40 ********8574: connection close 500 Stream Errored (ack)",
+    "09:03:43 ********8574: CONNECTED ✅",
+    "09:03:46 ********6092: connection close 403 Connection Failure",
+    "09:03:50 ********8582: status ***********9130: seen ✅, react 🧸 ✅"
   ],
   "guest_frames": {
-    "number": "********6760",
-    "state": "linking",
+    "number": "********8704",
+    "state": "connected",
     "frames": [
-      "09:00:03 iq:set <pair-device>",
-      "09:00:03 iq:result <link_code_companion_reg[companion_hello]>",
-      "09:00:26 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "09:00:26 iq:result",
-      "09:00:33 iq:result",
-      "09:00:43 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
-      "09:00:43 iq:result",
-      "09:01:03 iq:result",
-      "09:01:33 iq:result",
-      "09:02:03 iq:get",
-      "09:02:03 iq:result",
-      "09:02:33 iq:result",
-      "09:03:03 iq:result",
-      "09:03:33 xmlstreamend:"
+      "16:29:49 iq:set <pair-device>",
+      "16:29:49 iq:result <link_code_companion_reg[companion_hello]>",
+      "16:30:14 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "16:30:14 iq:result",
+      "16:30:17 iq:set <pair-success>",
+      "16:30:17 stream:error: code=515",
+      "16:30:17 xmlstreamend:"
     ]
   },
   "mem": {
@@ -131,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-14T09:03:39.114Z",
-  "uptime_s": 64508
+  "updated_at": "2026-11-14T09:03:54.556Z",
+  "uptime_s": 64523
 }
