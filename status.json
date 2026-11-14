@@ -67,7 +67,6 @@
     }
   ],
   "guest_log": [
-    "07:07:04 ********6092: connection close 403 Connection Failure",
     "07:07:24 ********8574: status **********6503: seen ✅, react 🥺 ✅",
     "07:07:25 ********8574: status **********2520: seen ✅, react 🥺 ✅",
     "07:07:25 ********8574: status **********6503: seen ✅, react 😳 ✅",
@@ -86,7 +85,8 @@
     "07:11:23 ********6092: connection close 403 Connection Failure",
     "07:11:32 ********6985: status ***********1539: seen ✅, react 🙂 ✅",
     "07:11:33 ********6325: status ***********1539: seen ✅, react 🙂 ✅",
-    "07:11:44 ********8574: status **********6503: seen ✅, react 😇 ✅"
+    "07:11:44 ********8574: status **********6503: seen ✅, react 😇 ✅",
+    "07:11:58 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8704",
@@ -119,6 +119,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-14T07:11:48.318Z",
-  "uptime_s": 57797
+  "updated_at": "2026-11-14T07:12:02.421Z",
+  "uptime_s": 57811
 }
