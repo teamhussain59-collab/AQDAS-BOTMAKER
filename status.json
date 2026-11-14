@@ -72,8 +72,6 @@
     }
   ],
   "guest_log": [
-    "18:40:20 ********6985: LINKING (phone ne code accept kiya)",
-    "18:40:20 ********8574: CONNECTED ✅",
     "18:40:20 ********6092: connection close 403 Connection Failure",
     "18:40:20 ********8582: CONNECTED ✅",
     "18:40:21 ********6985: CONNECTED ✅",
@@ -91,7 +89,9 @@
     "18:40:53 ********6092: connection close 403 Connection Failure",
     "18:41:07 ********6092: connection close 403 Connection Failure",
     "18:41:22 ********6092: connection close 403 Connection Failure",
-    "18:41:27 ********8574: status ***********8298: seen ✅, react 😌 ✅"
+    "18:41:27 ********8574: status ***********8298: seen ✅, react 😌 ✅",
+    "18:41:37 ********8574: status **********6503: seen ✅, react 😘 ✅",
+    "18:41:38 ********6092: connection close 403 Connection Failure"
   ],
   "guest_frames": {
     "number": "********8508",
@@ -136,6 +136,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-14T18:41:39.264Z",
-  "uptime_s": 92
+  "updated_at": "2026-11-14T18:41:42.069Z",
+  "uptime_s": 95
 }
