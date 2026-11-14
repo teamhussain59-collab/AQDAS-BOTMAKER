@@ -98,8 +98,6 @@
     "state": "connected",
     "frames": [
       "18:40:20 notification:privacy_token <tokens>",
-      "18:40:20 iq:result",
-      "18:40:20 notification:privacy_token <tokens>",
       "18:40:49 iq:result",
       "18:41:19 iq:result",
       "18:41:49 iq:result",
@@ -121,7 +119,9 @@
       "18:48:19 iq:result",
       "18:48:49 iq:result",
       "18:49:19 iq:result",
-      "18:49:49 iq:result"
+      "18:49:49 iq:result",
+      "18:50:19 iq:result",
+      "18:50:20 ib: <edge_routing>"
     ]
   },
   "mem": {
@@ -142,6 +142,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-14T18:50:15.532Z",
-  "uptime_s": 609
+  "updated_at": "2026-11-14T18:50:24.185Z",
+  "uptime_s": 617
 }
