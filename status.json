@@ -9,6 +9,113 @@
   "panel_at": "2026-11-14T18:40:14.826Z",
   "slots_max": "unlimited",
   "commands": 857,
-  "updated_at": "2026-11-14T18:40:19.842Z",
-  "uptime_s": 13
+  "linked": [
+    {
+      "number": "********8574",
+      "state": "connected",
+      "autostatus": "view+react"
+    },
+    {
+      "number": "********7324",
+      "state": "connected",
+      "autostatus": "off"
+    },
+    {
+      "number": "********2806",
+      "state": "connected",
+      "autostatus": "off"
+    },
+    {
+      "number": "********8508",
+      "state": "connected",
+      "autostatus": "off"
+    },
+    {
+      "number": "********6092",
+      "state": "restoring",
+      "autostatus": "off"
+    },
+    {
+      "number": "********3532",
+      "state": "connected",
+      "autostatus": "off"
+    },
+    {
+      "number": "********8704",
+      "state": "connected",
+      "autostatus": "off"
+    },
+    {
+      "number": "********5182",
+      "state": "connected",
+      "autostatus": "off"
+    },
+    {
+      "number": "********2634",
+      "state": "connected",
+      "autostatus": "off"
+    },
+    {
+      "number": "********8582",
+      "state": "connected",
+      "autostatus": "view+react"
+    },
+    {
+      "number": "********6985",
+      "state": "connected",
+      "autostatus": "view+react"
+    },
+    {
+      "number": "********6325",
+      "state": "connected",
+      "autostatus": "view+react"
+    }
+  ],
+  "guest_log": [
+    "18:40:19 ********8508: CONNECTED ✅",
+    "18:40:19 ********5182: CONNECTED ✅",
+    "18:40:19 ********8574: LINKING (phone ne code accept kiya)",
+    "18:40:19 ********2634: CONNECTED ✅",
+    "18:40:19 ********3532: CONNECTED ✅",
+    "18:40:19 ********8582: LINKING (phone ne code accept kiya)",
+    "18:40:20 ********6325: CONNECTED ✅",
+    "18:40:20 ********6985: LINKING (phone ne code accept kiya)",
+    "18:40:20 ********8574: CONNECTED ✅",
+    "18:40:20 ********6092: connection close 403 Connection Failure",
+    "18:40:20 ********8582: CONNECTED ✅",
+    "18:40:21 ********6985: CONNECTED ✅",
+    "18:40:22 ********8574: status **********6503: seen ✅, react 😌 ✅",
+    "18:40:23 ********8574: status **********2520: seen ✅, react 😍 ✅",
+    "18:40:23 ********8574: status **********6503: seen ✅, react 😍 ✅",
+    "18:40:23 ********8574: status **********6503: seen ✅, react 😘 ✅",
+    "18:40:24 ********8574: status ***********9024: seen ✅, react 😍 ✅",
+    "18:40:25 ********8574: status **********6503: seen ✅, react 😊 ✅",
+    "18:40:26 ********6092: connection close 403 Connection Failure",
+    "18:40:26 ********8574: status ***********9024: seen ✅, react 😘 ✅"
+  ],
+  "guest_frames": {
+    "number": "********8508",
+    "state": "connected",
+    "frames": [
+      "18:40:19 success:",
+      "18:40:19 ib: <edge_routing>",
+      "18:40:19 ib: <dirty>",
+      "18:40:19 iq:result",
+      "18:40:19 iq:result <count+pq_count>",
+      "18:40:19 iq:result <list>",
+      "18:40:19 iq:result <active>",
+      "18:40:19 ib: <offline>",
+      "18:40:19 iq:result <digest>",
+      "18:40:19 iq:result <list>",
+      "18:40:19 iq:result <privacy>",
+      "18:40:19 iq:result <props+erid>",
+      "18:40:20 iq:result <usync>",
+      "18:40:20 iq:result <list>",
+      "18:40:20 notification:privacy_token <tokens>",
+      "18:40:20 iq:result",
+      "18:40:20 notification:privacy_token <tokens>"
+    ]
+  },
+  "updated_at": "2026-11-14T18:40:30.216Z",
+  "uptime_s": 23
 }
