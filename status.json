@@ -77,12 +77,11 @@
     },
     {
       "number": "********5602",
-      "state": "pairing",
+      "state": "linking",
       "autostatus": "off"
     }
   ],
   "guest_log": [
-    "14:11:52 ********6985: status ***********4182: seen ✅, react 😢 ✅",
     "14:12:21 ********6092: connection close 403 Connection Failure",
     "14:12:22 ********8582: status ***********8566: seen ✅, react 🧸 ✅",
     "14:12:56 ********6092: connection close 403 Connection Failure",
@@ -101,14 +100,18 @@
     "14:17:23 ********8582: status **********5528: seen ✅, react 💎 ✅",
     "14:17:50 ********6092: connection close 403 Connection Failure",
     "14:18:10 ********5602: code bana",
-    "14:18:25 ********6092: connection close 403 Connection Failure"
+    "14:18:25 ********6092: connection close 403 Connection Failure",
+    "14:18:34 ********5602: LINKING (phone ne code accept kiya)"
   ],
   "guest_frames": {
     "number": "********5602",
-    "state": "pairing",
+    "state": "linking",
     "frames": [
       "14:18:05 iq:set <pair-device>",
-      "14:18:06 iq:result <link_code_companion_reg[companion_hello]>"
+      "14:18:06 iq:result <link_code_companion_reg[companion_hello]>",
+      "14:18:34 notification:link_code_companion_reg <link_code_companion_reg[primary_hello]>",
+      "14:18:34 iq:result",
+      "14:18:35 iq:result"
     ]
   },
   "mem": {
@@ -129,6 +132,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-15T14:18:29.467Z",
-  "uptime_s": 70703
+  "updated_at": "2026-11-15T14:18:39.815Z",
+  "uptime_s": 70713
 }
