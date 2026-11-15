@@ -120,6 +120,16 @@
       "22:20:18 iq:result"
     ]
   },
-  "updated_at": "2026-11-15T22:20:38.272Z",
-  "uptime_s": 65
+  "mem": {
+    "sessions": 13,
+    "free_mb": 94810,
+    "total_mb": 330438,
+    "rss_mb": 222,
+    "heap_mb": 75,
+    "heap_limit_mb": 489,
+    "per_session_mb": 15,
+    "room_for": 34
+  },
+  "updated_at": "2026-11-15T22:20:42.159Z",
+  "uptime_s": 68
 }
