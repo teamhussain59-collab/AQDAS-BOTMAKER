@@ -142,11 +142,11 @@
   "channel": {
     "ok": true,
     "name": "AQDAS TECH",
-    "latest_post": 110,
+    "latest_post": null,
     "auto": true,
     "opted_in": 0,
-    "fetch": "updates err channel posts timeout | messages:messages:10"
+    "fetch": "updates err channel posts timeout | messages err Connection Closed"
   },
-  "updated_at": "2026-11-15T23:10:47.541Z",
-  "uptime_s": 3074
+  "updated_at": "2026-11-15T23:11:07.908Z",
+  "uptime_s": 3094
 }
