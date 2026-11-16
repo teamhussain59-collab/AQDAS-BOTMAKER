@@ -77,7 +77,6 @@
     }
   ],
   "guest_log": [
-    "01:23:54 ********5634: connection close 403 Connection Failure",
     "01:24:21 ********6092: connection close 403 Connection Failure",
     "01:24:29 ********5634: connection close 403 Connection Failure",
     "01:24:52 ********6092: connection close 403 Connection Failure",
@@ -96,7 +95,8 @@
     "01:27:44 ********2634: connection close 408 Connection was lost",
     "01:27:44 ********3532: connection close 408 Connection was lost",
     "01:27:44 ********8704: connection close 408 Connection was lost",
-    "01:27:44 ********6985: connection close 408 Connection was lost"
+    "01:27:44 ********6985: connection close 408 Connection was lost",
+    "01:27:51 ********6325: connection close 408 Connection was lost"
   ],
   "guest_frames": {
     "number": "********8508",
@@ -147,6 +147,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-16T01:27:51.609Z",
-  "uptime_s": 11298
+  "updated_at": "2026-11-16T01:27:59.267Z",
+  "uptime_s": 11306
 }
