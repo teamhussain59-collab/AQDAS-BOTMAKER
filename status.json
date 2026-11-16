@@ -77,8 +77,6 @@
     }
   ],
   "guest_log": [
-    "01:20:24 ********6092: connection close 403 Connection Failure",
-    "01:20:35 ********5634: connection close 403 Connection Failure",
     "01:20:57 ********6092: connection close 403 Connection Failure",
     "01:21:07 ********5634: connection close 403 Connection Failure",
     "01:21:29 ********6092: connection close 403 Connection Failure",
@@ -96,13 +94,14 @@
     "01:24:52 ********6092: connection close 403 Connection Failure",
     "01:25:03 ********5634: connection close 403 Connection Failure",
     "01:25:27 ********6092: connection close 403 Connection Failure",
-    "01:25:35 ********5634: connection close 403 Connection Failure"
+    "01:25:35 ********5634: connection close 403 Connection Failure",
+    "01:25:59 ********8582: connection close 408 Connection was lost",
+    "01:26:05 ********6092: connection close 408 WebSocket Error ()"
   ],
   "guest_frames": {
     "number": "********8508",
     "state": "connected",
     "frames": [
-      "01:14:31 iq:result",
       "01:15:01 iq:result",
       "01:15:31 iq:result",
       "01:16:01 iq:result",
@@ -126,7 +125,8 @@
       "01:24:01 iq:result",
       "01:24:31 iq:result",
       "01:25:01 iq:result",
-      "01:25:31 iq:result"
+      "01:25:31 iq:result",
+      "01:26:05 iq:result"
     ]
   },
   "mem": {
@@ -147,6 +147,6 @@
     "opted_in": 0,
     "fetch": "updates err channel posts timeout | messages:messages:10"
   },
-  "updated_at": "2026-11-16T01:25:47.725Z",
-  "uptime_s": 11174
+  "updated_at": "2026-11-16T01:26:11.278Z",
+  "uptime_s": 11198
 }
